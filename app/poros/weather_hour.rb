@@ -1,7 +1,6 @@
 class WeatherHour
   include WeatherSupport
-  attr_reader :id,
-              :time,
+  attr_reader :time,
               :temperature,
               :wind_speed,
               :wind_direction,
@@ -9,7 +8,6 @@ class WeatherHour
               :icon
 
   def initialize(hour)
-    @id = nil
     @time = to_time(hour[:dt])
     @temperature = to_f(hour[:temp])
     @wind_speed = hour[:wind_speed]

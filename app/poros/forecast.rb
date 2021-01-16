@@ -1,4 +1,4 @@
-class CurrentWeather
+class Forecast
   include WeatherSupport
   attr_reader :id,
               :datetime,

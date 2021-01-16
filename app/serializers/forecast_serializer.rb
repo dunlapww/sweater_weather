@@ -1,4 +1,4 @@
-class CurrentWeatherSerializer
+class ForecastSerializer
   include FastJsonapi::ObjectSerializer
   attributes :id,
              :datetime,
