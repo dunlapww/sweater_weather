@@ -73,7 +73,7 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
-  config.filter_sensitive_data('<DONT_USE_MY_API_KEY>') { ENV['MDB_API_KEY'] }
+  config.filter_sensitive_data('<DONT_USE_MY_API_KEY>') { ENV['MAPQUEST_API_KEY'] }
   config.before_record do |i|
     i.response.body.force_encoding('UTF-8')
   end
