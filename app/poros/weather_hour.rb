@@ -1,5 +1,6 @@
 class WeatherHour
   def initialize(hour)
+    @id = nil
     @time = hour[:dt]
     @temperature = hour[:temp]
     @wind_speed = hour[:wind_speed]

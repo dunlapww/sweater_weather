@@ -25,8 +25,7 @@ class Api::V1::ForecastController < ApplicationController
     weather_data = JSON.parse(weather_response.body, symbolize_names: true)
     
     weather = CurrentWeather.new(weather_data)
-    require 'pry'; binding.pry
-
-    render json: payload
+  
+    render json: CurrentWeatherSerializer.new(weather).to_json
   end
 end

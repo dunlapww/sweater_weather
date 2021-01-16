@@ -1,5 +1,12 @@
 class WeatherDay
-      
+  attr_reader :date,
+              :sunrise,
+              :sunset,
+              :max_temp,
+              :min_temp,
+              :conditions,
+              :icon
+
   def initialize(day)
     @date = day[:dt]
     @sunrise = day[:sunrise]
