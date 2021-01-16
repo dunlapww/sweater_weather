@@ -1,11 +1,20 @@
 class WeatherHour
+  include WeatherSupport
+  attr_reader :id,
+              :time,
+              :temperature,
+              :wind_speed,
+              :wind_direction,
+              :conditions,
+              :icon
+
   def initialize(hour)
     @id = nil
-    @time = hour[:dt]
-    @temperature = hour[:temp]
+    @time = to_time(hour[:dt])
+    @temperature = to_f(hour[:temp])
     @wind_speed = hour[:wind_speed]
-    @wind_direction = hour[:wind_deg]
+    @wind_direction = to_direction(hour[:wind_deg])
     @conditions = hour[:weather].first[:description]
-    @icon = hour[:weather].first[:icon]
+    @icon = to_icon_path(hour[:weather].first[:icon])
   end
 end
