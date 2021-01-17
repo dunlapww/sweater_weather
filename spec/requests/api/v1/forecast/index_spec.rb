@@ -8,7 +8,6 @@ RSpec.describe 'Search' do
 
       expect(response).to be_successful
       loc_data = JSON.parse(response.body, symbolize_names: true)
-      
       expect(loc_data).to have_key(:data)
       
       expect(loc_data[:data]).to have_key(:id)
