@@ -10,6 +10,25 @@ class ImageService
       req.params[:q] = params[:location]
       req.params[:image_type] = 'photo'
     end
-    JSON.parse(response.body, symbolize_names: true)
+    image_data = JSON.parse(response.body, symbolize_names: true)
+    assign_image(image_data)
+  end
+
+  def self.assign_image(image_data)
+    if image_data[:totalHits] == 0
+      {
+        total: 0,
+        totalHits: 0,
+        hits: [
+          {
+            id: nil,
+            tags: 'no city image found',
+            webformatURL: 'https://cdn.pixabay.com/photo/2020/06/16/19/28/sunset-5306985_960_720.jpg'
+          }
+        ]
+      }
+    else
+      image_data
+    end
   end
 end
