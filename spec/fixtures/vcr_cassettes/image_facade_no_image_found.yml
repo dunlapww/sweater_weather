@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pixabay.com/api/?image_type=photo&key=19915958-606e822de42c9a37d22d64d3a&q=Denver,%20CO
+    uri: https://pixabay.com/api/?image_type=photo&key=<DONT_USE_MY_API_KEY>&q=Denver,%20CO
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Jan 2021 16:31:57 GMT
+      - Sun, 17 Jan 2021 18:34:55 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -27,26 +27,26 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=2566b2a641474ce66a555858f5ca629d432be9a4-1610901117-1800-AY+x6wyCt2J5rFArf9F6aNfTfX8gla3taekA4zlIOa1b/KVdhtXjLbB7h7f9mzVpkNKGKb2064WSYOSrMchamcc=;
-        path=/; expires=Sun, 17-Jan-21 17:01:57 GMT; domain=.pixabay.com; HttpOnly;
+      - __cf_bm=6e1717aa8bb19cf00ce01438b291b10feb269597-1610908495-1800-ARtzAUNHaKctcp05t8bccCfvjzvwpTM90Ywy/qVl1VxL7yxKCHEaSoyLwFb/QEG2ZmIVaR8BIhW0k1XYoMXswsU=;
+        path=/; expires=Sun, 17-Jan-21 19:04:55 GMT; domain=.pixabay.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=dcb0ac3430b1a7f62a436ae2378e41a4e1610901117; expires=Tue, 16-Feb-21
-        16:31:57 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
-      - anonymous_user_id=ee12c18f-5116-475a-b5ab-700571a04fe0; Path=/
+      - __cfduid=d553206acc1a662d8f469200b1d1e57071610908495; expires=Tue, 16-Feb-21
+        18:34:55 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
+      - anonymous_user_id=feafd88c-60b0-4df5-b4b8-a349039cb076; Path=/
       Cache-Control:
       - max-age=86400
       Access-Control-Max-Age:
       - '86400'
       X-Ratelimit-Remaining:
-      - '4987'
+      - '4978'
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Reset:
-      - '0.31018280285114086'
+      - '0.5765826869235984'
       Vary:
       - Accept, Accept-Language, Cookie, Accept-Encoding
       Allow:
-      - POST, OPTIONS, GET
+      - GET, POST, OPTIONS
       Content-Security-Policy:
       - frame-ancestors none
       X-Frame-Options:
@@ -64,15 +64,15 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Cf-Request-Id:
-      - 07b2c9715a0000c7cd0113a000000001
+      - 07b33a07de0000c7c98d9cf000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
       - cloudflare
       Cf-Ray:
-      - 6131782ef8c5c7cd-DEN
+      - 61322c52fccac7c9-DEN
     body:
       encoding: UTF-8
       string: '{"total":0,"totalHits":0,"hits":[]}'
-  recorded_at: Sun, 17 Jan 2021 16:31:57 GMT
+  recorded_at: Sun, 17 Jan 2021 18:34:55 GMT
 recorded_with: VCR 6.0.0

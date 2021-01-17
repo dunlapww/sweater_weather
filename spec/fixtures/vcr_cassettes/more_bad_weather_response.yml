@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.openweathermap.org/data/2.5/onecall?appid=eedae6eae485c3b26bded9635d9ac2a1&lat=9999999&lon=-9999999
+    uri: https://api.openweathermap.org/data/2.5/onecall?appid=<DONT_USE_MY_API_KEY>&lat=9999999&lon=-9999999
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sun, 17 Jan 2021 00:34:25 GMT
+      - Sun, 17 Jan 2021 18:35:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -39,5 +39,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"cod":"400","message":"wrong latitude"}'
-  recorded_at: Sun, 17 Jan 2021 00:34:25 GMT
+  recorded_at: Sun, 17 Jan 2021 18:35:00 GMT
 recorded_with: VCR 6.0.0

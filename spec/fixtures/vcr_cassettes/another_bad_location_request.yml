@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Jan 2021 00:46:12 GMT
+      - Sun, 17 Jan 2021 18:34:58 GMT
       Content-Length:
       - '0'
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=3EB2E05B278C7EFCC697DA061D1C9732; Path=/; HttpOnly; Secure
+      - JSESSIONID=E25086D4E58F587D1D453E17F54CE098; Path=/; HttpOnly; Secure
       Status:
       - success
       Transactionweight:
@@ -35,5 +35,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: ''
-  recorded_at: Sun, 17 Jan 2021 00:46:12 GMT
+  recorded_at: Sun, 17 Jan 2021 18:34:58 GMT
 recorded_with: VCR 6.0.0
