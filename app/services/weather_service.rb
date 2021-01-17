@@ -10,7 +10,14 @@ class WeatherService
       req.params[:lat] = lat_lon[:lat]
       req.params[:lon] = lat_lon[:lng]
     end
-    JSON.parse(response.body, symbolize_names: true)
+    body = JSON.parse(response.body, symbolize_names: true)
+
+    if body[:cod]
+      {:errors=>[{detail: "#{response[:message]}"}]}
+    else
+      body
+    end
+
   end
 
 end
