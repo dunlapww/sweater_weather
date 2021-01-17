@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Search' do
-  it 'returns successful mapquest response' do
+  it 'returns successful weather response when given valid data' do
     VCR.use_cassette('mapquest_request') do
       loc_params = {location: 'Seattle, WA'}
       get '/api/v1/forecast', params: loc_params
@@ -61,8 +61,22 @@ RSpec.describe 'Search' do
         expect(hour[:conditions]).to be_a String
         expect(hour[:icon]).to be_a String
       end
-      
+    end
+  end
+  it 'returns an error json when given invalid data' do
+    VCR.use_cassette('bad_location_request') do
+      loc_params = {location: ''}
+      get '/api/v1/forecast', params: loc_params
 
+      loc_data = JSON.parse(response.body, symbolize_names: true)
+      expect(loc_data).to eq({:errors=>[{:detail=>"Invalid city, state"}]})
+    end
+    VCR.use_cassette('another_bad_location_request') do
+      loc_params = {location: '!'}
+      get '/api/v1/forecast', params: loc_params
+
+      loc_data = JSON.parse(response.body, symbolize_names: true)
+      expect(loc_data).to eq({:errors=>[{:detail=>"Invalid city, state"}]})
     end
   end
 end
