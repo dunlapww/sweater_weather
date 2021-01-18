@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/directions/v2/route?from=Seattle,%20WA&key=<MAP_KEY>&to=Denver,%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Jan 2021 21:28:19 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=CB72F64675527909A44217B0845A2158; Path=/directions; HttpOnly; Secure
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Mon, 18 Jan 2021 21:28:19 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+      Strict-Transport-Security:
+      - max-age=0
+    body:
+      encoding: UTF-8
+      string: '{"route":{"hasTollRoad":false,"hasBridge":true,"boundingBox":{"lr":{"lng":-104.858307,"lat":39.738453},"ul":{"lng":-122.330276,"lat":47.604027}},"distance":1332.2251,"hasTimedRestriction":false,"hasTunnel":true,"hasHighway":true,"computedWaypoints":[],"routeError":{"errorCode":-400,"message":""},"formattedTime":"18:22:43","sessionId":"6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","hasAccessRestriction":false,"realTime":75914,"hasSeasonalClosure":false,"hasCountryCross":false,"fuelUsed":70.66,"legs":[{"hasTollRoad":false,"hasBridge":true,"destNarrative":"Proceed
+        to DENVER, CO.","distance":1332.2251,"hasTimedRestriction":false,"hasTunnel":true,"hasHighway":true,"index":0,"formattedTime":"18:22:43","origIndex":2,"hasAccessRestriction":false,"hasSeasonalClosure":false,"hasCountryCross":false,"roadGradeStrategy":[[]],"destIndex":8,"time":66163,"hasUnpaved":false,"origNarrative":"Go
+        east on I-90 E.","maneuvers":[{"distance":0.104,"streets":["James St"],"narrative":"Start
+        out going northeast on James St toward 5th Ave.","turnType":0,"startPoint":{"lng":-122.330276,"lat":47.60323},"index":0,"formattedTime":"00:00:18","directionName":"Northeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.60322952270508,-122.33027648925781|marker-1||47.604026794433594,-122.3283920288086|marker-2||&center=47.603628158569336,-122.3293342590332&defaultMarker=none&zoom=14&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":0,"time":18,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif","direction":3},{"distance":0.095,"streets":["6th
+        Ave"],"narrative":"Turn right onto 6th Ave.","turnType":2,"startPoint":{"lng":-122.328392,"lat":47.604027},"index":1,"formattedTime":"00:00:17","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.604026794433594,-122.3283920288086|marker-2||47.603111267089844,-122.3271255493164|marker-3||&center=47.60356903076172,-122.3277587890625&defaultMarker=none&zoom=14&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":5},{"distance":108.692,"streets":["I-90
+        E"],"narrative":"Merge onto I-90 E toward Portland/Spokane/Bellevue/Tacoma.","turnType":10,"startPoint":{"lng":-122.327126,"lat":47.603111},"index":2,"formattedTime":"01:37:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"90","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=90&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.603111267089844,-122.3271255493164|marker-3||46.97019958496094,-120.52088165283203|marker-4||&center=47.28665542602539,-121.42400360107422&defaultMarker=none&zoom=4&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":3200,"time":5841,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":143.304,"streets":["I-82
+        E"],"narrative":"Merge onto I-82 E via EXIT 110 toward Yakima (Crossing into
+        Oregon).","turnType":10,"startPoint":{"lng":-120.520882,"lat":46.9702},"index":3,"formattedTime":"02:05:13","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"82","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=82&d=EAST","direction":8},{"extraText":"","text":"110","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=110&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=46.97019958496094,-120.52088165283203|marker-4||45.79884338378906,-119.39059448242188|marker-5||&center=46.384521484375,-119.95573806762695&defaultMarker=none&zoom=3&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1152,"time":7513,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":554.923,"streets":["I-84
+        E"],"narrative":"Merge onto I-84 E via the exit on the left (Passing through
+        Idaho, then crossing into Utah).","turnType":11,"startPoint":{"lng":-119.390594,"lat":45.798843},"index":4,"formattedTime":"07:32:04","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=45.79884338378906,-119.39059448242188|marker-5||41.192237854003906,-112.00454711914062|marker-6||&center=43.495540618896484,-115.69757080078125&defaultMarker=none&zoom=2&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1152,"time":27124,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":39.045,"streets":["I-84
+        E"],"narrative":"Merge onto I-84 E via EXIT 340 toward Cheyenne.","turnType":10,"startPoint":{"lng":-112.004547,"lat":41.192238},"index":5,"formattedTime":"00:34:19","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8},{"extraText":"","text":"340","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=340&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.192237854003906,-112.00454711914062|marker-6||40.97190856933594,-111.44273376464844|marker-7||&center=41.08207321166992,-111.72364044189453&defaultMarker=none&zoom=5&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1152,"time":2059,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":388.641,"streets":["I-80
+        E"],"narrative":"Merge onto I-80 E via EXIT 120A on the left toward Cheyenne
+        (Crossing into Wyoming).","turnType":11,"startPoint":{"lng":-111.442734,"lat":40.971909},"index":6,"formattedTime":"05:06:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"80","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=80&d=EAST","direction":8},{"extraText":"","text":"120A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=120A&d=LEFT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=40.97190856933594,-111.44273376464844|marker-7||41.113746643066406,-104.85830688476562|marker-8||&center=41.04282760620117,-108.15052032470703&defaultMarker=none&zoom=2&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1152,"time":18381,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":94.481,"streets":["I-25
+        S","US-87 S"],"narrative":"Merge onto I-25 S/US-87 S via EXIT 359A toward
+        Denver (Crossing into Colorado).","turnType":10,"startPoint":{"lng":-104.858307,"lat":41.113747},"index":7,"formattedTime":"01:20:04","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"25","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=25&d=SOUTH","direction":4},{"extraText":"","text":"87","type":2,"url":"http://icons.mqcdn.com/icons/rs2.png?n=87&d=SOUTH","direction":4},{"extraText":"","text":"359A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=359A&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.113746643066406,-104.85830688476562|marker-8||39.775840759277344,-104.98961639404297|marker-9||&center=40.444793701171875,-104.9239616394043&defaultMarker=none&zoom=3&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1152,"time":4804,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":1.405,"streets":["Park
+        Ave"],"narrative":"Merge onto Park Ave via EXIT 213 toward Downtown.","turnType":10,"startPoint":{"lng":-104.989616,"lat":39.775841},"index":8,"formattedTime":"00:02:27","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"213","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=213&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.775840759277344,-104.98961639404297|marker-9||39.75706100463867,-104.99290466308594|marker-10||&center=39.76645088195801,-104.99126052856445&defaultMarker=none&zoom=9&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":1024,"time":147,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":0.423,"streets":["22nd
+        St"],"narrative":"Park Ave becomes 22nd St.","turnType":0,"startPoint":{"lng":-104.992905,"lat":39.757061},"index":9,"formattedTime":"00:01:17","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.75706100463867,-104.99290466308594|marker-10||39.752647399902344,-104.98741149902344|marker-11||&center=39.75485420227051,-104.99015808105469&defaultMarker=none&zoom=11&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":0,"time":77,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif","direction":5},{"distance":0.978,"streets":["N
+        Broadway"],"narrative":"Turn slight right onto N Broadway.","turnType":1,"startPoint":{"lng":-104.987411,"lat":39.752647},"index":10,"formattedTime":"00:02:42","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.752647399902344,-104.98741149902344|marker-11||39.73847198486328,-104.98737335205078|marker-12||&center=39.74555969238281,-104.98739242553711&defaultMarker=none&zoom=9&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":0,"time":162,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_slight_right_sm.gif","direction":4},{"distance":0.134,"streets":["E
+        14th Ave"],"narrative":"Turn left onto E 14th Ave.","turnType":6,"startPoint":{"lng":-104.987373,"lat":39.738472},"index":11,"formattedTime":"00:00:20","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73847198486328,-104.98737335205078|marker-12||39.73845291137695,-104.98485565185547|marker-13||&center=39.73846244812012,-104.98611450195312&defaultMarker=none&zoom=13&rand=-1593020492&session=6005fd73-006d-5f21-02b4-3542-0a3a94b98c71","transportMode":"AUTO","attributes":0,"time":20,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":8},{"distance":0,"streets":[],"narrative":"Welcome
+        to DENVER, CO.","turnType":-1,"startPoint":{"lng":-104.984856,"lat":39.738453},"index":12,"formattedTime":"00:00:00","directionName":"","maneuverNotes":[],"linkIds":[],"signs":[],"transportMode":"AUTO","attributes":0,"time":0,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-end_sm.gif","direction":0}],"hasFerry":false}],"options":{"arteryWeights":[],"cyclingRoadFactor":1,"timeType":0,"useTraffic":false,"returnLinkDirections":false,"countryBoundaryDisplay":true,"enhancedNarrative":false,"locale":"en_US","tryAvoidLinkIds":[],"drivingStyle":2,"doReverseGeocode":true,"generalize":-1,"mustAvoidLinkIds":[],"sideOfStreetDisplay":true,"routeType":"FASTEST","avoidTimedConditions":false,"routeNumber":0,"shapeFormat":"raw","maxWalkingDistance":-1,"destinationManeuverDisplay":true,"transferPenalty":-1,"narrativeType":"text","walkingSpeed":-1,"urbanAvoidFactor":-1,"stateBoundaryDisplay":true,"unit":"M","highwayEfficiency":22,"maxLinkId":0,"maneuverPenalty":-1,"avoidTripIds":[],"filterZoneFactor":-1,"manmaps":"true"},"locations":[{"dragPoint":false,"displayLatLng":{"lng":-122.330276,"lat":47.60323},"adminArea4":"King
+        County","adminArea5":"Seattle","postalCode":"","adminArea1":"US","adminArea3":"WA","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":23259736,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-122.33028,"lat":47.603229}},{"dragPoint":false,"displayLatLng":{"lng":-104.984856,"lat":39.738453},"adminArea4":"Denver
+        County","adminArea5":"Denver","postalCode":"","adminArea1":"US","adminArea3":"CO","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":40287819,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-104.984853,"lat":39.738453}}],"time":66163,"hasUnpaved":false,"locationSequence":[0,1],"hasFerry":false},"info":{"statuscode":0,"copyright":{"imageAltText":"©
+        2020 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","text":"©
+        2020 MapQuest, Inc."},"messages":[]}}'
+  recorded_at: Mon, 18 Jan 2021 21:28:19 GMT
+recorded_with: VCR 6.0.0
