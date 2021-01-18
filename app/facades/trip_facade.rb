@@ -1,6 +1,7 @@
 class TripFacade
   def self.get_trip(trip_params)
     trip_response = LocationService.get_trip(trip_params)
+    return 
     travel_time = trip_response[:route][:realTime]
 
     dest_loc = trip_response[:route][:legs].last[:maneuvers].last[:startPoint]

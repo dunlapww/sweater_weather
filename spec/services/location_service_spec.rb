@@ -40,7 +40,7 @@ describe LocationService, type: :service do
         expect(results).to eq({:errors=>[{detail: "Invalid city, state"}]})
       end
     end
-    it 'get_trip' do
+    it 'get_trip - valid' do
       VCR.use_cassette('valid_trip') do
         trip_params = { origin: 'Seattle, WA',
           destination: 'Denver, CO',
@@ -48,9 +48,30 @@ describe LocationService, type: :service do
         results = LocationService.get_trip(trip_params)
         expect(results).to be_a Hash
 
-        expect(results[:route][:legs].last[:maneuvers].last[:startPoint]).to be_a Hash
         expect(results[:route][:legs].last[:maneuvers].first[:startPoint]).to be_a Hash
+        expect(results[:route][:legs].last[:maneuvers].first[:startPoint]).to have_key(:lat)
+        expect(results[:route][:legs].last[:maneuvers].first[:startPoint]).to have_key(:lng)
+        expect(results[:route][:legs].last[:maneuvers].last[:startPoint]).to be_a Hash
+        expect(results[:route][:legs].last[:maneuvers].last[:startPoint]).to have_key(:lat)
+        expect(results[:route][:legs].last[:maneuvers].last[:startPoint]).to have_key(:lng)
+        expect(results[:route][:realTime]).to be_a Integer
+      end
+    end
+    it 'get_trip - missing' do
+      VCR.use_cassette('missing_origin_trip') do
+        trip_params = { origin: '',
+          destination: 'Denver, CO',
+          api_key: @user.api_key }
+        results = LocationService.get_trip(trip_params)
 
+      end
+    end
+    it 'get_trip - invalid' do
+      VCR.use_cassette('invalid_trip') do
+        trip_params = { origin: '/',
+          destination: 'Denver, CO',
+          api_key: @user.api_key }
+        results = LocationService.get_trip(trip_params)
 
       end
     end
