@@ -31,7 +31,6 @@ describe Trip, type: :model do
     expect(@trip).to be_a Trip
     expect(@trip.start_city).to eq(@trip_data[:start_city])
     expect(@trip.end_city).to eq(@trip_data[:end_city])
-    expect(@trip.loc_dep_time).to eq(Time.at(@trip_data[:depart_time]))
     expect(@trip.loc_arr_time).to eq(Time.at(@trip_data[:arrival_time]))
     expect(@trip.travel_time).to eq("21 hours, 8 minutes")
     expect(@trip.weather_at_eta).to be_a WeatherHour
