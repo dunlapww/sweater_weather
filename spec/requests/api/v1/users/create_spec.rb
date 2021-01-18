@@ -35,19 +35,7 @@ describe 'when I receive a request to create a new user' do
     expect(resp[:data][:attributes]).to have_key(:api_key)
     expect(resp[:data][:attributes][:api_key]).to be_a String
   end
-  it "expect an error hash if user name already taken and password incorrect" do   
-    user1 = User.create({email: 'new_user@email.com',password: 'abc',password_confirmation: 'abc'})
-    
-    headers = { "CONTENT_TYPE" => "application/json"}
-    params = {email: 'new_user@email.com',password: 'abc123',password_confirmation: 'abc123'}
-    
-    post '/api/v1/users', params: params.to_json, headers: headers
-    
-    expect(response).to be_successful
-    resp = JSON.parse(response.body, symbolize_names: true)
-    expect(resp).to eq({:errors=>[{:detail=>"Email has already been taken"}]})
-  end
-  it "expect success if user name taken and they authenticate" do   
+  it "expect an error hash if user name already taken" do   
     user1 = User.create({email: 'new_user@email.com',password: 'abc123',password_confirmation: 'abc123'})
     
     headers = { "CONTENT_TYPE" => "application/json"}
@@ -55,17 +43,18 @@ describe 'when I receive a request to create a new user' do
     
     post '/api/v1/users', params: params.to_json, headers: headers
     
-    expect(response).to be_successful
+    expect(response.status).to eq(400)
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(resp).to eq({:errors=>[{:detail=>"Email has already been taken"}]})
   end
+  
   it "expect an error hash if passwords don't match" do   
     headers = { "CONTENT_TYPE" => "application/json"}
     params = {email: 'will@email.com',password: 'abc124',password_confirmation: 'abc123'}
     
     post '/api/v1/users', params: params.to_json, headers: headers
     
-    expect(response).to be_successful
+    expect(response.status).to eq(400)
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(resp).to eq({:errors=>[{:detail=>"Password confirmation doesn't match Password"}]})
   end
