@@ -17,7 +17,6 @@ RSpec.describe 'Search' do
 
       expect(response).to be_successful
       trip_data = JSON.parse(response.body, symbolize_names: true)
-      require 'pry'; binding.pry
       expect(trip_data).to have_key(:data)
     end
   end

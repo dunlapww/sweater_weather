@@ -51,9 +51,9 @@ describe Trip, type: :model do
       expect(@trip.to_hours_mins(7322)).to eq("2 hours, 2 minutes")
     end
     it 'pl' do
-      expect(pl(0)).to eq('s')
-      expect(pl(1)).to eq(nil)
-      expect(pl(2)).to eq('s')
+      expect(@trip.pl(0)).to eq('s')
+      expect(@trip.pl(1)).to eq(nil)
+      expect(@trip.pl(2)).to eq('s')
     end
   end
 end
