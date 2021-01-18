@@ -37,22 +37,23 @@ describe WeatherService, type: :service do
       expect(hour[:wind_speed]).to be_a Float
       expect(hour[:wind_deg]).to be_a Integer
       expect(hour[:weather].first[:description]).to be_a String
-      expect(hour[:weather].first[:icon]).to be_a String
-      
+      expect(hour[:weather].first[:icon]).to be_a String 
     end
   end
   
   it 'if a bad lat/lon is entered it returns a failed response' do
-    VCR.use_cassette('bad_weather_response') do
+    VCR.use_cassette('real_bad_weather_response') do
       params = {lat:"3b",lng:"2j"}
       results = WeatherService.get_weather(params)
       expect(results).to have_key(:errors)
-    end
+    end    
+  end
+
+  it 'another bad weather check' do
     VCR.use_cassette('more_bad_weather_response') do
       params = {lat:9999999,lng:-9999999}
       results = WeatherService.get_weather(params)
       expect(results).to have_key(:errors)
     end
-    
   end
 end

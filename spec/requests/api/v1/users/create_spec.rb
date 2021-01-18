@@ -19,5 +19,6 @@ describe 'when I receive a request to create a new user' do
     #    req.body = params
     #    req.headers = headers
     # end
+    expect(response).to be_successful
   end
 end
