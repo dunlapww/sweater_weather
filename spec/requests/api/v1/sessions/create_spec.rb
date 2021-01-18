@@ -35,7 +35,7 @@ describe 'when I receive a request to create a new user' do
     
     post '/api/v1/sessions', params: params.to_json, headers: headers
     
-    expect(response.status).to eq(404)
+    expect(response.status).to eq(401)
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(resp).to eq({:errors=>[{:detail=>"Invalid credentials"}]})
   end
@@ -48,7 +48,7 @@ describe 'when I receive a request to create a new user' do
     
     post '/api/v1/sessions', params: params.to_json, headers: headers
     
-    expect(response.status).to eq(404)
+    expect(response.status).to eq(401)
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(resp).to eq({:errors=>[{:detail=>"Invalid credentials"}]})
   end

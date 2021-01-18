@@ -7,7 +7,7 @@ class Api::V1::SessionsController < ApplicationController
       session[:id] = user_w_key[:id]
       render json: UserSerializer.new(user_w_key)
     else
-      render json: {errors:[{detail: "Invalid credentials"}]}, status: :not_found
+      render json: {errors:[{detail: "Invalid credentials"}]}, status: :unauthorized
     end
   end
 
