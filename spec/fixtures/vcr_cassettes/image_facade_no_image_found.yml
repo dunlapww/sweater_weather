@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pixabay.com/api/?image_type=photo&key=19915958-606e822de42c9a37d22d64d3a&q=Denver,%20CO
+    uri: https://pixabay.com/api/?image_type=photo&key=<IMAGE_KEY>&q=Denver,%20CO
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Jan 2021 16:31:57 GMT
+      - Mon, 18 Jan 2021 00:34:48 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -27,22 +27,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=2566b2a641474ce66a555858f5ca629d432be9a4-1610901117-1800-AY+x6wyCt2J5rFArf9F6aNfTfX8gla3taekA4zlIOa1b/KVdhtXjLbB7h7f9mzVpkNKGKb2064WSYOSrMchamcc=;
-        path=/; expires=Sun, 17-Jan-21 17:01:57 GMT; domain=.pixabay.com; HttpOnly;
+      - __cf_bm=01c44bbd3ad2d6cebd6c79620f2d81f8446a430d-1610930088-1800-ARwao9mwaY09fjtzS82i51sUL1GMm4LYiO5U4Kw9ZSL7GQ7kRFwx8Su5vlLSIFpvuUCKova6d6/dIH5lsVqVi3s=;
+        path=/; expires=Mon, 18-Jan-21 01:04:48 GMT; domain=.pixabay.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=dcb0ac3430b1a7f62a436ae2378e41a4e1610901117; expires=Tue, 16-Feb-21
-        16:31:57 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
-      - anonymous_user_id=ee12c18f-5116-475a-b5ab-700571a04fe0; Path=/
+      - __cfduid=d442e2c130b4b85bc4b47c259cb329ff61610930088; expires=Wed, 17-Feb-21
+        00:34:48 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
+      - anonymous_user_id=58d1932e-1095-435a-9876-6d16225e1a53; Path=/
       Cache-Control:
       - max-age=86400
       Access-Control-Max-Age:
       - '86400'
       X-Ratelimit-Remaining:
-      - '4987'
+      - '4993'
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Reset:
-      - '0.31018280285114086'
+      - '0.5528966900726581'
       Vary:
       - Accept, Accept-Language, Cookie, Accept-Encoding
       Allow:
@@ -64,15 +64,15 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Cf-Request-Id:
-      - 07b2c9715a0000c7cd0113a000000001
+      - 07b48381f50000c7d139992000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
       - cloudflare
       Cf-Ray:
-      - 6131782ef8c5c7cd-DEN
+      - 61343b7cb83cc7d1-DEN
     body:
       encoding: UTF-8
       string: '{"total":0,"totalHits":0,"hits":[]}'
-  recorded_at: Sun, 17 Jan 2021 16:31:57 GMT
+  recorded_at: Mon, 18 Jan 2021 00:34:48 GMT
 recorded_with: VCR 6.0.0

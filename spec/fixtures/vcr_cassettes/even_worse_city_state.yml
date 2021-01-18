@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.mapquestapi.com/geocoding/v1/address?key=<DONT_USE_MY_API_KEY>&location=/
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=<MAP_KEY>&location=/
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 16 Jan 2021 23:26:10 GMT
+      - Mon, 18 Jan 2021 00:34:52 GMT
       Content-Length:
       - '0'
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=A0D8B11D9864623099D96B56C8DE0004; Path=/; HttpOnly; Secure
+      - JSESSIONID=58A227087C8F404908023B8B53AC084C; Path=/; HttpOnly; Secure
       Status:
       - success
       Transactionweight:
@@ -35,5 +35,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: ''
-  recorded_at: Sat, 16 Jan 2021 23:26:10 GMT
+  recorded_at: Mon, 18 Jan 2021 00:34:52 GMT
 recorded_with: VCR 6.0.0

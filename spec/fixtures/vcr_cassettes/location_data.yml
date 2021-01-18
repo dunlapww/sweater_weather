@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.mapquestapi.com/geocoding/v1/address?key=<DONT_USE_MY_API_KEY>&location=Santa%20Fe,%20NM
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=<MAP_KEY>&location=Santa%20Fe,%20NM
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 16 Jan 2021 22:14:11 GMT
+      - Mon, 18 Jan 2021 00:34:51 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -35,7 +35,7 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Sat, 16 Jan 2021 22:14:11 GMT
+      - Mon, 18 Jan 2021 00:34:51 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
@@ -43,7 +43,7 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=3F826CD60C437CB7AAB48B35B37ECCE8; Path=/; HttpOnly; Secure
+      - JSESSIONID=B2AC0BAF73DD53DDCADF6ABCA1C79E4E; Path=/; HttpOnly; Secure
       Status:
       - success
       Transactionweight:
@@ -56,6 +56,6 @@ http_interactions:
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
         2021 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Santa
         Fe, NM"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Santa
-        Fe","adminArea5Type":"City","adminArea4":"Santa Fe County","adminArea4Type":"County","adminArea3":"NM","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282039800","unknownInput":"","type":"s","latLng":{"lat":35.692133,"lng":-105.939593},"displayLatLng":{"lat":35.692133,"lng":-105.939593},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<DONT_USE_MY_API_KEY>&type=map&size=225,160&locations=35.692133,-105.939593|marker-sm-50318A-1&scalebar=true&zoom=12&rand=387665313"}]}]}'
-  recorded_at: Sat, 16 Jan 2021 22:14:11 GMT
+        Fe","adminArea5Type":"City","adminArea4":"Santa Fe County","adminArea4Type":"County","adminArea3":"NM","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282039800","unknownInput":"","type":"s","latLng":{"lat":35.692133,"lng":-105.939593},"displayLatLng":{"lat":35.692133,"lng":-105.939593},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&type=map&size=225,160&locations=35.692133,-105.939593|marker-sm-50318A-1&scalebar=true&zoom=12&rand=117300037"}]}]}'
+  recorded_at: Mon, 18 Jan 2021 00:34:51 GMT
 recorded_with: VCR 6.0.0

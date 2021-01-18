@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pixabay.com/api/?image_type=photo&key=19915958-606e822de42c9a37d22d64d3a&q=Seattle,%20WA
+    uri: https://pixabay.com/api/?image_type=photo&key=<IMAGE_KEY>&q=Seattle,%20WA
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Jan 2021 04:50:45 GMT
+      - Mon, 18 Jan 2021 00:34:50 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,12 +27,12 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=e402ca679e7e5e793486331044eadb370db9c458-1610859045-1800-AdOZ7D9Uce8GH9vNC+TIU7VEV4l5zc1GpPSGtKW06fnNEDfyQnjzdgzs9Z+3ABM8eOk8+OZWzEL2vsSbLKxCSGk=;
-        path=/; expires=Sun, 17-Jan-21 05:20:45 GMT; domain=.pixabay.com; HttpOnly;
+      - __cf_bm=cd56feb1a47e25554e04d2f8f9869ffade2b1444-1610930090-1800-AULtUIpd8UhvHoeaq8vo474vhoKSLRLYShf6Wyj2qBTxcAwE+5bZV52ljx8Ow99lITkkKMvIyhcejgH1kaonxCI=;
+        path=/; expires=Mon, 18-Jan-21 01:04:50 GMT; domain=.pixabay.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=d943f7a552d9cb41428f3c8dff83424001610859045; expires=Tue, 16-Feb-21
-        04:50:45 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
-      - anonymous_user_id=ec8527e6-78bd-43d0-a794-8c76328d57d6; Path=/
+      - __cfduid=de27c9d587c46fa9524c9131e7ec39c601610930090; expires=Wed, 17-Feb-21
+        00:34:50 GMT; path=/; domain=.pixabay.com; HttpOnly; SameSite=Lax; Secure
+      - anonymous_user_id=6a738022-4c5b-4ce4-a00b-81c6d418f99f; Path=/
       Vary:
       - Accept, Accept-Language, Cookie
       - Accept-Encoding
@@ -41,13 +41,13 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ratelimit-Remaining:
-      - '4997'
+      - '4991'
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Reset:
-      - '0.6876600732227095'
+      - '0.5527759249298236'
       Allow:
-      - OPTIONS, POST, GET
+      - GET, OPTIONS, POST
       Content-Security-Policy:
       - frame-ancestors none
       X-Frame-Options:
@@ -63,20 +63,20 @@ http_interactions:
       Cf-Cache-Status:
       - MISS
       Cf-Request-Id:
-      - 07b0477b420000f7904a050000000001
+      - 07b483888b0000f7803107e000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
       - cloudflare
       Cf-Ray:
-      - 612d750b9b57f790-DEN
+      - 61343b874e76f780-DEN
     body:
       encoding: UTF-8
       string: '{"total":5,"totalHits":5,"hits":[{"id":2426307,"pageURL":"https://pixabay.com/photos/seattle-sunset-marina-harbor-sky-2426307/","type":"photo","tags":"seattle,
-        sunset, marina","previewURL":"https://cdn.pixabay.com/photo/2017/06/21/07/27/seattle-2426307_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/54e4d7454952ab14f1dc846096293e77143ad7e05b4c704f742f73d19e4dc15d_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/54e4d7454952ab14f6da8c7dda7936771c3edbec56596c48732e7bdc9244c55cbd_1280.jpg","imageWidth":5964,"imageHeight":3978,"imageSize":10491901,"views":9877,"downloads":5181,"favorites":37,"likes":45,"comments":0,"user_id":5496829,"user":"InfiniteThought","userImageURL":"https://cdn.pixabay.com/user/2017/06/04/03-00-59-617_250x250.jpg"},{"id":701813,"pageURL":"https://pixabay.com/photos/float-plane-lake-union-seattle-wa-701813/","type":"photo","tags":"float
-        plane, lake union, seattle wa","previewURL":"https://cdn.pixabay.com/photo/2015/04/01/00/56/float-plane-701813_150.jpg","previewWidth":150,"previewHeight":100,"webformatURL":"https://pixabay.com/get/51e0d44b4b51b10ff3d8992cc6213e7f1036dbed4e50774875277edd9749c0_640.jpg","webformatWidth":640,"webformatHeight":428,"largeImageURL":"https://pixabay.com/get/51e0d44b4b51b108f5d0846096293e77143ad7e05b4c704f742f73d19e4dc15d_1280.jpg","imageWidth":3872,"imageHeight":2592,"imageSize":1857010,"views":909,"downloads":321,"favorites":2,"likes":2,"comments":0,"user_id":899637,"user":"hlwegley","userImageURL":"https://cdn.pixabay.com/user/2015/04/01/00-03-22-584_250x250.jpg"},{"id":4045339,"pageURL":"https://pixabay.com/photos/skyscraper-glass-reflection-4045339/","type":"photo","tags":"skyscraper,
-        glass, reflection","previewURL":"https://cdn.pixabay.com/photo/2019/03/10/01/35/skyscraper-4045339_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/52e0d1464951a514f1dc846096293e77143ad7e05b4c704f742f73d19e4dc15d_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/52e0d1464951a514f6da8c7dda7936771c3edbec56596c48732e7bdc9244c55cbd_1280.jpg","imageWidth":3000,"imageHeight":2000,"imageSize":2025593,"views":614,"downloads":441,"favorites":0,"likes":1,"comments":0,"user_id":3736195,"user":"nathmath","userImageURL":"https://cdn.pixabay.com/user/2019/03/04/04-18-42-844_250x250.jpg"},{"id":4901230,"pageURL":"https://pixabay.com/photos/leavenworth-wa-leavenworth-visitors-4901230/","type":"photo","tags":"leavenworth,
-        wa, leavenworth visitors","previewURL":"https://cdn.pixabay.com/photo/2020/03/04/10/24/leavenworth-4901230_150.jpg","previewWidth":150,"previewHeight":100,"webformatURL":"https://pixabay.com/get/52e9d5424851ac14f1dc846096293e77143ad7e05b4c704f742f73d19e4dc15d_640.jpg","webformatWidth":640,"webformatHeight":427,"largeImageURL":"https://pixabay.com/get/52e9d5424851ac14f6da8c7dda7936771c3edbec56596c48732e7bdc9244c55cbd_1280.jpg","imageWidth":5184,"imageHeight":3456,"imageSize":3440195,"views":145,"downloads":73,"favorites":0,"likes":0,"comments":0,"user_id":10616603,"user":"1004us","userImageURL":"https://cdn.pixabay.com/user/2019/06/18/23-44-14-783_250x250.png"},{"id":2059416,"pageURL":"https://pixabay.com/photos/seattle-city-skyline-washington-2059416/","type":"photo","tags":"seattle,
-        city, skyline","previewURL":"https://cdn.pixabay.com/photo/2017/02/12/06/57/seattle-2059416_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/54e0d04a4e53aa14f1dc846096293e77143ad7e05b4c704f742f73d19e4dc15d_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/54e0d04a4e53aa14f6da8c7dda7936771c3edbec56596c48732e7bdc9244c55cbd_1280.jpg","imageWidth":6000,"imageHeight":4000,"imageSize":3412373,"views":1085,"downloads":428,"favorites":11,"likes":10,"comments":0,"user_id":529835,"user":"Olichel","userImageURL":"https://cdn.pixabay.com/user/2017/03/08/22-53-13-639_250x250.jpg"}]}'
-  recorded_at: Sun, 17 Jan 2021 04:50:45 GMT
+        sunset, marina","previewURL":"https://cdn.pixabay.com/photo/2017/06/21/07/27/seattle-2426307_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/54e4d7454952ab14f1dc846096293e77143ad7e05b4c704f742f72d7974dcc58_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/54e4d7454952ab14f6da8c7dda7936771c3edbec56596c48732e7bdd944dc551b8_1280.jpg","imageWidth":5964,"imageHeight":3978,"imageSize":10491901,"views":9877,"downloads":5181,"favorites":37,"likes":45,"comments":0,"user_id":5496829,"user":"InfiniteThought","userImageURL":"https://cdn.pixabay.com/user/2017/06/04/03-00-59-617_250x250.jpg"},{"id":701813,"pageURL":"https://pixabay.com/photos/float-plane-lake-union-seattle-wa-701813/","type":"photo","tags":"float
+        plane, lake union, seattle wa","previewURL":"https://cdn.pixabay.com/photo/2015/04/01/00/56/float-plane-701813_150.jpg","previewWidth":150,"previewHeight":100,"webformatURL":"https://pixabay.com/get/51e0d44b4b51b10ff3d8992cc6213e7f1036dbed4e507748752678d49744c5_640.jpg","webformatWidth":640,"webformatHeight":428,"largeImageURL":"https://pixabay.com/get/51e0d44b4b51b108f5d0846096293e77143ad7e05b4c704f742f72d7974dcc58_1280.jpg","imageWidth":3872,"imageHeight":2592,"imageSize":1857010,"views":909,"downloads":321,"favorites":2,"likes":2,"comments":0,"user_id":899637,"user":"hlwegley","userImageURL":"https://cdn.pixabay.com/user/2015/04/01/00-03-22-584_250x250.jpg"},{"id":4045339,"pageURL":"https://pixabay.com/photos/skyscraper-glass-reflection-4045339/","type":"photo","tags":"skyscraper,
+        glass, reflection","previewURL":"https://cdn.pixabay.com/photo/2019/03/10/01/35/skyscraper-4045339_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/52e0d1464951a514f1dc846096293e77143ad7e05b4c704f742f72d7974dcc58_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/52e0d1464951a514f6da8c7dda7936771c3edbec56596c48732e7bdd944dc551b8_1280.jpg","imageWidth":3000,"imageHeight":2000,"imageSize":2025593,"views":614,"downloads":441,"favorites":0,"likes":1,"comments":0,"user_id":3736195,"user":"nathmath","userImageURL":"https://cdn.pixabay.com/user/2019/03/04/04-18-42-844_250x250.jpg"},{"id":4901230,"pageURL":"https://pixabay.com/photos/leavenworth-wa-leavenworth-visitors-4901230/","type":"photo","tags":"leavenworth,
+        wa, leavenworth visitors","previewURL":"https://cdn.pixabay.com/photo/2020/03/04/10/24/leavenworth-4901230_150.jpg","previewWidth":150,"previewHeight":100,"webformatURL":"https://pixabay.com/get/52e9d5424851ac14f1dc846096293e77143ad7e05b4c704f742f72d7974dcc58_640.jpg","webformatWidth":640,"webformatHeight":427,"largeImageURL":"https://pixabay.com/get/52e9d5424851ac14f6da8c7dda7936771c3edbec56596c48732e7bdd944dc551b8_1280.jpg","imageWidth":5184,"imageHeight":3456,"imageSize":3440195,"views":150,"downloads":76,"favorites":0,"likes":0,"comments":0,"user_id":10616603,"user":"1004us","userImageURL":"https://cdn.pixabay.com/user/2019/06/18/23-44-14-783_250x250.png"},{"id":2059416,"pageURL":"https://pixabay.com/photos/seattle-city-skyline-washington-2059416/","type":"photo","tags":"seattle,
+        city, skyline","previewURL":"https://cdn.pixabay.com/photo/2017/02/12/06/57/seattle-2059416_150.jpg","previewWidth":150,"previewHeight":99,"webformatURL":"https://pixabay.com/get/54e0d04a4e53aa14f1dc846096293e77143ad7e05b4c704f742f72d7974dcc58_640.jpg","webformatWidth":640,"webformatHeight":426,"largeImageURL":"https://pixabay.com/get/54e0d04a4e53aa14f6da8c7dda7936771c3edbec56596c48732e7bdd944dc551b8_1280.jpg","imageWidth":6000,"imageHeight":4000,"imageSize":3412373,"views":1085,"downloads":428,"favorites":11,"likes":10,"comments":0,"user_id":529835,"user":"Olichel","userImageURL":"https://cdn.pixabay.com/user/2017/03/08/22-53-13-639_250x250.jpg"}]}'
+  recorded_at: Mon, 18 Jan 2021 00:34:50 GMT
 recorded_with: VCR 6.0.0
