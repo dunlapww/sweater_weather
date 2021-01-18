@@ -1,7 +1,8 @@
 class TripFacade
   def self.get_trip(trip_params)
     trip_response = LocationService.get_trip(trip_params)
-    return 
+    return trip_response if trip_response[:errors]
+    
     travel_time = trip_response[:route][:realTime]
 
     dest_loc = trip_response[:route][:legs].last[:maneuvers].last[:startPoint]
@@ -30,7 +31,6 @@ class TripFacade
 
   def self.local_arrival_secs(dest_offset, travel_time)
     utc_time = Time.now.utc.strftime('%s').to_i
-    dest_time_before_departure = utc_time + dest_offset
-    dest_time_before_departure + travel_time
+    utc_time + dest_offset + travel_time
   end
 end
