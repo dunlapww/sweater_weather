@@ -20,8 +20,8 @@ class LocationService
   def self.lat_lon(city_state)
     location_data = get_location(city_state)
 
-    if location_data.nil? or location_data[:info][:statuscode] != 0
-      {:errors=>[{detail: "Invalid city, state"}]}
+    if location_data.nil? || (location_data[:info][:statuscode] != 0)
+      { errors: [{ detail: 'Invalid city, state' }] }
     else
       location_data[:results].first[:locations].first[:latLng]
     end
@@ -32,12 +32,8 @@ class LocationService
       req.params[:from] = origin_dest[:origin]
       req.params[:to] = origin_dest[:destination]
     end
+    resp = JSON.parse(response.body, symbolize_names: true)
+    resp[:info][:statuscode] == 0 ? resp : { errors: [{ detail: resp[:info][:messages].first }] }
 
-    begin
-      JSON.parse(response.body, symbolize_names: true)
-    rescue JSON::ParserError
-      nil
-    end
   end
-
 end

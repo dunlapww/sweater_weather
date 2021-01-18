@@ -7,7 +7,7 @@ class Api::V1::SessionsController < ApplicationController
       session[:id] = user_w_key[:id]
       render json: UserSerializer.new(user_w_key)
     else
-      render json: {errors:[{detail: "Invalid credentials"}]}, status: :unauthorized
+      render json: { errors: [{ detail: 'Invalid credentials' }] }, status: :unauthorized
     end
   end
 
@@ -16,5 +16,4 @@ class Api::V1::SessionsController < ApplicationController
   def user_params
     user_data = JSON.parse(request.body.read, symbolize_names: true)
   end
-
 end

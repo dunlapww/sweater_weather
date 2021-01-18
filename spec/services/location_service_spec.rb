@@ -63,7 +63,9 @@ describe LocationService, type: :service do
           destination: 'Denver, CO',
           api_key: @user.api_key }
         results = LocationService.get_trip(trip_params)
-
+        expected = {:errors=>[{:detail=>"At least two locations must be provided."}]}
+        expect(results).to eq(expected)
+        
       end
     end
     it 'get_trip - invalid' do
@@ -71,8 +73,9 @@ describe LocationService, type: :service do
         trip_params = { origin: '/',
           destination: 'Denver, CO',
           api_key: @user.api_key }
-        results = LocationService.get_trip(trip_params)
-
+          results = LocationService.get_trip(trip_params)
+          expected = {:errors=>[{:detail=>"Error processing request: Encountered an error while trying to batch geocode: Geocode Failed: A JSONObject text must begin with '{' at character 0 of "}]}
+          expect(results).to eq(expected)
       end
     end
   end
