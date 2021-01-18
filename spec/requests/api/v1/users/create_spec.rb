@@ -56,6 +56,6 @@ describe 'when I receive a request to create a new user' do
     
     expect(response).to be_successful
     resp = JSON.parse(response.body, symbolize_names: true)
-    expect(resp).to eq([{:detail=>"Password confirmation doesn't match Password"}])
+    expect(resp).to eq({:errors=>[{:detail=>"Password confirmation doesn't match Password"}]})
   end
 end
