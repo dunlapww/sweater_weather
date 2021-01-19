@@ -13,7 +13,7 @@ class Business
     @url = business_data[:url]
     @rating = business_data[:rating]
     @coordinates = business_data[:coordinates]
-    @address = business_data[:location][:display_address]
+    @address = business_data[:location][:display_address].join(', ')
     @phone = business_data[:display_phone]
   end
 end

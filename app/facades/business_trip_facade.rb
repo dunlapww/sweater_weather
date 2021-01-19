@@ -11,7 +11,7 @@ class BusinessTripFacade
     local_arrival_time = local_arrival_secs(dest_tz_offset, travel_time)
     
     dest_business = BusinessService.get_business(trip_params, local_arrival_time)    
-
+    require 'pry'; binding.pry
     trip_data = {
       start_city: trip_params[:origin],
       end_city: trip_params[:destination],
