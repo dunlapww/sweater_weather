@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Jan 2021 18:33:42 GMT
+      - Tue, 19 Jan 2021 18:51:15 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Transfer-Encoding:
@@ -27,11 +27,11 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=E2B351827BEC41216248BDFBB99FDF71; Path=/directions; HttpOnly; Secure
+      - JSESSIONID=FDC69DC58B464386BE27118BD95A398A; Path=/directions; HttpOnly; Secure
       Expires:
       - Mon, 20 Dec 1998 01:00:00 GMT
       Last-Modified:
-      - Tue, 19 Jan 2021 18:33:42 GMT
+      - Tue, 19 Jan 2021 18:51:15 GMT
       Cache-Control:
       - no-cache, must-revalidate
       Pragma:
@@ -48,31 +48,31 @@ http_interactions:
       - max-age=0
     body:
       encoding: UTF-8
-      string: '{"route":{"hasTollRoad":false,"hasBridge":true,"boundingBox":{"lr":{"lng":-104.605087,"lat":38.265427},"ul":{"lng":-122.330276,"lat":47.604027}},"distance":1444.3801,"hasTimedRestriction":false,"hasTunnel":true,"hasHighway":true,"computedWaypoints":[],"routeError":{"errorCode":-400,"message":""},"formattedTime":"20:00:06","sessionId":"60072606-00ef-5f21-02b4-3305-0612945562af","hasAccessRestriction":false,"realTime":81515,"hasSeasonalClosure":false,"hasCountryCross":false,"fuelUsed":76.08,"legs":[{"hasTollRoad":false,"hasBridge":true,"destNarrative":"Proceed
+      string: '{"route":{"hasTollRoad":false,"hasBridge":true,"boundingBox":{"lr":{"lng":-104.605087,"lat":38.265427},"ul":{"lng":-122.330276,"lat":47.604027}},"distance":1444.3801,"hasTimedRestriction":false,"hasTunnel":true,"hasHighway":true,"computedWaypoints":[],"routeError":{"errorCode":-400,"message":""},"formattedTime":"20:00:06","sessionId":"60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","hasAccessRestriction":false,"realTime":81748,"hasSeasonalClosure":false,"hasCountryCross":false,"fuelUsed":76.08,"legs":[{"hasTollRoad":false,"hasBridge":true,"destNarrative":"Proceed
         to PUEBLO, CO.","distance":1444.3801,"hasTimedRestriction":false,"hasTunnel":true,"hasHighway":true,"index":0,"formattedTime":"20:00:06","origIndex":2,"hasAccessRestriction":false,"hasSeasonalClosure":false,"hasCountryCross":false,"roadGradeStrategy":[[]],"destIndex":8,"time":72006,"hasUnpaved":false,"origNarrative":"Go
         east on I-90 E.","maneuvers":[{"distance":0.104,"streets":["James St"],"narrative":"Start
-        out going northeast on James St toward 5th Ave.","turnType":0,"startPoint":{"lng":-122.330276,"lat":47.60323},"index":0,"formattedTime":"00:00:18","directionName":"Northeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.60322952270508,-122.33027648925781|marker-1||47.604026794433594,-122.3283920288086|marker-2||&center=47.603628158569336,-122.3293342590332&defaultMarker=none&zoom=14&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":0,"time":18,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif","direction":3},{"distance":0.095,"streets":["6th
-        Ave"],"narrative":"Turn right onto 6th Ave.","turnType":2,"startPoint":{"lng":-122.328392,"lat":47.604027},"index":1,"formattedTime":"00:00:17","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.604026794433594,-122.3283920288086|marker-2||47.603111267089844,-122.3271255493164|marker-3||&center=47.60356903076172,-122.3277587890625&defaultMarker=none&zoom=14&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":5},{"distance":108.692,"streets":["I-90
-        E"],"narrative":"Merge onto I-90 E toward Portland/Spokane/Bellevue/Tacoma.","turnType":10,"startPoint":{"lng":-122.327126,"lat":47.603111},"index":2,"formattedTime":"01:37:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"90","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=90&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.603111267089844,-122.3271255493164|marker-3||46.97019958496094,-120.52088165283203|marker-4||&center=47.28665542602539,-121.42400360107422&defaultMarker=none&zoom=4&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":3200,"time":5841,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":143.304,"streets":["I-82
+        out going northeast on James St toward 5th Ave.","turnType":0,"startPoint":{"lng":-122.330276,"lat":47.60323},"index":0,"formattedTime":"00:00:18","directionName":"Northeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.60322952270508,-122.33027648925781|marker-1||47.604026794433594,-122.3283920288086|marker-2||&center=47.603628158569336,-122.3293342590332&defaultMarker=none&zoom=14&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":18,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif","direction":3},{"distance":0.095,"streets":["6th
+        Ave"],"narrative":"Turn right onto 6th Ave.","turnType":2,"startPoint":{"lng":-122.328392,"lat":47.604027},"index":1,"formattedTime":"00:00:17","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.604026794433594,-122.3283920288086|marker-2||47.603111267089844,-122.3271255493164|marker-3||&center=47.60356903076172,-122.3277587890625&defaultMarker=none&zoom=14&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":5},{"distance":108.692,"streets":["I-90
+        E"],"narrative":"Merge onto I-90 E toward Portland/Spokane/Bellevue/Tacoma.","turnType":10,"startPoint":{"lng":-122.327126,"lat":47.603111},"index":2,"formattedTime":"01:37:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"90","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=90&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=47.603111267089844,-122.3271255493164|marker-3||46.97019958496094,-120.52088165283203|marker-4||&center=47.28665542602539,-121.42400360107422&defaultMarker=none&zoom=4&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":3200,"time":5841,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":143.304,"streets":["I-82
         E"],"narrative":"Merge onto I-82 E via EXIT 110 toward Yakima (Crossing into
-        Oregon).","turnType":10,"startPoint":{"lng":-120.520882,"lat":46.9702},"index":3,"formattedTime":"02:05:13","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"82","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=82&d=EAST","direction":8},{"extraText":"","text":"110","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=110&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=46.97019958496094,-120.52088165283203|marker-4||45.79884338378906,-119.39059448242188|marker-5||&center=46.384521484375,-119.95573806762695&defaultMarker=none&zoom=3&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1152,"time":7513,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":554.923,"streets":["I-84
+        Oregon).","turnType":10,"startPoint":{"lng":-120.520882,"lat":46.9702},"index":3,"formattedTime":"02:05:13","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"82","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=82&d=EAST","direction":8},{"extraText":"","text":"110","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=110&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=46.97019958496094,-120.52088165283203|marker-4||45.79884338378906,-119.39059448242188|marker-5||&center=46.384521484375,-119.95573806762695&defaultMarker=none&zoom=3&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":7513,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":554.923,"streets":["I-84
         E"],"narrative":"Merge onto I-84 E via the exit on the left (Passing through
-        Idaho, then crossing into Utah).","turnType":11,"startPoint":{"lng":-119.390594,"lat":45.798843},"index":4,"formattedTime":"07:32:04","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=45.79884338378906,-119.39059448242188|marker-5||41.192237854003906,-112.00454711914062|marker-6||&center=43.495540618896484,-115.69757080078125&defaultMarker=none&zoom=2&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1152,"time":27124,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":39.045,"streets":["I-84
-        E"],"narrative":"Merge onto I-84 E via EXIT 340 toward Cheyenne.","turnType":10,"startPoint":{"lng":-112.004547,"lat":41.192238},"index":5,"formattedTime":"00:34:19","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8},{"extraText":"","text":"340","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=340&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.192237854003906,-112.00454711914062|marker-6||40.97190856933594,-111.44273376464844|marker-7||&center=41.08207321166992,-111.72364044189453&defaultMarker=none&zoom=5&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1152,"time":2059,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":388.641,"streets":["I-80
+        Idaho, then crossing into Utah).","turnType":11,"startPoint":{"lng":-119.390594,"lat":45.798843},"index":4,"formattedTime":"07:32:04","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=45.79884338378906,-119.39059448242188|marker-5||41.192237854003906,-112.00454711914062|marker-6||&center=43.495540618896484,-115.69757080078125&defaultMarker=none&zoom=2&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":27124,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":39.045,"streets":["I-84
+        E"],"narrative":"Merge onto I-84 E via EXIT 340 toward Cheyenne.","turnType":10,"startPoint":{"lng":-112.004547,"lat":41.192238},"index":5,"formattedTime":"00:34:19","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"84","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=84&d=EAST","direction":8},{"extraText":"","text":"340","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=340&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.192237854003906,-112.00454711914062|marker-6||40.97190856933594,-111.44273376464844|marker-7||&center=41.08207321166992,-111.72364044189453&defaultMarker=none&zoom=5&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":2059,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":8},{"distance":388.641,"streets":["I-80
         E"],"narrative":"Merge onto I-80 E via EXIT 120A on the left toward Cheyenne
-        (Crossing into Wyoming).","turnType":11,"startPoint":{"lng":-111.442734,"lat":40.971909},"index":6,"formattedTime":"05:06:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"80","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=80&d=EAST","direction":8},{"extraText":"","text":"120A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=120A&d=LEFT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=40.97190856933594,-111.44273376464844|marker-7||41.113746643066406,-104.85830688476562|marker-8||&center=41.04282760620117,-108.15052032470703&defaultMarker=none&zoom=2&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1152,"time":18381,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":208.987,"streets":["I-25
+        (Crossing into Wyoming).","turnType":11,"startPoint":{"lng":-111.442734,"lat":40.971909},"index":6,"formattedTime":"05:06:21","directionName":"East","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"80","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=80&d=EAST","direction":8},{"extraText":"","text":"120A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=120A&d=LEFT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=40.97190856933594,-111.44273376464844|marker-7||41.113746643066406,-104.85830688476562|marker-8||&center=41.04282760620117,-108.15052032470703&defaultMarker=none&zoom=2&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":18381,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_left_sm.gif","direction":8},{"distance":208.987,"streets":["I-25
         S"],"narrative":"Merge onto I-25 S via EXIT 359A toward Denver (Crossing into
-        Colorado).","turnType":10,"startPoint":{"lng":-104.858307,"lat":41.113747},"index":7,"formattedTime":"03:02:49","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"25","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=25&d=SOUTH","direction":4},{"extraText":"","text":"359A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=359A&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.113746643066406,-104.85830688476562|marker-8||38.27111053466797,-104.60508728027344|marker-9||&center=39.69242858886719,-104.73169708251953&defaultMarker=none&zoom=2&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1152,"time":10969,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":0.221,"streets":[],"narrative":"Take
-        the 1st Street exit, EXIT 98B.","turnType":14,"startPoint":{"lng":-104.605087,"lat":38.271111},"index":8,"formattedTime":"00:00:25","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"98B","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=98B&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.27111053466797,-104.60508728027344|marker-9||38.26797103881836,-104.6056137084961|marker-10||&center=38.269540786743164,-104.60535049438477&defaultMarker=none&zoom=11&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":1024,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_gr_exitright_sm.gif","direction":4},{"distance":0.078,"streets":["E
-        1st St"],"narrative":"Turn right onto E 1st St.","turnType":2,"startPoint":{"lng":-104.605614,"lat":38.267971},"index":9,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.26797103881836,-104.6056137084961|marker-10||38.267940521240234,-104.60704803466797|marker-11||&center=38.2679557800293,-104.60633087158203&defaultMarker=none&zoom=15&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":0.079,"streets":["W
-        City Center Dr"],"narrative":"E 1st St becomes W City Center Dr.","turnType":0,"startPoint":{"lng":-104.607048,"lat":38.267941},"index":10,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267940521240234,-104.60704803466797|marker-11||38.267913818359375,-104.60850524902344|marker-12||&center=38.267927169799805,-104.6077766418457&defaultMarker=none&zoom=15&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif","direction":7},{"distance":0.211,"streets":["Central
-        Main St"],"narrative":"Turn left onto Central Main St.","turnType":6,"startPoint":{"lng":-104.608505,"lat":38.267914},"index":11,"formattedTime":"00:00:25","directionName":"Southwest","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267913818359375,-104.60850524902344|marker-12||38.26542663574219,-104.61041259765625|marker-13||&center=38.26667022705078,-104.60945892333984&defaultMarker=none&zoom=12&rand=-448456715&session=60072606-00ef-5f21-02b4-3305-0612945562af","transportMode":"AUTO","attributes":0,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":6},{"distance":0,"streets":[],"narrative":"Welcome
+        Colorado).","turnType":10,"startPoint":{"lng":-104.858307,"lat":41.113747},"index":7,"formattedTime":"03:02:49","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"25","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=25&d=SOUTH","direction":4},{"extraText":"","text":"359A","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=359A&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=41.113746643066406,-104.85830688476562|marker-8||38.27111053466797,-104.60508728027344|marker-9||&center=39.69242858886719,-104.73169708251953&defaultMarker=none&zoom=2&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":10969,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":0.221,"streets":[],"narrative":"Take
+        the 1st Street exit, EXIT 98B.","turnType":14,"startPoint":{"lng":-104.605087,"lat":38.271111},"index":8,"formattedTime":"00:00:25","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"98B","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=98B&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.27111053466797,-104.60508728027344|marker-9||38.26797103881836,-104.6056137084961|marker-10||&center=38.269540786743164,-104.60535049438477&defaultMarker=none&zoom=11&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1024,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_gr_exitright_sm.gif","direction":4},{"distance":0.078,"streets":["E
+        1st St"],"narrative":"Turn right onto E 1st St.","turnType":2,"startPoint":{"lng":-104.605614,"lat":38.267971},"index":9,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.26797103881836,-104.6056137084961|marker-10||38.267940521240234,-104.60704803466797|marker-11||&center=38.2679557800293,-104.60633087158203&defaultMarker=none&zoom=15&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":0.079,"streets":["W
+        City Center Dr"],"narrative":"E 1st St becomes W City Center Dr.","turnType":0,"startPoint":{"lng":-104.607048,"lat":38.267941},"index":10,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267940521240234,-104.60704803466797|marker-11||38.267913818359375,-104.60850524902344|marker-12||&center=38.267927169799805,-104.6077766418457&defaultMarker=none&zoom=15&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif","direction":7},{"distance":0.211,"streets":["Central
+        Main St"],"narrative":"Turn left onto Central Main St.","turnType":6,"startPoint":{"lng":-104.608505,"lat":38.267914},"index":11,"formattedTime":"00:00:25","directionName":"Southwest","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267913818359375,-104.60850524902344|marker-12||38.26542663574219,-104.61041259765625|marker-13||&center=38.26667022705078,-104.60945892333984&defaultMarker=none&zoom=12&rand=657025398&session=60072a23-0277-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":6},{"distance":0,"streets":[],"narrative":"Welcome
         to PUEBLO, CO.","turnType":-1,"startPoint":{"lng":-104.610413,"lat":38.265427},"index":12,"formattedTime":"00:00:00","directionName":"","maneuverNotes":[],"linkIds":[],"signs":[],"transportMode":"AUTO","attributes":0,"time":0,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-end_sm.gif","direction":0}],"hasFerry":false}],"options":{"arteryWeights":[],"cyclingRoadFactor":1,"timeType":0,"useTraffic":false,"returnLinkDirections":false,"countryBoundaryDisplay":true,"enhancedNarrative":false,"locale":"en_US","tryAvoidLinkIds":[],"drivingStyle":2,"doReverseGeocode":true,"generalize":-1,"mustAvoidLinkIds":[],"sideOfStreetDisplay":true,"routeType":"FASTEST","avoidTimedConditions":false,"routeNumber":0,"shapeFormat":"raw","maxWalkingDistance":-1,"destinationManeuverDisplay":true,"transferPenalty":-1,"narrativeType":"text","walkingSpeed":-1,"urbanAvoidFactor":-1,"stateBoundaryDisplay":true,"unit":"M","highwayEfficiency":22,"maxLinkId":0,"maneuverPenalty":-1,"avoidTripIds":[],"filterZoneFactor":-1,"manmaps":"true"},"locations":[{"dragPoint":false,"displayLatLng":{"lng":-122.330276,"lat":47.60323},"adminArea4":"King
         County","adminArea5":"Seattle","postalCode":"","adminArea1":"US","adminArea3":"WA","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":23259736,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-122.33028,"lat":47.603229}},{"dragPoint":false,"displayLatLng":{"lng":-104.610413,"lat":38.265427},"adminArea4":"Pueblo
         County","adminArea5":"Pueblo","postalCode":"","adminArea1":"US","adminArea3":"CO","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":54760889,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-104.610415,"lat":38.265425}}],"time":72006,"hasUnpaved":false,"locationSequence":[0,1],"hasFerry":false},"info":{"statuscode":0,"copyright":{"imageAltText":"©
         2020 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","text":"©
         2020 MapQuest, Inc."},"messages":[]}}'
-  recorded_at: Tue, 19 Jan 2021 18:33:42 GMT
+  recorded_at: Tue, 19 Jan 2021 18:51:15 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=<WEATHER_KEY>&lat=38.265427&lon=-104.610413
@@ -94,11 +94,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 19 Jan 2021 18:33:42 GMT
+      - Tue, 19 Jan 2021 18:51:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '16162'
+      - '16238'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -111,11 +111,11 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":38.2654,"lon":-104.6104,"timezone":"America/Denver","timezone_offset":-25200,"current":{"dt":1611081222,"sunrise":1611065519,"sunset":1611101172,"temp":273.08,"feels_like":268.76,"pressure":1032,"humidity":74,"dew_point":269.47,"uvi":2.19,"clouds":1,"visibility":10000,"wind_speed":2.57,"wind_deg":210,"weather":[{"id":500,"main":"Rain","description":"light
-        rain","icon":"10d"}],"rain":{"1h":0.25}},"hourly":[{"dt":1611079200,"temp":273.08,"feels_like":269.69,"pressure":1032,"humidity":74,"dew_point":269.47,"uvi":1.8,"clouds":1,"visibility":10000,"wind_speed":1.25,"wind_deg":276,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0.33},{"dt":1611082800,"temp":272.93,"feels_like":269.76,"pressure":1032,"humidity":82,"dew_point":270.55,"uvi":2.19,"clouds":49,"visibility":10000,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0.08},{"dt":1611086400,"temp":273.65,"feels_like":269.99,"pressure":1031,"humidity":84,"dew_point":271.48,"uvi":1.95,"clouds":49,"visibility":10000,"wind_speed":2.02,"wind_deg":182,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0.08},{"dt":1611090000,"temp":274.42,"feels_like":270.2,"pressure":1030,"humidity":82,"dew_point":271.86,"uvi":1.34,"clouds":40,"visibility":10000,"wind_speed":2.9,"wind_deg":195,"weather":[{"id":802,"main":"Clouds","description":"scattered
+      string: '{"lat":38.2654,"lon":-104.6104,"timezone":"America/Denver","timezone_offset":-25200,"current":{"dt":1611082276,"sunrise":1611065519,"sunset":1611101172,"temp":273.2,"feels_like":268.9,"pressure":1032,"humidity":74,"dew_point":269.59,"uvi":2.19,"clouds":1,"visibility":10000,"wind_speed":2.57,"wind_deg":210,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"},{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"rain":{"1h":0.25},"snow":{"1h":0.25}},"hourly":[{"dt":1611079200,"temp":273.2,"feels_like":269.82,"pressure":1032,"humidity":74,"dew_point":269.59,"uvi":1.8,"clouds":1,"visibility":10000,"wind_speed":1.25,"wind_deg":276,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0.33},{"dt":1611082800,"temp":273,"feels_like":269.84,"pressure":1032,"humidity":82,"dew_point":270.61,"uvi":2.19,"clouds":49,"visibility":10000,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.08},{"dt":1611086400,"temp":273.68,"feels_like":270.02,"pressure":1031,"humidity":84,"dew_point":271.51,"uvi":1.95,"clouds":49,"visibility":10000,"wind_speed":2.02,"wind_deg":182,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.08},{"dt":1611090000,"temp":274.43,"feels_like":270.21,"pressure":1030,"humidity":82,"dew_point":271.87,"uvi":1.34,"clouds":40,"visibility":10000,"wind_speed":2.9,"wind_deg":195,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"pop":0.04},{"dt":1611093600,"temp":274.83,"feels_like":270.45,"pressure":1029,"humidity":81,"dew_point":272.07,"uvi":0.73,"clouds":44,"visibility":10000,"wind_speed":3.18,"wind_deg":192,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"pop":0},{"dt":1611097200,"temp":274.86,"feels_like":270.82,"pressure":1028,"humidity":81,"dew_point":268.87,"uvi":0.22,"clouds":44,"visibility":10000,"wind_speed":2.7,"wind_deg":176,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"pop":0},{"dt":1611100800,"temp":273.23,"feels_like":270.12,"pressure":1029,"humidity":91,"dew_point":268.62,"uvi":0,"clouds":37,"visibility":10000,"wind_speed":1.36,"wind_deg":151,"weather":[{"id":802,"main":"Clouds","description":"scattered
@@ -160,7 +160,7 @@ http_interactions:
         sky","icon":"01n"}],"pop":0},{"dt":1611241200,"temp":276.13,"feels_like":269.03,"pressure":1018,"humidity":72,"dew_point":267.04,"uvi":0.22,"clouds":0,"visibility":10000,"wind_speed":6.99,"wind_deg":301,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"pop":0},{"dt":1611244800,"temp":278.61,"feels_like":272.16,"pressure":1017,"humidity":61,"dew_point":267.52,"uvi":0.73,"clouds":0,"visibility":10000,"wind_speed":6.09,"wind_deg":307,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"pop":0},{"dt":1611248400,"temp":280.31,"feels_like":274.42,"pressure":1015,"humidity":54,"dew_point":267.57,"uvi":1.42,"clouds":0,"visibility":10000,"wind_speed":5.28,"wind_deg":323,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1611082800,"sunrise":1611065519,"sunset":1611101172,"temp":{"day":272.93,"min":270.65,"max":274.86,"night":270.71,"eve":272.55,"morn":270.7},"feels_like":{"day":269.76,"night":267.73,"eve":269.53,"morn":267.78},"pressure":1032,"humidity":82,"dew_point":270.55,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":49,"pop":0.76,"snow":2.75,"uvi":2.19},{"dt":1611169200,"sunrise":1611151889,"sunset":1611187638,"temp":{"day":282.65,"min":270.93,"max":284.57,"night":276.36,"eve":278.64,"morn":272.37},"feels_like":{"day":277.41,"night":270.87,"eve":274.3,"morn":267.67},"pressure":1015,"humidity":49,"dew_point":270.54,"wind_speed":4.51,"wind_deg":273,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1611082800,"sunrise":1611065519,"sunset":1611101172,"temp":{"day":273,"min":270.65,"max":274.86,"night":270.71,"eve":272.55,"morn":270.7},"feels_like":{"day":269.84,"night":267.73,"eve":269.53,"morn":267.78},"pressure":1032,"humidity":82,"dew_point":270.61,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":49,"pop":0.76,"snow":2.75,"uvi":2.19},{"dt":1611169200,"sunrise":1611151889,"sunset":1611187638,"temp":{"day":282.65,"min":270.93,"max":284.57,"night":276.36,"eve":278.64,"morn":272.37},"feels_like":{"day":277.41,"night":270.87,"eve":274.3,"morn":267.67},"pressure":1015,"humidity":49,"dew_point":270.54,"wind_speed":4.51,"wind_deg":273,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":2.3},{"dt":1611255600,"sunrise":1611238257,"sunset":1611274104,"temp":{"day":282.44,"min":274.81,"max":282.95,"night":274.81,"eve":277.96,"morn":275.79},"feels_like":{"day":278.77,"night":271.19,"eve":274.15,"morn":268.81},"pressure":1013,"humidity":46,"dew_point":267.44,"wind_speed":2.06,"wind_deg":93,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04d"}],"clouds":54,"pop":0,"uvi":2.48},{"dt":1611342000,"sunrise":1611324624,"sunset":1611360571,"temp":{"day":276.4,"min":271.16,"max":279.62,"night":274.11,"eve":277.52,"morn":271.16},"feels_like":{"day":273.79,"night":271.22,"eve":274.09,"morn":267.85},"pressure":1013,"humidity":70,"dew_point":266.89,"wind_speed":0.56,"wind_deg":132,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"clouds":41,"pop":0,"uvi":2.33},{"dt":1611428400,"sunrise":1611410988,"sunset":1611447038,"temp":{"day":282.6,"min":273.48,"max":284.9,"night":273.48,"eve":279.47,"morn":273.73},"feels_like":{"day":278.93,"night":269.5,"eve":273.75,"morn":270.33},"pressure":1007,"humidity":46,"dew_point":267.54,"wind_speed":2.09,"wind_deg":275,"weather":[{"id":803,"main":"Clouds","description":"broken
@@ -168,10 +168,10 @@ http_interactions:
         snow","icon":"13d"}],"clouds":92,"pop":0.39,"snow":0.54,"uvi":3},{"dt":1611601200,"sunrise":1611583712,"sunset":1611619974,"temp":{"day":278.71,"min":271.69,"max":280.04,"night":272.45,"eve":277.07,"morn":271.69},"feels_like":{"day":273.26,"night":269.56,"eve":274.28,"morn":268.35},"pressure":1006,"humidity":53,"dew_point":262.02,"wind_speed":4.34,"wind_deg":284,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":3},{"dt":1611687600,"sunrise":1611670071,"sunset":1611706442,"temp":{"day":277.66,"min":270.7,"max":277.66,"night":270.7,"eve":274.75,"morn":270.87},"feels_like":{"day":267.76,"night":263.54,"eve":263.43,"morn":267.52},"pressure":1003,"humidity":55,"dew_point":260.33,"wind_speed":10.61,"wind_deg":287,"weather":[{"id":801,"main":"Clouds","description":"few
         clouds","icon":"02d"}],"clouds":18,"pop":0,"uvi":3}]}'
-  recorded_at: Tue, 19 Jan 2021 18:33:42 GMT
+  recorded_at: Tue, 19 Jan 2021 18:51:16 GMT
 - request:
     method: get
-    uri: https://api.yelp.com/v3/businesses/search?location=Pueblo,%20CO&open_at=1611059122&term=tacos
+    uri: https://api.yelp.com/v3/businesses/search?location=Pueblo,%20CO&open_at=1611129082&term=tacos
     body:
       encoding: US-ASCII
       string: ''
@@ -196,31 +196,31 @@ http_interactions:
       Ratelimit-Dailylimit:
       - '5000'
       Ratelimit-Remaining:
-      - '4972'
+      - '4971'
       X-Zipkin-Id:
-      - 24fde743d19787a2
+      - b177adc17c7caca3
       Server:
       - envoy
       Ratelimit-Resettime:
       - '2021-01-20T00:00:00+00:00'
       X-Routing-Service:
-      - routing-main--uswest2-5b584d59bc-vz66l; site=public_api_v3
+      - routing-main--uswest2-5b584d59bc-jm8js; site=public_api_v3
       X-B3-Sampled:
       - '0'
       X-Proxied:
-      - 10-69-128-115-uswest2bprod
+      - 10-69-166-32-uswest2bprod
       X-Extlb:
-      - 10-69-128-115-uswest2bprod
+      - 10-69-166-32-uswest2bprod
       Cache-Control:
       - max-age=0, must-revalidate, no-cache, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 19 Jan 2021 18:33:43 GMT
+      - Tue, 19 Jan 2021 18:51:16 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8280-DEN
+      - cache-den8272-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -231,85 +231,212 @@ http_interactions:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"businesses": [{"id": "3Edd-08gz7auXvqqM-4Dwg", "alias": "vazquez-taco-shop-pueblo",
-        "name": "Vazquez Taco Shop", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lyudLzs92SPt-UFVDqd1rA/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/vazquez-taco-shop-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 33, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 4.5, "coordinates": {"latitude": 38.2707358, "longitude": -104.599503},
-        "transactions": ["delivery"], "price": "$", "location": {"address1": "604
-        E 4th St", "address2": null, "address3": null, "city": "Pueblo", "zip_code":
-        "81001", "country": "US", "state": "CO", "display_address": ["604 E 4th St",
-        "Pueblo, CO 81001"]}, "phone": "+17195462186", "display_phone": "(719) 546-2186",
-        "distance": 2284.522971886835}, {"id": "i0uPdJ-Gv153FQNes5p6UQ", "alias":
-        "taco-stop-pueblo-2", "name": "Taco Stop", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-zp5FDCKnn7Sm2X04uKxSg/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/taco-stop-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 39, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 4.0, "coordinates": {"latitude": 38.3097853765026, "longitude":
-        -104.63582854718}, "transactions": ["pickup", "delivery"], "price": "$", "location":
-        {"address1": "3639 Baltimore Ave", "address2": "", "address3": "", "city":
-        "Pueblo", "zip_code": "81008", "country": "US", "state": "CO", "display_address":
-        ["3639 Baltimore Ave", "Pueblo, CO 81008"]}, "phone": "+17192994188", "display_phone":
-        "(719) 299-4188", "distance": 6996.127618355338}, {"id": "UaPDCqhC9D88NY3dbbajXw",
-        "alias": "maks-pueblo", "name": "MAKS", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WPJ2J4eiBwmofvUAy_VbHg/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/maks-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 43, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 4.5, "coordinates": {"latitude": 38.2248992919922, "longitude":
-        -104.625511169434}, "transactions": ["pickup", "delivery"], "price": "$",
-        "location": {"address1": "2535 Lake Ave", "address2": null, "address3": "",
-        "city": "Pueblo", "zip_code": "81004", "country": "US", "state": "CO", "display_address":
-        ["2535 Lake Ave", "Pueblo, CO 81004"]}, "phone": "+17196968406", "display_phone":
-        "(719) 696-8406", "distance": 6818.270145500367}, {"id": "E3uAtjwXj6m0NyFw1QFB6g",
-        "alias": "el-jefe-tacos-and-burritos-pueblo-2", "name": "El Jefe Tacos and
-        Burritos", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nFq_JkQw48jdT4c0V-EC4g/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/el-jefe-tacos-and-burritos-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 8, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 2.5, "coordinates": {"latitude": 38.258045, "longitude": -104.619820453227},
-        "transactions": ["pickup", "delivery"], "location": {"address1": "215 E Abriendo
-        Ave", "address2": "", "address3": null, "city": "Pueblo", "zip_code": "81004",
-        "country": "US", "state": "CO", "display_address": ["215 E Abriendo Ave",
-        "Pueblo, CO 81004"]}, "phone": "+17195821588", "display_phone": "(719) 582-1588",
-        "distance": 4280.557746806832}, {"id": "br4KIIkTaBndQVZmlOOmZQ", "alias":
-        "el-charro-restaurant-pueblo", "name": "El Charro Restaurant", "image_url":
-        "https://s3-media1.fl.yelpcdn.com/bphoto/w8B5ND0rRhw_y0-C_LTlfA/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/el-charro-restaurant-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 9, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 4.5, "coordinates": {"latitude": 38.23165, "longitude": -104.61449},
-        "transactions": ["delivery"], "location": {"address1": "2042 E Evans Ave",
-        "address2": "", "address3": null, "city": "Pueblo", "zip_code": "81004", "country":
-        "US", "state": "CO", "display_address": ["2042 E Evans Ave", "Pueblo, CO 81004"]},
-        "phone": "+17195458228", "display_phone": "(719) 545-8228", "distance": 5605.044257530903},
-        {"id": "7bqZ4umyptOi7iw9EPdRlQ", "alias": "jack-in-the-box-pueblo-2", "name":
-        "Jack in the Box", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fpJXF5FDQLddEXx2rnf_1Q/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/jack-in-the-box-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 17, "categories": [{"alias": "hotdogs", "title": "Fast Food"},
-        {"alias": "burgers", "title": "Burgers"}, {"alias": "tacos", "title": "Tacos"}],
-        "rating": 2.5, "coordinates": {"latitude": 38.307515, "longitude": -104.621085},
-        "transactions": ["delivery"], "price": "$", "location": {"address1": "910
-        W US Highway 50", "address2": "", "address3": "", "city": "Pueblo", "zip_code":
-        "81008", "country": "US", "state": "CO", "display_address": ["910 W US Highway
-        50", "Pueblo, CO 81008"]}, "phone": "+17199005993", "display_phone": "(719)
-        900-5993", "distance": 5867.055582730945}, {"id": "xPmmQcopymaG7ZEBi9yXeQ",
-        "alias": "arriba-mex-grill-pueblo", "name": "Arriba Mex Grill", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/ISPEyNbzj5QKYTJ4MORTrg/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/arriba-mex-grill-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 22, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 3.0, "coordinates": {"latitude": 38.308705, "longitude": -104.621627},
+      string: '{"businesses": [{"id": "tdElALt8TB5hazJiXbe03g", "alias": "julian-s-taco-shop-ca\u00f1on-city",
+        "name": "Julian\u2019s Taco Shop", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/e68IBMCbl6_RuHyFhzyHiw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/julian-s-taco-shop-ca%C3%B1on-city?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 19, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.4415721642124, "longitude":
+        -105.238662348535}, "transactions": [], "location": {"address1": "619 Main
+        St", "address2": "", "address3": null, "city": "Ca\u00f1on City", "zip_code":
+        "81212", "country": "US", "state": "CO", "display_address": ["619 Main St",
+        "Ca\u00f1on City, CO 81212"]}, "phone": "+17192754811", "display_phone": "(719)
+        275-4811", "distance": 61055.259094614354}, {"id": "kinWN9Jiw8wp9lQ6aAlzZQ",
+        "alias": "classic-q-pueblo-2", "name": "Classic Q", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/khvlNfZ85_CC19iUxJBziQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/classic-q-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 2, "categories": [{"alias": "poolhalls", "title": "Pool Halls"},
+        {"alias": "cafes", "title": "Cafes"}, {"alias": "venues", "title": "Venues
+        & Event Spaces"}], "rating": 1.0, "coordinates": {"latitude": 38.23819, "longitude":
+        -104.64399}, "transactions": ["pickup", "delivery"], "location": {"address1":
+        "1715 S Prairie Avenue", "address2": null, "address3": "", "city": "Pueblo",
+        "zip_code": "81005", "country": "US", "state": "CO", "display_address": ["1715
+        S Prairie Avenue", "Pueblo, CO 81005"]}, "phone": "+17199248250", "display_phone":
+        "(719) 924-8250", "distance": 7137.122630742966}, {"id": "oJq7RH7hNnHo6GsjoxgDsg",
+        "alias": "sanchos-bar-and-grill-pueblo", "name": "Sancho''s bar and grill",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NuUHvAczuGdMfydU_E-P-A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sanchos-bar-and-grill-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 2, "categories": [{"alias": "bars", "title": "Bars"}, {"alias":
+        "tradamerican", "title": "American (Traditional)"}], "rating": 1.0, "coordinates":
+        {"latitude": 38.270725709207, "longitude": -104.598647095263}, "transactions":
+        ["pickup", "delivery"], "price": "$", "location": {"address1": "628 East 4th
+        St", "address2": "", "address3": null, "city": "Pueblo", "zip_code": "81001",
+        "country": "US", "state": "CO", "display_address": ["628 East 4th St", "Pueblo,
+        CO 81001"]}, "phone": "+17194230549", "display_phone": "(719) 423-0549", "distance":
+        2207.544020131837}, {"id": "XXmAnHRXTRpYsuYN4giSUA", "alias": "taco-express-colorado-springs-3",
+        "name": "Taco Express", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/LPP8agYN6uix7e2Czx_VkQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-express-colorado-springs-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 156, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.0, "coordinates": {"latitude": 38.89593, "longitude": -104.85153},
         "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
-        "965 Hwy 50 W", "address2": "Ste 110", "address3": "", "city": "Pueblo", "zip_code":
-        "81008", "country": "US", "state": "CO", "display_address": ["965 Hwy 50 W",
-        "Ste 110", "Pueblo, CO 81008"]}, "phone": "+17195440497", "display_phone":
-        "(719) 544-0497", "distance": 5994.115246596549}, {"id": "LN7Lywnn7C_gkFd3xmwesg",
-        "alias": "mussos-restaurant-pueblo-2", "name": "Musso''s Restaurant", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/lIcVqeNyRfiiCDBzEJW7ew/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/mussos-restaurant-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 28, "categories": [{"alias": "newamerican", "title": "American
-        (New)"}, {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias":
-        "sandwiches", "title": "Sandwiches"}], "rating": 4.0, "coordinates": {"latitude":
-        38.275329, "longitude": -104.4663797}, "transactions": ["pickup"], "price":
-        "$$", "location": {"address1": "35250 US Hwy 50 E", "address2": "", "address3":
-        "", "city": "Pueblo", "zip_code": "81006", "country": "US", "state": "CO",
-        "display_address": ["35250 US Hwy 50 E", "Pueblo, CO 81006"]}, "phone": "+17199489733",
-        "display_phone": "(719) 948-9733", "distance": 9355.673955748796}], "total":
-        8, "region": {"center": {"longitude": -104.5733642578125, "latitude": 38.27035217485165}}}'
-  recorded_at: Tue, 19 Jan 2021 18:33:43 GMT
+        "4450 Centennial Blvd", "address2": "", "address3": "", "city": "Colorado
+        Springs", "zip_code": "80907", "country": "US", "state": "CO", "display_address":
+        ["4450 Centennial Blvd", "Colorado Springs, CO 80907"]}, "phone": "+17195981834",
+        "display_phone": "(719) 598-1834", "distance": 73645.06945929684}, {"id":
+        "80wDOvTz9LK_U8ccsLH2NA", "alias": "taco-salsa-colorado-springs", "name":
+        "Taco Salsa", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/UxWVocS-lkUVhs_XE9FVKA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-salsa-colorado-springs?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 14, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 3.5, "coordinates": {"latitude": 38.9001225, "longitude": -104.7644371},
+        "transactions": [], "location": {"address1": "4701 Academy Blvd", "address2":
+        "", "address3": null, "city": "Colorado Springs", "zip_code": "80918", "country":
+        "US", "state": "CO", "display_address": ["4701 Academy Blvd", "Colorado Springs,
+        CO 80918"]}, "phone": "+17193449150", "display_phone": "(719) 344-9150", "distance":
+        72113.66839942726}, {"id": "Mq8h9YOchnplrLkjHvSm4A", "alias": "high-grade-catering-and-food-truck-colorado-springs-2",
+        "name": "High Grade Catering & Food Truck", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/45uIruklRyCPMzOy-RByuw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/high-grade-catering-and-food-truck-colorado-springs-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 18, "categories": [{"alias": "catering", "title": "Caterers"},
+        {"alias": "caribbean", "title": "Caribbean"}], "rating": 4.5, "coordinates":
+        {"latitude": 38.81917, "longitude": -104.82475}, "transactions": [], "price":
+        "$$$", "location": {"address1": "1020 S Tejon", "address2": "", "address3":
+        "", "city": "Colorado Springs", "zip_code": "80903", "country": "US", "state":
+        "CO", "display_address": ["1020 S Tejon", "Colorado Springs, CO 80903"]},
+        "phone": "+17196025588", "display_phone": "(719) 602-5588", "distance": 64815.65576107321},
+        {"id": "RW3A5A5Qnei3eTG8dDefsA", "alias": "7-eleven-fountain", "name": "7-Eleven",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/E8ju5k40GfoxElIzCnyx3g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-fountain?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 4, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 3.5, "coordinates": {"latitude":
+        38.676534, "longitude": -104.7057549}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "601 S Santa Fe Ave", "address2": "",
+        "address3": "", "city": "Fountain", "zip_code": "80817", "country": "US",
+        "state": "CO", "display_address": ["601 S Santa Fe Ave", "Fountain, CO 80817"]},
+        "phone": "+17193825156", "display_phone": "(719) 382-5156", "distance": 46601.687926433726},
+        {"id": "c0SeXUUCeVCG_3CCbPG6Iw", "alias": "7-eleven-colorado-springs-24",
+        "name": "7-Eleven", "image_url": "", "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-24?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 1, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 5.0, "coordinates": {"latitude":
+        38.9013671, "longitude": -104.6857247}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "7692-7696 Barnes Rd", "address2":
+        null, "address3": null, "city": "Colorado Springs", "zip_code": "80922", "country":
+        "US", "state": "CO", "display_address": ["7692-7696 Barnes Rd", "Colorado
+        Springs, CO 80922"]}, "phone": "+17195741557", "display_phone": "(719) 574-1557",
+        "distance": 70841.96318445259}, {"id": "jpupQGxiE5cZpCScYsDTAw", "alias":
+        "7-eleven-colorado-springs-12", "name": "7-Eleven", "image_url": "", "is_closed":
+        false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-12?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 1, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 4.0, "coordinates": {"latitude":
+        38.7993792, "longitude": -104.7312447}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "5280 Astrozon Blvd", "address2": null,
+        "address3": null, "city": "Colorado Springs", "zip_code": "80916", "country":
+        "US", "state": "CO", "display_address": ["5280 Astrozon Blvd", "Colorado Springs,
+        CO 80916"]}, "phone": "+17195740249", "display_phone": "(719) 574-0249", "distance":
+        60406.642341774874}, {"id": "qe9K8v1-JXP4ZiMrxQv0Cw", "alias": "detour-lounge-colorado-springs",
+        "name": "Detour Lounge", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BPHG1k1_2txRH7UD8BH2_w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/detour-lounge-colorado-springs?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 8, "categories": [{"alias": "tradamerican", "title": "American
+        (Traditional)"}, {"alias": "lounges", "title": "Lounges"}], "rating": 4.0,
+        "coordinates": {"latitude": 38.77262, "longitude": -104.73961}, "transactions":
+        ["delivery"], "location": {"address1": "4080 Clear View Frontage Rd", "address2":
+        "", "address3": "", "city": "Colorado Springs", "zip_code": "80911", "country":
+        "US", "state": "CO", "display_address": ["4080 Clear View Frontage Rd", "Colorado
+        Springs, CO 80911"]}, "phone": "+17193929954", "display_phone": "(719) 392-9954",
+        "distance": 57690.117479550834}, {"id": "9x_-KJa7xfxsejluOhu82A", "alias":
+        "7-eleven-security-2", "name": "7-Eleven", "image_url": "", "is_closed": false,
+        "url": "https://www.yelp.com/biz/7-eleven-security-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 4, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 3.0, "coordinates": {"latitude":
+        38.7519403035927, "longitude": -104.742301851511}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "510 S Security Blvd",
+        "address2": "", "address3": "", "city": "Security", "zip_code": "80911", "country":
+        "US", "state": "CO", "display_address": ["510 S Security Blvd", "Security,
+        CO 80911"]}, "phone": "+17193906007", "display_phone": "(719) 390-6007", "distance":
+        55530.80158588997}, {"id": "yZ2KRHBmrlOqgj5cloVzXQ", "alias": "peak-31-colorado-springs-2",
+        "name": "PEAK 31", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/eZpoWwrmn7yT1U3hb2cEmQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/peak-31-colorado-springs-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 2, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}], "rating": 3.0, "coordinates": {"latitude": 38.8666084425994, "longitude":
+        -104.792608923971}, "transactions": ["pickup", "delivery"], "location": {"address1":
+        "2419 North Union Blvd", "address2": "", "address3": null, "city": "Colorado
+        Springs", "zip_code": "80909", "country": "US", "state": "CO", "display_address":
+        ["2419 North Union Blvd", "Colorado Springs, CO 80909"]}, "phone": "+17192277168",
+        "display_phone": "(719) 227-7168", "distance": 68986.08115893991}, {"id":
+        "thgUA7iJRvJCdjGpy6fBqg", "alias": "o-furrys-colorado-springs", "name": "O''furry''s",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CJkKtVRMfonL42X7aGU4Jg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/o-furrys-colorado-springs?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 46, "categories": [{"alias": "divebars", "title": "Dive Bars"},
+        {"alias": "chicken_wings", "title": "Chicken Wings"}, {"alias": "burgers",
+        "title": "Burgers"}], "rating": 3.5, "coordinates": {"latitude": 38.87455,
+        "longitude": -104.80831}, "transactions": [], "price": "$$", "location": {"address1":
+        "900 E Fillmore St", "address2": "", "address3": "", "city": "Colorado Springs",
+        "zip_code": "80907", "country": "US", "state": "CO", "display_address": ["900
+        E Fillmore St", "Colorado Springs, CO 80907"]}, "phone": "+17196343106", "display_phone":
+        "(719) 634-3106", "distance": 70227.37375825818}, {"id": "ZfEJSBMF9T3tmgdCRcqo5Q",
+        "alias": "on-the-boulevard-colorado-springs", "name": "On The Boulevard",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/arN1T5N0YztMN3KVvlyxHA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/on-the-boulevard-colorado-springs?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 113, "categories": [{"alias": "pubs", "title": "Pubs"}, {"alias":
+        "tradamerican", "title": "American (Traditional)"}], "rating": 4.0, "coordinates":
+        {"latitude": 38.87342599999999, "longitude": -104.747174}, "transactions":
+        ["pickup", "delivery"], "price": "$$", "location": {"address1": "2859 N Murrray
+        Blvd", "address2": "", "address3": "", "city": "Colorado Springs", "zip_code":
+        "80917", "country": "US", "state": "CO", "display_address": ["2859 N Murrray
+        Blvd", "Colorado Springs, CO 80917"]}, "phone": "+17194714424", "display_phone":
+        "(719) 471-4424", "distance": 68739.91991479081}, {"id": "8K_gaqfdmSMT7way0Vhhnw",
+        "alias": "johnnys-navajo-hogan-colorado-springs", "name": "Johnny''s Navajo
+        Hogan", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8zcRAvG4_nHd2ajCL7M22A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/johnnys-navajo-hogan-colorado-springs?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 153, "categories": [{"alias": "tradamerican", "title": "American
+        (Traditional)"}], "rating": 3.5, "coordinates": {"latitude": 38.8725357055664,
+        "longitude": -104.818809509277}, "transactions": ["delivery"], "price": "$$",
+        "location": {"address1": "2817 N Nevada Ave", "address2": "", "address3":
+        "", "city": "Colorado Springs", "zip_code": "80907", "country": "US", "state":
+        "CO", "display_address": ["2817 N Nevada Ave", "Colorado Springs, CO 80907"]},
+        "phone": "+17193449593", "display_phone": "(719) 344-9593", "distance": 70296.49464255982},
+        {"id": "-L3Ir21e68SC8QEWJ0hEeA", "alias": "7-eleven-colorado-springs-56",
+        "name": "7-Eleven", "image_url": "", "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-56?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 1, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "coffee", "title": "Coffee & Tea"}], "rating": 2.0, "coordinates":
+        {"latitude": 38.8407292162354, "longitude": -104.793766736984}, "transactions":
+        ["pickup", "delivery"], "price": "$", "location": {"address1": "525 N Union",
+        "address2": null, "address3": null, "city": "Colorado Springs", "zip_code":
+        "80909", "country": "US", "state": "CO", "display_address": ["525 N Union",
+        "Colorado Springs, CO 80909"]}, "phone": "+17196351104", "display_phone":
+        "(719) 635-1104", "distance": 66255.28412707055}, {"id": "5NYelHyKke_12hnhzs0yCA",
+        "alias": "thunder-and-buttons-colorado-springs-2", "name": "Thunder and Buttons",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/H6ll6RFMy5w3nezIXa3g6A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/thunder-and-buttons-colorado-springs-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 241, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}, {"alias": "pubs", "title": "Pubs"}], "rating": 4.0, "coordinates":
+        {"latitude": 38.8464889526367, "longitude": -104.862098693848}, "transactions":
+        ["delivery"], "price": "$$", "location": {"address1": "2415 W Colorado Ave",
+        "address2": null, "address3": null, "city": "Colorado Springs", "zip_code":
+        "80904", "country": "US", "state": "CO", "display_address": ["2415 W Colorado
+        Ave", "Colorado Springs, CO 80904"]}, "phone": "+17194479888", "display_phone":
+        "(719) 447-9888", "distance": 68808.77667652552}, {"id": "7Yo7J3bRB9xl7Z1Yv2BceQ",
+        "alias": "7-eleven-colorado-springs-52", "name": "7-Eleven", "image_url":
+        "", "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-52?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 3, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 2.5, "coordinates": {"latitude":
+        38.8991871624149, "longitude": -104.852273538763}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "4710 Centennial Blvd",
+        "address2": "", "address3": "", "city": "Colorado Springs", "zip_code": "80919",
+        "country": "US", "state": "CO", "display_address": ["4710 Centennial Blvd",
+        "Colorado Springs, CO 80919"]}, "phone": "+17192669623", "display_phone":
+        "(719) 266-9623", "distance": 74006.34812698065}, {"id": "Z4U7fDGM92fiyPezs6MbfQ",
+        "alias": "7-eleven-colorado-springs-29", "name": "7-Eleven", "image_url":
+        "", "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-29?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 1, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "servicestations", "title": "Gas Stations"}, {"alias":
+        "coffee", "title": "Coffee & Tea"}], "rating": 1.0, "coordinates": {"latitude":
+        38.8387350926544, "longitude": -104.748438745737}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "450 N Murray", "address2":
+        null, "address3": null, "city": "Colorado Springs", "zip_code": "80916", "country":
+        "US", "state": "CO", "display_address": ["450 N Murray", "Colorado Springs,
+        CO 80916"]}, "phone": "+17195745454", "display_phone": "(719) 574-5454", "distance":
+        65008.86859804407}, {"id": "q32XAij5RYCB_WVTa_0qZg", "alias": "7-eleven-colorado-springs-39",
+        "name": "7-Eleven", "image_url": "", "is_closed": false, "url": "https://www.yelp.com/biz/7-eleven-colorado-springs-39?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 2, "categories": [{"alias": "convenience", "title": "Convenience
+        Stores"}, {"alias": "coffee", "title": "Coffee & Tea"}], "rating": 1.5, "coordinates":
+        {"latitude": 38.8743093, "longitude": -104.8038312}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "1240 Fillmore", "address2":
+        null, "address3": null, "city": "Colorado Springs", "zip_code": "80907", "country":
+        "US", "state": "CO", "display_address": ["1240 Fillmore", "Colorado Springs,
+        CO 80907"]}, "phone": "+17196350219", "display_phone": "(719) 635-0219", "distance":
+        70081.80800656161}], "total": 30, "region": {"center": {"longitude": -104.5733642578125,
+        "latitude": 38.27035217485165}}}'
+  recorded_at: Tue, 19 Jan 2021 18:51:17 GMT
 recorded_with: VCR 6.0.0

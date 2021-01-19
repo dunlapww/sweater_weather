@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 19 Jan 2021 17:43:50 GMT
+      - Tue, 19 Jan 2021 18:51:17 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Transfer-Encoding:
@@ -27,11 +27,11 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=EB25339597D6DD6CC712121FCB1B5A77; Path=/directions; HttpOnly; Secure
+      - JSESSIONID=E1B51972AF25DE08F42BB3F8FD169779; Path=/directions; HttpOnly; Secure
       Expires:
       - Mon, 20 Dec 1998 01:00:00 GMT
       Last-Modified:
-      - Tue, 19 Jan 2021 17:43:50 GMT
+      - Tue, 19 Jan 2021 18:51:17 GMT
       Cache-Control:
       - no-cache, must-revalidate
       Pragma:
@@ -48,24 +48,24 @@ http_interactions:
       - max-age=0
     body:
       encoding: UTF-8
-      string: '{"route":{"hasTollRoad":false,"hasBridge":true,"boundingBox":{"lr":{"lng":-104.605087,"lat":38.265427},"ul":{"lng":-104.98761,"lat":39.738453}},"distance":111.38,"hasTimedRestriction":false,"hasTunnel":false,"hasHighway":true,"computedWaypoints":[],"routeError":{"errorCode":-400,"message":""},"formattedTime":"01:44:22","sessionId":"60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","hasAccessRestriction":false,"realTime":6618,"hasSeasonalClosure":false,"hasCountryCross":false,"fuelUsed":5.5,"legs":[{"hasTollRoad":false,"hasBridge":true,"destNarrative":"Proceed
+      string: '{"route":{"hasTollRoad":false,"hasBridge":true,"boundingBox":{"lr":{"lng":-104.605087,"lat":38.265427},"ul":{"lng":-104.98761,"lat":39.738453}},"distance":111.38,"hasTimedRestriction":false,"hasTunnel":false,"hasHighway":true,"computedWaypoints":[],"routeError":{"errorCode":-400,"message":""},"formattedTime":"01:44:22","sessionId":"60072a25-02ac-5f21-02b4-3300-0a10803a4a73","hasAccessRestriction":false,"realTime":6705,"hasSeasonalClosure":false,"hasCountryCross":false,"fuelUsed":5.5,"legs":[{"hasTollRoad":false,"hasBridge":true,"destNarrative":"Proceed
         to PUEBLO, CO.","distance":111.38,"hasTimedRestriction":false,"hasTunnel":false,"hasHighway":true,"index":0,"formattedTime":"01:44:22","origIndex":2,"hasAccessRestriction":false,"hasSeasonalClosure":false,"hasCountryCross":false,"roadGradeStrategy":[[]],"destIndex":5,"time":6262,"hasUnpaved":false,"origNarrative":"Go
         south on N Broadway.","maneuvers":[{"distance":0.109,"streets":["N Sherman
-        St"],"narrative":"Start out going south on N Sherman St toward E 13th Ave.","turnType":0,"startPoint":{"lng":-104.984856,"lat":39.738453},"index":0,"formattedTime":"00:00:33","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73845291137695,-104.98485565185547|marker-1||39.73687744140625,-104.9848403930664|marker-2||&center=39.7376651763916,-104.98484802246094&defaultMarker=none&zoom=13&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":33,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif","direction":4},{"distance":0.135,"streets":["E
-        13th Ave"],"narrative":"Turn right onto E 13th Ave.","turnType":2,"startPoint":{"lng":-104.98484,"lat":39.736877},"index":1,"formattedTime":"00:00:22","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73687744140625,-104.9848403930664|marker-2||39.73686981201172,-104.98737335205078|marker-3||&center=39.736873626708984,-104.9861068725586&defaultMarker=none&zoom=13&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":22,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":2.485,"streets":["N
-        Broadway"],"narrative":"Turn left onto N Broadway.","turnType":6,"startPoint":{"lng":-104.987373,"lat":39.73687},"index":2,"formattedTime":"00:06:00","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73686981201172,-104.98737335205078|marker-3||39.70085144042969,-104.98760986328125|marker-4||&center=39.7188606262207,-104.98749160766602&defaultMarker=none&zoom=8&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1024,"time":360,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":4},{"distance":0.014,"streets":[],"narrative":"Turn
-        left to take the I-25 S ramp toward Colo Spgs.","turnType":13,"startPoint":{"lng":-104.98761,"lat":39.700851},"index":3,"formattedTime":"00:00:07","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.70085144042969,-104.98760986328125|marker-4||39.70073318481445,-104.98739624023438|marker-5||&center=39.70079231262207,-104.98750305175781&defaultMarker=none&zoom=15&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":7,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_ramp_sm.gif","direction":5},{"distance":108.048,"streets":["I-25
-        S"],"narrative":"Merge onto I-25 S.","turnType":10,"startPoint":{"lng":-104.987396,"lat":39.700733},"index":4,"formattedTime":"01:35:56","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"25","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=25&d=SOUTH","direction":4}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.70073318481445,-104.98739624023438|marker-5||38.27111053466797,-104.60508728027344|marker-6||&center=38.98592185974121,-104.7962417602539&defaultMarker=none&zoom=3&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1152,"time":5756,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":0.221,"streets":[],"narrative":"Take
-        the 1st Street exit, EXIT 98B.","turnType":14,"startPoint":{"lng":-104.605087,"lat":38.271111},"index":5,"formattedTime":"00:00:25","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"98B","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=98B&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.27111053466797,-104.60508728027344|marker-6||38.26797103881836,-104.6056137084961|marker-7||&center=38.269540786743164,-104.60535049438477&defaultMarker=none&zoom=11&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":1024,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_gr_exitright_sm.gif","direction":4},{"distance":0.078,"streets":["E
-        1st St"],"narrative":"Turn right onto E 1st St.","turnType":2,"startPoint":{"lng":-104.605614,"lat":38.267971},"index":6,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.26797103881836,-104.6056137084961|marker-7||38.267940521240234,-104.60704803466797|marker-8||&center=38.2679557800293,-104.60633087158203&defaultMarker=none&zoom=15&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":0.079,"streets":["W
-        City Center Dr"],"narrative":"E 1st St becomes W City Center Dr.","turnType":0,"startPoint":{"lng":-104.607048,"lat":38.267941},"index":7,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267940521240234,-104.60704803466797|marker-8||38.267913818359375,-104.60850524902344|marker-9||&center=38.267927169799805,-104.6077766418457&defaultMarker=none&zoom=15&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif","direction":7},{"distance":0.211,"streets":["Central
-        Main St"],"narrative":"Turn left onto Central Main St.","turnType":6,"startPoint":{"lng":-104.608505,"lat":38.267914},"index":8,"formattedTime":"00:00:25","directionName":"Southwest","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267913818359375,-104.60850524902344|marker-9||38.26542663574219,-104.61041259765625|marker-10||&center=38.26667022705078,-104.60945892333984&defaultMarker=none&zoom=12&rand=-353453788&session=60071a56-01c6-5f21-02b4-3337-0a93d48cb9cb","transportMode":"AUTO","attributes":0,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":6},{"distance":0,"streets":[],"narrative":"Welcome
+        St"],"narrative":"Start out going south on N Sherman St toward E 13th Ave.","turnType":0,"startPoint":{"lng":-104.984856,"lat":39.738453},"index":0,"formattedTime":"00:00:33","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73845291137695,-104.98485565185547|marker-1||39.73687744140625,-104.9848403930664|marker-2||&center=39.7376651763916,-104.98484802246094&defaultMarker=none&zoom=13&rand=-620710375&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":33,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif","direction":4},{"distance":0.135,"streets":["E
+        13th Ave"],"narrative":"Turn right onto E 13th Ave.","turnType":2,"startPoint":{"lng":-104.98484,"lat":39.736877},"index":1,"formattedTime":"00:00:22","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73687744140625,-104.9848403930664|marker-2||39.73686981201172,-104.98737335205078|marker-3||&center=39.736873626708984,-104.9861068725586&defaultMarker=none&zoom=13&rand=-620710375&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":22,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":2.485,"streets":["N
+        Broadway"],"narrative":"Turn left onto N Broadway.","turnType":6,"startPoint":{"lng":-104.987373,"lat":39.73687},"index":2,"formattedTime":"00:06:00","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.73686981201172,-104.98737335205078|marker-3||39.70085144042969,-104.98760986328125|marker-4||&center=39.7188606262207,-104.98749160766602&defaultMarker=none&zoom=8&rand=-620710375&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":1024,"time":360,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":4},{"distance":0.014,"streets":[],"narrative":"Turn
+        left to take the I-25 S ramp toward Colo Spgs.","turnType":13,"startPoint":{"lng":-104.98761,"lat":39.700851},"index":3,"formattedTime":"00:00:07","directionName":"Southeast","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.70085144042969,-104.98760986328125|marker-4||39.70073318481445,-104.98739624023438|marker-5||&center=39.70079231262207,-104.98750305175781&defaultMarker=none&zoom=15&rand=-620710375&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":7,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_ramp_sm.gif","direction":5},{"distance":108.048,"streets":["I-25
+        S"],"narrative":"Merge onto I-25 S.","turnType":10,"startPoint":{"lng":-104.987396,"lat":39.700733},"index":4,"formattedTime":"01:35:56","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"25","type":1,"url":"http://icons.mqcdn.com/icons/rs1.png?n=25&d=SOUTH","direction":4}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=39.70073318481445,-104.98739624023438|marker-5||38.27111053466797,-104.60508728027344|marker-6||&center=38.98592185974121,-104.7962417602539&defaultMarker=none&zoom=3&rand=-620710375&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":1152,"time":5756,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_merge_right_sm.gif","direction":4},{"distance":0.221,"streets":[],"narrative":"Take
+        the 1st Street exit, EXIT 98B.","turnType":14,"startPoint":{"lng":-104.605087,"lat":38.271111},"index":5,"formattedTime":"00:00:25","directionName":"South","maneuverNotes":[],"linkIds":[],"signs":[{"extraText":"","text":"98B","type":1001,"url":"http://icons.mqcdn.com/icons/rs1001.png?n=98B&d=RIGHT","direction":0}],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.27111053466797,-104.60508728027344|marker-6||38.26797103881836,-104.6056137084961|marker-7||&center=38.269540786743164,-104.60535049438477&defaultMarker=none&zoom=11&rand=-621095124&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":1024,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_gr_exitright_sm.gif","direction":4},{"distance":0.078,"streets":["E
+        1st St"],"narrative":"Turn right onto E 1st St.","turnType":2,"startPoint":{"lng":-104.605614,"lat":38.267971},"index":6,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.26797103881836,-104.6056137084961|marker-7||38.267940521240234,-104.60704803466797|marker-8||&center=38.2679557800293,-104.60633087158203&defaultMarker=none&zoom=15&rand=-621095124&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_right_sm.gif","direction":7},{"distance":0.079,"streets":["W
+        City Center Dr"],"narrative":"E 1st St becomes W City Center Dr.","turnType":0,"startPoint":{"lng":-104.607048,"lat":38.267941},"index":7,"formattedTime":"00:00:17","directionName":"West","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267940521240234,-104.60704803466797|marker-8||38.267913818359375,-104.60850524902344|marker-9||&center=38.267927169799805,-104.6077766418457&defaultMarker=none&zoom=15&rand=-621095124&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":17,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif","direction":7},{"distance":0.211,"streets":["Central
+        Main St"],"narrative":"Turn left onto Central Main St.","turnType":6,"startPoint":{"lng":-104.608505,"lat":38.267914},"index":8,"formattedTime":"00:00:25","directionName":"Southwest","maneuverNotes":[],"linkIds":[],"signs":[],"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<MAP_KEY>&size=225,160&locations=38.267913818359375,-104.60850524902344|marker-9||38.26542663574219,-104.61041259765625|marker-10||&center=38.26667022705078,-104.60945892333984&defaultMarker=none&zoom=12&rand=-621095124&session=60072a25-02ac-5f21-02b4-3300-0a10803a4a73","transportMode":"AUTO","attributes":0,"time":25,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif","direction":6},{"distance":0,"streets":[],"narrative":"Welcome
         to PUEBLO, CO.","turnType":-1,"startPoint":{"lng":-104.610413,"lat":38.265427},"index":9,"formattedTime":"00:00:00","directionName":"","maneuverNotes":[],"linkIds":[],"signs":[],"transportMode":"AUTO","attributes":0,"time":0,"iconUrl":"http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-end_sm.gif","direction":0}],"hasFerry":false}],"options":{"arteryWeights":[],"cyclingRoadFactor":1,"timeType":0,"useTraffic":false,"returnLinkDirections":false,"countryBoundaryDisplay":true,"enhancedNarrative":false,"locale":"en_US","tryAvoidLinkIds":[],"drivingStyle":2,"doReverseGeocode":true,"generalize":-1,"mustAvoidLinkIds":[],"sideOfStreetDisplay":true,"routeType":"FASTEST","avoidTimedConditions":false,"routeNumber":0,"shapeFormat":"raw","maxWalkingDistance":-1,"destinationManeuverDisplay":true,"transferPenalty":-1,"narrativeType":"text","walkingSpeed":-1,"urbanAvoidFactor":-1,"stateBoundaryDisplay":true,"unit":"M","highwayEfficiency":22,"maxLinkId":0,"maneuverPenalty":-1,"avoidTripIds":[],"filterZoneFactor":-1,"manmaps":"true"},"locations":[{"dragPoint":false,"displayLatLng":{"lng":-104.984856,"lat":39.738453},"adminArea4":"Denver
         County","adminArea5":"Denver","postalCode":"","adminArea1":"US","adminArea3":"CO","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":40287819,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-104.984853,"lat":39.738453}},{"dragPoint":false,"displayLatLng":{"lng":-104.610413,"lat":38.265427},"adminArea4":"Pueblo
         County","adminArea5":"Pueblo","postalCode":"","adminArea1":"US","adminArea3":"CO","type":"s","sideOfStreet":"N","geocodeQualityCode":"A5XAX","adminArea4Type":"County","linkId":54760889,"street":"","adminArea5Type":"City","geocodeQuality":"CITY","adminArea1Type":"Country","adminArea3Type":"State","latLng":{"lng":-104.610415,"lat":38.265425}}],"time":6262,"hasUnpaved":false,"locationSequence":[0,1],"hasFerry":false},"info":{"statuscode":0,"copyright":{"imageAltText":"©
         2020 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","text":"©
         2020 MapQuest, Inc."},"messages":[]}}'
-  recorded_at: Tue, 19 Jan 2021 17:43:50 GMT
+  recorded_at: Tue, 19 Jan 2021 18:51:17 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=<WEATHER_KEY>&lat=38.265427&lon=-104.610413
@@ -87,11 +87,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 19 Jan 2021 17:43:50 GMT
+      - Tue, 19 Jan 2021 18:51:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '18355'
+      - '16238'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -104,67 +104,67 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":38.2654,"lon":-104.6104,"timezone":"America/Denver","timezone_offset":-25200,"current":{"dt":1611078230,"sunrise":1611065519,"sunset":1611101172,"temp":272.24,"feels_like":268.31,"pressure":1032,"humidity":80,"dew_point":269.58,"uvi":1.8,"clouds":75,"visibility":10000,"wind_speed":2.06,"wind_deg":240,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}]},"minutely":[{"dt":1611078240,"precipitation":0},{"dt":1611078300,"precipitation":0},{"dt":1611078360,"precipitation":0},{"dt":1611078420,"precipitation":0},{"dt":1611078480,"precipitation":0},{"dt":1611078540,"precipitation":0},{"dt":1611078600,"precipitation":0},{"dt":1611078660,"precipitation":0},{"dt":1611078720,"precipitation":0},{"dt":1611078780,"precipitation":0},{"dt":1611078840,"precipitation":0},{"dt":1611078900,"precipitation":0},{"dt":1611078960,"precipitation":0},{"dt":1611079020,"precipitation":0},{"dt":1611079080,"precipitation":0},{"dt":1611079140,"precipitation":0},{"dt":1611079200,"precipitation":0},{"dt":1611079260,"precipitation":0},{"dt":1611079320,"precipitation":0},{"dt":1611079380,"precipitation":0},{"dt":1611079440,"precipitation":0},{"dt":1611079500,"precipitation":0},{"dt":1611079560,"precipitation":0},{"dt":1611079620,"precipitation":0},{"dt":1611079680,"precipitation":0},{"dt":1611079740,"precipitation":0},{"dt":1611079800,"precipitation":0},{"dt":1611079860,"precipitation":0},{"dt":1611079920,"precipitation":0},{"dt":1611079980,"precipitation":0},{"dt":1611080040,"precipitation":0},{"dt":1611080100,"precipitation":0},{"dt":1611080160,"precipitation":0},{"dt":1611080220,"precipitation":0},{"dt":1611080280,"precipitation":0},{"dt":1611080340,"precipitation":0},{"dt":1611080400,"precipitation":0},{"dt":1611080460,"precipitation":0},{"dt":1611080520,"precipitation":0},{"dt":1611080580,"precipitation":0},{"dt":1611080640,"precipitation":0},{"dt":1611080700,"precipitation":0},{"dt":1611080760,"precipitation":0},{"dt":1611080820,"precipitation":0},{"dt":1611080880,"precipitation":0},{"dt":1611080940,"precipitation":0},{"dt":1611081000,"precipitation":0},{"dt":1611081060,"precipitation":0},{"dt":1611081120,"precipitation":0},{"dt":1611081180,"precipitation":0},{"dt":1611081240,"precipitation":0},{"dt":1611081300,"precipitation":0},{"dt":1611081360,"precipitation":0},{"dt":1611081420,"precipitation":0},{"dt":1611081480,"precipitation":0},{"dt":1611081540,"precipitation":0},{"dt":1611081600,"precipitation":0},{"dt":1611081660,"precipitation":0},{"dt":1611081720,"precipitation":0},{"dt":1611081780,"precipitation":0},{"dt":1611081840,"precipitation":0}],"hourly":[{"dt":1611075600,"temp":272.24,"feels_like":267.84,"pressure":1032,"humidity":80,"dew_point":269.58,"uvi":1.24,"clouds":75,"visibility":10000,"wind_speed":2.73,"wind_deg":251,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0.35},{"dt":1611079200,"temp":272.65,"feels_like":268.55,"pressure":1033,"humidity":85,"dew_point":270.7,"uvi":1.8,"clouds":87,"visibility":10000,"wind_speed":2.5,"wind_deg":245,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04d"}],"pop":0.33},{"dt":1611082800,"temp":273.2,"feels_like":269.61,"pressure":1033,"humidity":84,"dew_point":271.09,"uvi":2.19,"clouds":95,"visibility":10000,"wind_speed":1.84,"wind_deg":218,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04d"}],"pop":0.04},{"dt":1611086400,"temp":273.93,"feels_like":270.05,"pressure":1031,"humidity":82,"dew_point":271.44,"uvi":1.95,"clouds":53,"visibility":10000,"wind_speed":2.33,"wind_deg":196,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1611090000,"temp":274.6,"feels_like":270.23,"pressure":1030,"humidity":80,"dew_point":271.72,"uvi":1.34,"clouds":38,"visibility":10000,"wind_speed":3.09,"wind_deg":198,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1611093600,"temp":274.97,"feels_like":270.49,"pressure":1029,"humidity":79,"dew_point":267.61,"uvi":0.73,"clouds":40,"visibility":10000,"wind_speed":3.28,"wind_deg":195,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1611097200,"temp":274.95,"feels_like":270.77,"pressure":1029,"humidity":80,"dew_point":268.1,"uvi":0.22,"clouds":34,"visibility":10000,"wind_speed":2.88,"wind_deg":177,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1611100800,"temp":273.32,"feels_like":269.81,"pressure":1030,"humidity":89,"dew_point":268.05,"uvi":0,"clouds":29,"visibility":10000,"wind_speed":1.89,"wind_deg":164,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1611104400,"temp":272.43,"feels_like":269.51,"pressure":1031,"humidity":91,"dew_point":267.89,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":0.94,"wind_deg":178,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611108000,"temp":271.91,"feels_like":268.83,"pressure":1031,"humidity":92,"dew_point":267.66,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":1.11,"wind_deg":185,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611111600,"temp":271.77,"feels_like":268.36,"pressure":1031,"humidity":91,"dew_point":267.38,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":1.53,"wind_deg":175,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611115200,"temp":271.31,"feels_like":268.45,"pressure":1031,"humidity":92,"dew_point":267.02,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":0.68,"wind_deg":152,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611118800,"temp":271.05,"feels_like":268.11,"pressure":1031,"humidity":91,"dew_point":266.6,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":0.73,"wind_deg":177,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611122400,"temp":270.91,"feels_like":267.39,"pressure":1030,"humidity":91,"dew_point":266.41,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":1.54,"wind_deg":189,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611126000,"temp":270.44,"feels_like":267.37,"pressure":1030,"humidity":92,"dew_point":266.4,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":0.84,"wind_deg":235,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611129600,"temp":270.48,"feels_like":267.03,"pressure":1029,"humidity":91,"dew_point":266.24,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.37,"wind_deg":278,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611133200,"temp":270.52,"feels_like":267.05,"pressure":1028,"humidity":91,"dew_point":265.96,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.4,"wind_deg":226,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611136800,"temp":270.91,"feels_like":267.1,"pressure":1027,"humidity":90,"dew_point":265.64,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.92,"wind_deg":274,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611140400,"temp":271.36,"feels_like":267.13,"pressure":1026,"humidity":88,"dew_point":265.18,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.55,"wind_deg":261,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611144000,"temp":271.93,"feels_like":267.22,"pressure":1025,"humidity":87,"dew_point":265.09,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.3,"wind_deg":265,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611147600,"temp":272.4,"feels_like":267.56,"pressure":1024,"humidity":87,"dew_point":265.31,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.57,"wind_deg":261,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611151200,"temp":272.56,"feels_like":267.66,"pressure":1023,"humidity":87,"dew_point":265.5,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.69,"wind_deg":272,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611154800,"temp":274.09,"feels_like":268.59,"pressure":1023,"humidity":81,"dew_point":265.96,"uvi":0.23,"clouds":0,"visibility":10000,"wind_speed":4.64,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611158400,"temp":277.02,"feels_like":270.73,"pressure":1020,"humidity":67,"dew_point":267.1,"uvi":0.74,"clouds":0,"visibility":10000,"wind_speed":5.82,"wind_deg":288,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611162000,"temp":279.16,"feels_like":272.21,"pressure":1018,"humidity":59,"dew_point":268.23,"uvi":1.44,"clouds":0,"visibility":10000,"wind_speed":6.82,"wind_deg":288,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611165600,"temp":281.08,"feels_like":274.88,"pressure":1017,"humidity":53,"dew_point":269.4,"uvi":2.08,"clouds":0,"visibility":10000,"wind_speed":5.8,"wind_deg":278,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611169200,"temp":282.45,"feels_like":277.18,"pressure":1015,"humidity":49,"dew_point":270.4,"uvi":2.3,"clouds":0,"visibility":10000,"wind_speed":4.52,"wind_deg":271,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611172800,"temp":283.47,"feels_like":278.84,"pressure":1013,"humidity":46,"dew_point":271.08,"uvi":2.04,"clouds":0,"visibility":10000,"wind_speed":3.62,"wind_deg":262,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611176400,"temp":284.25,"feels_like":279.74,"pressure":1012,"humidity":45,"dew_point":271.66,"uvi":1.42,"clouds":0,"visibility":10000,"wind_speed":3.52,"wind_deg":240,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611180000,"temp":284.27,"feels_like":280.09,"pressure":1012,"humidity":45,"dew_point":272.66,"uvi":0.72,"clouds":0,"visibility":10000,"wind_speed":3.06,"wind_deg":239,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611183600,"temp":282.65,"feels_like":278.85,"pressure":1012,"humidity":51,"dew_point":273.16,"uvi":0.22,"clouds":0,"visibility":10000,"wind_speed":2.56,"wind_deg":239,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611187200,"temp":279.3,"feels_like":275.55,"pressure":1013,"humidity":63,"dew_point":272.47,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.44,"wind_deg":239,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611190800,"temp":278.55,"feels_like":274.32,"pressure":1014,"humidity":65,"dew_point":271.03,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.08,"wind_deg":272,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611194400,"temp":277.57,"feels_like":273.14,"pressure":1015,"humidity":68,"dew_point":269.99,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.3,"wind_deg":276,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611198000,"temp":277.03,"feels_like":271.98,"pressure":1016,"humidity":70,"dew_point":269.01,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.16,"wind_deg":282,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611201600,"temp":276.45,"feels_like":271.42,"pressure":1016,"humidity":72,"dew_point":268.37,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.09,"wind_deg":282,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611205200,"temp":276.61,"feels_like":271.14,"pressure":1017,"humidity":71,"dew_point":268.11,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.72,"wind_deg":285,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611208800,"temp":276.58,"feels_like":271.01,"pressure":1018,"humidity":71,"dew_point":267.93,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.85,"wind_deg":274,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611212400,"temp":276.28,"feels_like":271.09,"pressure":1018,"humidity":72,"dew_point":267.81,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.3,"wind_deg":268,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611216000,"temp":276.31,"feels_like":270.65,"pressure":1018,"humidity":71,"dew_point":267.62,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.94,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611219600,"temp":276.25,"feels_like":270.01,"pressure":1017,"humidity":72,"dew_point":267.52,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.79,"wind_deg":284,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611223200,"temp":276.37,"feels_like":268.95,"pressure":1017,"humidity":71,"dew_point":267.47,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":7.46,"wind_deg":287,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611226800,"temp":276.24,"feels_like":268.87,"pressure":1017,"humidity":71,"dew_point":267.39,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":7.37,"wind_deg":284,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611230400,"temp":275.86,"feels_like":268.84,"pressure":1017,"humidity":73,"dew_point":267.34,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.87,"wind_deg":288,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611234000,"temp":275.26,"feels_like":269.31,"pressure":1017,"humidity":77,"dew_point":267.31,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.37,"wind_deg":278,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611237600,"temp":275.04,"feels_like":269.27,"pressure":1018,"humidity":78,"dew_point":267.17,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.1,"wind_deg":285,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1611241200,"temp":275.76,"feels_like":269.96,"pressure":1018,"humidity":74,"dew_point":267.13,"uvi":0.22,"clouds":0,"visibility":10000,"wind_speed":5.14,"wind_deg":293,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1611244800,"temp":278.24,"feels_like":272.21,"pressure":1017,"humidity":62,"dew_point":267.46,"uvi":0.73,"clouds":0,"visibility":10000,"wind_speed":5.46,"wind_deg":304,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1611082800,"sunrise":1611065519,"sunset":1611101172,"temp":{"day":273.2,"min":270.65,"max":274.97,"night":270.91,"eve":272.43,"morn":270.65},"feels_like":{"day":269.61,"night":267.39,"eve":269.51,"morn":267.79},"pressure":1033,"humidity":84,"dew_point":271.09,"wind_speed":1.84,"wind_deg":218,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":95,"pop":0.76,"snow":2.77,"uvi":2.19},{"dt":1611169200,"sunrise":1611151889,"sunset":1611187638,"temp":{"day":282.45,"min":270.44,"max":284.27,"night":276.58,"eve":278.55,"morn":272.4},"feels_like":{"day":277.18,"night":271.01,"eve":274.32,"morn":267.56},"pressure":1015,"humidity":49,"dew_point":270.4,"wind_speed":4.52,"wind_deg":271,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":2.3},{"dt":1611255600,"sunrise":1611238257,"sunset":1611274104,"temp":{"day":281.95,"min":274.41,"max":282.26,"night":274.41,"eve":277.67,"morn":275.26},"feels_like":{"day":277.59,"night":270.83,"eve":273.94,"morn":269.31},"pressure":1014,"humidity":48,"dew_point":267.68,"wind_speed":3.08,"wind_deg":79,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":2.48},{"dt":1611342000,"sunrise":1611324624,"sunset":1611360571,"temp":{"day":276.5,"min":271.12,"max":279,"night":274.36,"eve":277.5,"morn":271.12},"feels_like":{"day":273.76,"night":271.68,"eve":273.86,"morn":267.9},"pressure":1016,"humidity":69,"dew_point":266.84,"wind_speed":0.72,"wind_deg":20,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"clouds":31,"pop":0,"uvi":2.33},{"dt":1611428400,"sunrise":1611410988,"sunset":1611447038,"temp":{"day":282.79,"min":274.19,"max":286.48,"night":276.66,"eve":282.46,"morn":274.19},"feels_like":{"day":279.07,"night":269.53,"eve":277.57,"morn":270.93},"pressure":1005,"humidity":46,"dew_point":268.19,"wind_speed":2.2,"wind_deg":267,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":9,"pop":0,"uvi":2.37},{"dt":1611514800,"sunrise":1611497351,"sunset":1611533506,"temp":{"day":276.26,"min":272.21,"max":279.11,"night":274.04,"eve":277.67,"morn":272.21},"feels_like":{"day":272.9,"night":270.65,"eve":272.55,"morn":268.58},"pressure":1007,"humidity":75,"dew_point":270.05,"wind_speed":1.79,"wind_deg":125,"weather":[{"id":600,"main":"Snow","description":"light
-        snow","icon":"13d"}],"clouds":19,"pop":0.29,"snow":0.13,"uvi":3},{"dt":1611601200,"sunrise":1611583712,"sunset":1611619974,"temp":{"day":278.28,"min":271.15,"max":280.44,"night":273.32,"eve":278.41,"morn":271.15},"feels_like":{"day":273.99,"night":270.33,"eve":273.67,"morn":267.84},"pressure":1007,"humidity":55,"dew_point":262.32,"wind_speed":2.7,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":3},{"dt":1611687600,"sunrise":1611670071,"sunset":1611706442,"temp":{"day":276.68,"min":271.22,"max":277.81,"night":271.45,"eve":276.09,"morn":271.22},"feels_like":{"day":266.61,"night":266.39,"eve":270.1,"morn":267.05},"pressure":1003,"humidity":50,"dew_point":254.44,"wind_speed":10.52,"wind_deg":278,"weather":[{"id":600,"main":"Snow","description":"light
-        snow","icon":"13d"}],"clouds":100,"pop":0.36,"snow":0.38,"uvi":3}]}'
-  recorded_at: Tue, 19 Jan 2021 17:43:50 GMT
+      string: '{"lat":38.2654,"lon":-104.6104,"timezone":"America/Denver","timezone_offset":-25200,"current":{"dt":1611082278,"sunrise":1611065519,"sunset":1611101172,"temp":273.2,"feels_like":268.9,"pressure":1032,"humidity":74,"dew_point":269.59,"uvi":2.19,"clouds":1,"visibility":10000,"wind_speed":2.57,"wind_deg":210,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"},{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"rain":{"1h":0.25},"snow":{"1h":0.25}},"hourly":[{"dt":1611079200,"temp":273.2,"feels_like":269.82,"pressure":1032,"humidity":74,"dew_point":269.59,"uvi":1.8,"clouds":1,"visibility":10000,"wind_speed":1.25,"wind_deg":276,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0.33},{"dt":1611082800,"temp":273,"feels_like":269.84,"pressure":1032,"humidity":82,"dew_point":270.61,"uvi":2.19,"clouds":49,"visibility":10000,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.08},{"dt":1611086400,"temp":273.68,"feels_like":270.02,"pressure":1031,"humidity":84,"dew_point":271.51,"uvi":1.95,"clouds":49,"visibility":10000,"wind_speed":2.02,"wind_deg":182,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.08},{"dt":1611090000,"temp":274.43,"feels_like":270.21,"pressure":1030,"humidity":82,"dew_point":271.87,"uvi":1.34,"clouds":40,"visibility":10000,"wind_speed":2.9,"wind_deg":195,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.04},{"dt":1611093600,"temp":274.83,"feels_like":270.45,"pressure":1029,"humidity":81,"dew_point":272.07,"uvi":0.73,"clouds":44,"visibility":10000,"wind_speed":3.18,"wind_deg":192,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1611097200,"temp":274.86,"feels_like":270.82,"pressure":1028,"humidity":81,"dew_point":268.87,"uvi":0.22,"clouds":44,"visibility":10000,"wind_speed":2.7,"wind_deg":176,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1611100800,"temp":273.23,"feels_like":270.12,"pressure":1029,"humidity":91,"dew_point":268.62,"uvi":0,"clouds":37,"visibility":10000,"wind_speed":1.36,"wind_deg":151,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0},{"dt":1611104400,"temp":272.55,"feels_like":269.53,"pressure":1031,"humidity":92,"dew_point":268.41,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.14,"wind_deg":174,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611108000,"temp":271.95,"feels_like":268.85,"pressure":1031,"humidity":93,"dew_point":268.13,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.16,"wind_deg":178,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611111600,"temp":271.68,"feels_like":268.65,"pressure":1031,"humidity":92,"dew_point":267.79,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":0.99,"wind_deg":170,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611115200,"temp":271.37,"feels_like":268.6,"pressure":1031,"humidity":92,"dew_point":267.51,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":0.57,"wind_deg":183,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611118800,"temp":271,"feels_like":268.27,"pressure":1031,"humidity":92,"dew_point":267.22,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":0.45,"wind_deg":203,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611122400,"temp":270.71,"feels_like":267.73,"pressure":1030,"humidity":92,"dew_point":266.97,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":0.76,"wind_deg":211,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611126000,"temp":270.93,"feels_like":267.43,"pressure":1030,"humidity":92,"dew_point":266.94,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.54,"wind_deg":219,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611129600,"temp":270.94,"feels_like":267.25,"pressure":1029,"humidity":92,"dew_point":266.77,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.81,"wind_deg":238,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611133200,"temp":270.97,"feels_like":267.07,"pressure":1027,"humidity":91,"dew_point":266.26,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.09,"wind_deg":280,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611136800,"temp":271.32,"feels_like":267.3,"pressure":1026,"humidity":89,"dew_point":265.67,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.27,"wind_deg":236,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611140400,"temp":271.61,"feels_like":267.23,"pressure":1025,"humidity":88,"dew_point":265.38,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.81,"wind_deg":267,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611144000,"temp":272.12,"feels_like":267.28,"pressure":1025,"humidity":87,"dew_point":265.28,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.52,"wind_deg":267,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611147600,"temp":272.37,"feels_like":267.67,"pressure":1024,"humidity":87,"dew_point":265.34,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.37,"wind_deg":264,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611151200,"temp":272.9,"feels_like":267.86,"pressure":1023,"humidity":86,"dew_point":265.63,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.92,"wind_deg":269,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611154800,"temp":274.36,"feels_like":268.65,"pressure":1023,"humidity":80,"dew_point":266.15,"uvi":0.23,"clouds":0,"visibility":10000,"wind_speed":4.96,"wind_deg":282,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611158400,"temp":277.01,"feels_like":270.4,"pressure":1020,"humidity":68,"dew_point":267.29,"uvi":0.74,"clouds":0,"visibility":10000,"wind_speed":6.31,"wind_deg":288,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611162000,"temp":279.32,"feels_like":272.34,"pressure":1018,"humidity":59,"dew_point":268.45,"uvi":1.44,"clouds":0,"visibility":10000,"wind_speed":6.89,"wind_deg":285,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611165600,"temp":281.27,"feels_like":275.22,"pressure":1017,"humidity":53,"dew_point":269.79,"uvi":2.08,"clouds":0,"visibility":10000,"wind_speed":5.63,"wind_deg":275,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611169200,"temp":282.65,"feels_like":277.41,"pressure":1015,"humidity":49,"dew_point":270.54,"uvi":2.3,"clouds":0,"visibility":10000,"wind_speed":4.51,"wind_deg":273,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611172800,"temp":283.86,"feels_like":279.35,"pressure":1013,"humidity":45,"dew_point":270.91,"uvi":2.04,"clouds":0,"visibility":10000,"wind_speed":3.45,"wind_deg":269,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611176400,"temp":284.57,"feels_like":280.29,"pressure":1012,"humidity":43,"dew_point":271.46,"uvi":1.42,"clouds":0,"visibility":10000,"wind_speed":3.13,"wind_deg":240,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611180000,"temp":284.47,"feels_like":280.1,"pressure":1012,"humidity":44,"dew_point":272.28,"uvi":0.72,"clouds":0,"visibility":10000,"wind_speed":3.3,"wind_deg":222,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611183600,"temp":282.84,"feels_like":278.83,"pressure":1012,"humidity":50,"dew_point":272.72,"uvi":0.22,"clouds":0,"visibility":10000,"wind_speed":2.85,"wind_deg":231,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611187200,"temp":279.96,"feels_like":275.75,"pressure":1013,"humidity":60,"dew_point":271.46,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.09,"wind_deg":238,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611190800,"temp":278.64,"feels_like":274.3,"pressure":1015,"humidity":64,"dew_point":270.56,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.21,"wind_deg":259,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611194400,"temp":277.67,"feels_like":273.08,"pressure":1015,"humidity":68,"dew_point":269.71,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.54,"wind_deg":279,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611198000,"temp":277.03,"feels_like":272.16,"pressure":1016,"humidity":70,"dew_point":268.91,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.9,"wind_deg":286,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611201600,"temp":276.47,"feels_like":271.54,"pressure":1017,"humidity":72,"dew_point":268.39,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.96,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611205200,"temp":276.12,"feels_like":271.25,"pressure":1017,"humidity":73,"dew_point":268.16,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.85,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611208800,"temp":276.36,"feels_like":270.87,"pressure":1017,"humidity":72,"dew_point":267.95,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.73,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611212400,"temp":276.27,"feels_like":270.81,"pressure":1018,"humidity":72,"dew_point":267.9,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.68,"wind_deg":281,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611216000,"temp":276.14,"feels_like":270.23,"pressure":1017,"humidity":73,"dew_point":267.73,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.33,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611219600,"temp":275.74,"feels_like":270.23,"pressure":1017,"humidity":74,"dew_point":267.65,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":4.72,"wind_deg":278,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611223200,"temp":275.95,"feels_like":269.88,"pressure":1017,"humidity":73,"dew_point":267.47,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.52,"wind_deg":283,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611226800,"temp":276.02,"feels_like":269.44,"pressure":1017,"humidity":73,"dew_point":267.35,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.27,"wind_deg":286,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611230400,"temp":275.99,"feels_like":269.05,"pressure":1017,"humidity":73,"dew_point":267.26,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.78,"wind_deg":280,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611234000,"temp":275.79,"feels_like":268.81,"pressure":1017,"humidity":74,"dew_point":267.22,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":6.83,"wind_deg":286,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611237600,"temp":275.26,"feels_like":269.1,"pressure":1017,"humidity":76,"dew_point":267.09,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.63,"wind_deg":288,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01n"}],"pop":0},{"dt":1611241200,"temp":276.13,"feels_like":269.03,"pressure":1018,"humidity":72,"dew_point":267.04,"uvi":0.22,"clouds":0,"visibility":10000,"wind_speed":6.99,"wind_deg":301,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611244800,"temp":278.61,"feels_like":272.16,"pressure":1017,"humidity":61,"dew_point":267.52,"uvi":0.73,"clouds":0,"visibility":10000,"wind_speed":6.09,"wind_deg":307,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0},{"dt":1611248400,"temp":280.31,"feels_like":274.42,"pressure":1015,"humidity":54,"dew_point":267.57,"uvi":1.42,"clouds":0,"visibility":10000,"wind_speed":5.28,"wind_deg":323,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1611082800,"sunrise":1611065519,"sunset":1611101172,"temp":{"day":273,"min":270.65,"max":274.86,"night":270.71,"eve":272.55,"morn":270.7},"feels_like":{"day":269.84,"night":267.73,"eve":269.53,"morn":267.78},"pressure":1032,"humidity":82,"dew_point":270.61,"wind_speed":1.13,"wind_deg":199,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":49,"pop":0.76,"snow":2.75,"uvi":2.19},{"dt":1611169200,"sunrise":1611151889,"sunset":1611187638,"temp":{"day":282.65,"min":270.93,"max":284.57,"night":276.36,"eve":278.64,"morn":272.37},"feels_like":{"day":277.41,"night":270.87,"eve":274.3,"morn":267.67},"pressure":1015,"humidity":49,"dew_point":270.54,"wind_speed":4.51,"wind_deg":273,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":2.3},{"dt":1611255600,"sunrise":1611238257,"sunset":1611274104,"temp":{"day":282.44,"min":274.81,"max":282.95,"night":274.81,"eve":277.96,"morn":275.79},"feels_like":{"day":278.77,"night":271.19,"eve":274.15,"morn":268.81},"pressure":1013,"humidity":46,"dew_point":267.44,"wind_speed":2.06,"wind_deg":93,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"clouds":54,"pop":0,"uvi":2.48},{"dt":1611342000,"sunrise":1611324624,"sunset":1611360571,"temp":{"day":276.4,"min":271.16,"max":279.62,"night":274.11,"eve":277.52,"morn":271.16},"feels_like":{"day":273.79,"night":271.22,"eve":274.09,"morn":267.85},"pressure":1013,"humidity":70,"dew_point":266.89,"wind_speed":0.56,"wind_deg":132,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"clouds":41,"pop":0,"uvi":2.33},{"dt":1611428400,"sunrise":1611410988,"sunset":1611447038,"temp":{"day":282.6,"min":273.48,"max":284.9,"night":273.48,"eve":279.47,"morn":273.73},"feels_like":{"day":278.93,"night":269.5,"eve":273.75,"morn":270.33},"pressure":1007,"humidity":46,"dew_point":267.54,"wind_speed":2.09,"wind_deg":275,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"clouds":78,"pop":0.04,"uvi":2.37},{"dt":1611514800,"sunrise":1611497351,"sunset":1611533506,"temp":{"day":274.89,"min":272.15,"max":277.73,"night":274.31,"eve":276.78,"morn":272.5},"feels_like":{"day":271.06,"night":271.99,"eve":272.53,"morn":268.7},"pressure":1008,"humidity":83,"dew_point":269.77,"wind_speed":2.47,"wind_deg":120,"weather":[{"id":600,"main":"Snow","description":"light
+        snow","icon":"13d"}],"clouds":92,"pop":0.39,"snow":0.54,"uvi":3},{"dt":1611601200,"sunrise":1611583712,"sunset":1611619974,"temp":{"day":278.71,"min":271.69,"max":280.04,"night":272.45,"eve":277.07,"morn":271.69},"feels_like":{"day":273.26,"night":269.56,"eve":274.28,"morn":268.35},"pressure":1006,"humidity":53,"dew_point":262.02,"wind_speed":4.34,"wind_deg":284,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":3},{"dt":1611687600,"sunrise":1611670071,"sunset":1611706442,"temp":{"day":277.66,"min":270.7,"max":277.66,"night":270.7,"eve":274.75,"morn":270.87},"feels_like":{"day":267.76,"night":263.54,"eve":263.43,"morn":267.52},"pressure":1003,"humidity":55,"dew_point":260.33,"wind_speed":10.61,"wind_deg":287,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"clouds":18,"pop":0,"uvi":3}]}'
+  recorded_at: Tue, 19 Jan 2021 18:51:18 GMT
 - request:
     method: get
-    uri: https://api.yelp.com/v3/businesses/search?location=Pueblo,%20CO&open_at=1611059122&term=tacos
+    uri: https://api.yelp.com/v3/businesses/search?location=Pueblo,%20CO&open_at=1611063340&term=tacos
     body:
       encoding: US-ASCII
       string: ''
@@ -189,31 +189,31 @@ http_interactions:
       Ratelimit-Dailylimit:
       - '5000'
       Ratelimit-Remaining:
-      - '4975'
+      - '4970'
       X-Zipkin-Id:
-      - 9e3d2cd7b216bb5d
+      - d10195aeeeec76cd
       Server:
       - envoy
       Ratelimit-Resettime:
       - '2021-01-20T00:00:00+00:00'
       X-Routing-Service:
-      - routing-main--uswest2-5b584d59bc-nfkm9; site=public_api_v3
+      - routing-main--uswest2-5b584d59bc-kxh6p; site=public_api_v3
       X-B3-Sampled:
       - '0'
       X-Proxied:
-      - 10-69-95-86-uswest2aprod
+      - 10-69-129-238-uswest2bprod
       X-Extlb:
-      - 10-69-95-86-uswest2aprod
+      - 10-69-129-238-uswest2bprod
       Cache-Control:
       - max-age=0, must-revalidate, no-cache, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 19 Jan 2021 17:43:51 GMT
+      - Tue, 19 Jan 2021 18:51:19 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8249-DEN
+      - cache-den8230-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -251,9 +251,19 @@ http_interactions:
         "location": {"address1": "2535 Lake Ave", "address2": null, "address3": "",
         "city": "Pueblo", "zip_code": "81004", "country": "US", "state": "CO", "display_address":
         ["2535 Lake Ave", "Pueblo, CO 81004"]}, "phone": "+17196968406", "display_phone":
-        "(719) 696-8406", "distance": 6818.270145500367}, {"id": "E3uAtjwXj6m0NyFw1QFB6g",
-        "alias": "el-jefe-tacos-and-burritos-pueblo-2", "name": "El Jefe Tacos and
-        Burritos", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nFq_JkQw48jdT4c0V-EC4g/o.jpg",
+        "(719) 696-8406", "distance": 6818.270145500367}, {"id": "z7ab4-MNyujVCGYalTsWbg",
+        "alias": "habaneros-mexican-restaurant-pueblo", "name": "Habanero''s Mexican
+        Restaurant", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/a4qIKR_cI1UtfsRjaAjuzQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/habaneros-mexican-restaurant-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 47, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.0, "coordinates": {"latitude": 38.3193740844727, "longitude":
+        -104.616630554199}, "transactions": ["pickup", "delivery"], "price": "$",
+        "location": {"address1": "4602 N Elizabeth St", "address2": "", "address3":
+        "", "city": "Pueblo", "zip_code": "81008", "country": "US", "state": "CO",
+        "display_address": ["4602 N Elizabeth St", "Pueblo, CO 81008"]}, "phone":
+        "+17195426678", "display_phone": "(719) 542-6678", "distance": 6632.28027227077},
+        {"id": "E3uAtjwXj6m0NyFw1QFB6g", "alias": "el-jefe-tacos-and-burritos-pueblo-2",
+        "name": "El Jefe Tacos and Burritos", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nFq_JkQw48jdT4c0V-EC4g/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/el-jefe-tacos-and-burritos-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
         "review_count": 8, "categories": [{"alias": "mexican", "title": "Mexican"}],
         "rating": 2.5, "coordinates": {"latitude": 38.258045, "longitude": -104.619820453227},
@@ -271,8 +281,58 @@ http_interactions:
         "address2": "", "address3": null, "city": "Pueblo", "zip_code": "81004", "country":
         "US", "state": "CO", "display_address": ["2042 E Evans Ave", "Pueblo, CO 81004"]},
         "phone": "+17195458228", "display_phone": "(719) 545-8228", "distance": 5605.044257530903},
-        {"id": "7bqZ4umyptOi7iw9EPdRlQ", "alias": "jack-in-the-box-pueblo-2", "name":
-        "Jack in the Box", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fpJXF5FDQLddEXx2rnf_1Q/o.jpg",
+        {"id": "npmV1X_vjY50UpQbl27O5Q", "alias": "fritangas-mexican-restaurant-pueblo",
+        "name": "Fritangas Mexican Restaurant", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/2CIjjg9_IMg4rtMrqPpe4w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/fritangas-mexican-restaurant-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 42, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 3.5, "coordinates": {"latitude": 38.29894, "longitude": -104.60793},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "2920 Hart Rd", "address2": null, "address3": null, "city": "Pueblo", "zip_code":
+        "81008", "country": "US", "state": "CO", "display_address": ["2920 Hart Rd",
+        "Pueblo, CO 81008"]}, "phone": "+17195466000", "display_phone": "(719) 546-6000",
+        "distance": 4376.708102133332}, {"id": "lXlfMhTrKiVstrkXfYPx4w", "alias":
+        "taco-shells-pueblo", "name": "Taco Shells", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ogamvhAUD8zeOUTLx731vw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-shells-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 7, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.5, "coordinates": {"latitude": 38.333582, "longitude": -104.8124},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "336
+        S McCulloch Blvd", "address2": null, "address3": null, "city": "Pueblo", "zip_code":
+        "81007", "country": "US", "state": "CO", "display_address": ["336 S McCulloch
+        Blvd", "Pueblo, CO 81007"]}, "phone": "+17196479208", "display_phone": "(719)
+        647-9208", "distance": 22011.496925712105}, {"id": "V7JfZuGqLRY8DJrVgvhTOg",
+        "alias": "juanitas-burritos-719-pueblo", "name": "Juanita''s Burritos 719",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lMaPIJ6sEmyZ1nenSTU3nQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/juanitas-burritos-719-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 4, "categories": [{"alias": "foodtrucks", "title": "Food Trucks"},
+        {"alias": "mexican", "title": "Mexican"}], "rating": 4.0, "coordinates": {"latitude":
+        38.2343027766203, "longitude": -104.665195467527}, "transactions": ["pickup",
+        "delivery"], "location": {"address1": "4107 W Northern Ave", "address2": "",
+        "address3": null, "city": "Pueblo", "zip_code": "81005", "country": "US",
+        "state": "CO", "display_address": ["4107 W Northern Ave", "Pueblo, CO 81005"]},
+        "phone": "+17196961499", "display_phone": "(719) 696-1499", "distance": 8964.832079763222},
+        {"id": "MS3myWoJRQ30V4doCXMQJw", "alias": "ritas-mexican-food-pueblo", "name":
+        "Rita''s Mexican Food", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nVm3V-Ya68lCVnxG1DdBpw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/ritas-mexican-food-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 42, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 3.0, "coordinates": {"latitude": 38.2698238, "longitude": -104.6114351},
+        "transactions": ["delivery"], "price": "$", "location": {"address1": "302
+        N Grand Ave", "address2": "", "address3": "", "city": "Pueblo", "zip_code":
+        "81003", "country": "US", "state": "CO", "display_address": ["302 N Grand
+        Ave", "Pueblo, CO 81003"]}, "phone": "+17195424820", "display_phone": "(719)
+        542-4820", "distance": 3315.6077895966705}, {"id": "A1DOysT5znRvhh0X_wAE5Q",
+        "alias": "romeros-cafe-and-catering-pueblo", "name": "Romero''s Cafe & Catering",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/veHwBmVq-CNEXpmI_cwjSw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/romeros-cafe-and-catering-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 33, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias": "beerbar",
+        "title": "Beer Bar"}], "rating": 3.0, "coordinates": {"latitude": 38.24635,
+        "longitude": -104.58416}, "transactions": ["pickup", "delivery"], "price":
+        "$", "location": {"address1": "1323 Santa Fe Dr", "address2": "", "address3":
+        "", "city": "Pueblo", "zip_code": "81006", "country": "US", "state": "CO",
+        "display_address": ["1323 Santa Fe Dr", "Pueblo, CO 81006"]}, "phone": "+17195424453",
+        "display_phone": "(719) 542-4453", "distance": 2847.9357218447285}, {"id":
+        "7bqZ4umyptOi7iw9EPdRlQ", "alias": "jack-in-the-box-pueblo-2", "name": "Jack
+        in the Box", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fpJXF5FDQLddEXx2rnf_1Q/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/jack-in-the-box-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
         "review_count": 17, "categories": [{"alias": "hotdogs", "title": "Fast Food"},
         {"alias": "burgers", "title": "Burgers"}, {"alias": "tacos", "title": "Tacos"}],
@@ -281,28 +341,87 @@ http_interactions:
         W US Highway 50", "address2": "", "address3": "", "city": "Pueblo", "zip_code":
         "81008", "country": "US", "state": "CO", "display_address": ["910 W US Highway
         50", "Pueblo, CO 81008"]}, "phone": "+17199005993", "display_phone": "(719)
-        900-5993", "distance": 5867.055582730945}, {"id": "xPmmQcopymaG7ZEBi9yXeQ",
-        "alias": "arriba-mex-grill-pueblo", "name": "Arriba Mex Grill", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/ISPEyNbzj5QKYTJ4MORTrg/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/arriba-mex-grill-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        900-5993", "distance": 5867.055582730945}, {"id": "WerJjn3ZvWlDBXcJoomI9g",
+        "alias": "burritos-betty-pueblo", "name": "Burrito''s Betty", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/k6ruHxmh8svmb7SScR1trA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/burritos-betty-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 50, "categories": [{"alias": "breakfast_brunch", "title":
+        "Breakfast & Brunch"}], "rating": 3.5, "coordinates": {"latitude": 38.29139,
+        "longitude": -104.61525}, "transactions": ["delivery"], "price": "$", "location":
+        {"address1": "2401 N Elizabeth St", "address2": "", "address3": "", "city":
+        "Pueblo", "zip_code": "81003", "country": "US", "state": "CO", "display_address":
+        ["2401 N Elizabeth St", "Pueblo, CO 81003"]}, "phone": "+17195423639", "display_phone":
+        "(719) 542-3639", "distance": 4341.492264172295}, {"id": "bsSaMbB8acH6fUNkU-berQ",
+        "alias": "grind-ha\u00fcs-cafe-pueblo", "name": "Grind Ha\u00fcs Cafe", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/niwsRSm-5Ndr8h3Pay2slg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/grind-ha%C3%BCs-cafe-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 205, "categories": [{"alias": "coffee", "title": "Coffee &
+        Tea"}, {"alias": "sandwiches", "title": "Sandwiches"}, {"alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"}], "rating": 4.0, "coordinates": {"latitude":
+        38.2640899, "longitude": -104.6141053}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "209 S Union Ave", "address2": "",
+        "address3": "", "city": "Pueblo", "zip_code": "81003", "country": "US", "state":
+        "CO", "display_address": ["209 S Union Ave", "Pueblo, CO 81003"]}, "phone":
+        "+17195618567", "display_phone": "(719) 561-8567", "distance": 3624.314902240056},
+        {"id": "xPmmQcopymaG7ZEBi9yXeQ", "alias": "arriba-mex-grill-pueblo", "name":
+        "Arriba Mex Grill", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ISPEyNbzj5QKYTJ4MORTrg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/arriba-mex-grill-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
         "review_count": 22, "categories": [{"alias": "mexican", "title": "Mexican"}],
         "rating": 3.0, "coordinates": {"latitude": 38.308705, "longitude": -104.621627},
         "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
         "965 Hwy 50 W", "address2": "Ste 110", "address3": "", "city": "Pueblo", "zip_code":
         "81008", "country": "US", "state": "CO", "display_address": ["965 Hwy 50 W",
         "Ste 110", "Pueblo, CO 81008"]}, "phone": "+17195440497", "display_phone":
-        "(719) 544-0497", "distance": 5994.115246596549}, {"id": "LN7Lywnn7C_gkFd3xmwesg",
-        "alias": "mussos-restaurant-pueblo-2", "name": "Musso''s Restaurant", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/lIcVqeNyRfiiCDBzEJW7ew/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/mussos-restaurant-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
-        "review_count": 28, "categories": [{"alias": "newamerican", "title": "American
-        (New)"}, {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias":
-        "sandwiches", "title": "Sandwiches"}], "rating": 4.0, "coordinates": {"latitude":
-        38.275329, "longitude": -104.4663797}, "transactions": ["pickup"], "price":
-        "$$", "location": {"address1": "35250 US Hwy 50 E", "address2": "", "address3":
-        "", "city": "Pueblo", "zip_code": "81006", "country": "US", "state": "CO",
-        "display_address": ["35250 US Hwy 50 E", "Pueblo, CO 81006"]}, "phone": "+17199489733",
-        "display_phone": "(719) 948-9733", "distance": 9355.673955748796}], "total":
-        8, "region": {"center": {"longitude": -104.5733642578125, "latitude": 38.27035217485165}}}'
-  recorded_at: Tue, 19 Jan 2021 17:43:51 GMT
+        "(719) 544-0497", "distance": 5994.115246596549}, {"id": "zFwBWAsPW-5mTXWewzcyXw",
+        "alias": "taco-bell-pueblo-3", "name": "Taco Bell", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BAh_N0_wvv9CaR0-irqAcg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-bell-pueblo-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 3, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 1.5, "coordinates":
+        {"latitude": 38.273351, "longitude": -104.60699}, "transactions": ["delivery"],
+        "price": "$", "location": {"address1": "703 N Santa Fe Ave", "address2": "",
+        "address3": "", "city": "Pueblo", "zip_code": "81003", "country": "US", "state":
+        "CO", "display_address": ["703 N Santa Fe Ave", "Pueblo, CO 81003"]}, "phone":
+        "+17195421074", "display_phone": "(719) 542-1074", "distance": 2954.3019495544163},
+        {"id": "7FbHErsnwLsGj2LUBF-S_Q", "alias": "julians-mexican-restaurant-pueblo",
+        "name": "Julian''s Mexican Restaurant", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TsQeMuQ0MqsI7jCmfSTOag/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/julians-mexican-restaurant-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 4, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}], "rating": 2.5,
+        "coordinates": {"latitude": 38.24433, "longitude": -104.63654}, "transactions":
+        ["delivery"], "location": {"address1": "2111 W Northern Ave", "address2":
+        "", "address3": null, "city": "Pueblo", "zip_code": "81004", "country": "US",
+        "state": "CO", "display_address": ["2111 W Northern Ave", "Pueblo, CO 81004"]},
+        "phone": "+17195614040", "display_phone": "(719) 561-4040", "distance": 6228.997398227125},
+        {"id": "MWh2A-NkQOb5NHcZMOPtlw", "alias": "taco-bell-pueblo", "name": "Taco
+        Bell", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nT9eugIYMnG0FND-LoGTvw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-bell-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 3, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 2.5, "coordinates":
+        {"latitude": 38.257676, "longitude": -104.61865}, "transactions": ["delivery"],
+        "price": "$", "location": {"address1": "301 E Abriendo Ave", "address2": "",
+        "address3": "", "city": "Pueblo", "zip_code": "81004", "country": "US", "state":
+        "CO", "display_address": ["301 E Abriendo Ave", "Pueblo, CO 81004"]}, "phone":
+        "+17195421030", "display_phone": "(719) 542-1030", "distance": 4197.469812436523},
+        {"id": "P2R8Ht7WsOK-ACTinXVCSA", "alias": "taco-bell-pueblo-2", "name": "Taco
+        Bell", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/v10D2fln6R6dvSesIKJZRA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/taco-bell-pueblo-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 9, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 1.5, "coordinates":
+        {"latitude": 38.302776, "longitude": -104.615159}, "transactions": ["delivery"],
+        "price": "$", "location": {"address1": "3333 North Elizabeth", "address2":
+        "", "address3": "", "city": "Pueblo", "zip_code": "81008", "country": "US",
+        "state": "CO", "display_address": ["3333 North Elizabeth", "Pueblo, CO 81008"]},
+        "phone": "+17195427226", "display_phone": "(719) 542-7226", "distance": 5128.855571986964},
+        {"id": "C7YHh1eqZ9BiaUlnueIplQ", "alias": "southwest-grill-pueblo", "name":
+        "Southwest Grill", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/yOtG5mVdfVh9ZkWp6SJ48g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/southwest-grill-pueblo?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 17, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 3.0, "coordinates": {"latitude": 38.30776, "longitude": -104.62193},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "1000 US Highway 50 W", "address2": "", "address3": "", "city": "Pueblo",
+        "zip_code": "81008", "country": "US", "state": "CO", "display_address": ["1000
+        US Highway 50 W", "Pueblo, CO 81008"]}, "phone": "+17195443324", "display_phone":
+        "(719) 544-3324", "distance": 5933.111564324339}], "total": 26, "region":
+        {"center": {"longitude": -104.5733642578125, "latitude": 38.27035217485165}}}'
+  recorded_at: Tue, 19 Jan 2021 18:51:19 GMT
 recorded_with: VCR 6.0.0

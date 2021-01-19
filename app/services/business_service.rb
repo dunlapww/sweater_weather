@@ -6,7 +6,7 @@ class BusinessService
   end
 
   def self.get_business(params, arrival_time)
-    arrival_time = 1611059122 #adding this so I don't have to create new tape with every test. (in case I forget to fix this at end)
+    #arrival_time = 1611059122 #adding this so I don't have to create new tape with every test. (in case I forget to fix this at end)
     response = conn.get('/v3/businesses/search') do |req|
       req.params[:location] = params[:destination]
       req.params[:term] = params[:search_terms]
