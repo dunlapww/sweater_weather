@@ -76,6 +76,8 @@ VCR.configure do |config|
   config.filter_sensitive_data('<MAP_KEY>') { ENV['MAPQUEST_API_KEY'] }
   config.filter_sensitive_data('<WEATHER_KEY>') { ENV['OPEN_WEATHER_API_KEY']}
   config.filter_sensitive_data('<IMAGE_KEY>') { ENV['PIXABAY_API_KEY'] }
+  config.filter_sensitive_data('<YELP_API_KEY>') { ENV['YELP_API_KEY'] }
+  config.filter_sensitive_data('<YELP_CLIENT_ID>') { ENV['YELP_CLIENT_ID'] }
   config.before_record do |i|
     i.response.body.force_encoding('UTF-8')
   end
