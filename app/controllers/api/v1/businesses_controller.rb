@@ -1,6 +1,5 @@
 class Api::V1::BusinessesController < ApplicationController
   def index
-    require 'pry'; binding.pry
-    
+    BusinessService.get_business(params)
   end
 end
