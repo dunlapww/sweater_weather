@@ -10,19 +10,18 @@ class BusinessTripFacade
     dest_tz_offset = dest_weather[:timezone_offset]
     local_arrival_time = local_arrival_secs(dest_tz_offset, travel_time)
     
-    dest_business = BusinessService.get_business(trip_params, local_arrival_time)
-    require 'pry'; binding.pry
-    
+    dest_business = BusinessService.get_business(trip_params, local_arrival_time)    
+
     trip_data = {
       start_city: trip_params[:origin],
       end_city: trip_params[:destination],
       travel_time: travel_time,
-      arrival_time: local_arrival_time
+      arrival_time: local_arrival_time,
+      arrival_business: dest_business[:businesses].first
     }
 
-
     trip_data[:weather_at_eta] = arrival_weather(dest_weather, trip_data[:arrival_time])
-    Trip.new(trip_data)
+    BizTrip.new(trip_data)
   end
 
   def self.travel_secs(trip_legs)

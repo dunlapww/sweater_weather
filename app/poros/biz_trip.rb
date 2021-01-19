@@ -1,10 +1,10 @@
-class Trip
+class BizTrip
+  include WeatherSupport
   attr_reader :start_city,
               :end_city,
               :loc_arr_time,
               :travel_time,
-              :weather_at_eta,
-              :to_hours_mins
+              :weather_at_eta
 
   def initialize(trip_data)
     @start_city = trip_data[:start_city]
@@ -12,6 +12,6 @@ class Trip
     @loc_arr_time = Time.at(trip_data[:arrival_time])
     @travel_time = to_hours_mins(trip_data[:travel_time])
     @weather_at_eta = WeatherHour.new(trip_data[:weather_at_eta])
+    @arrival_business = Business.new(trip_data[:arrival_business])
   end
-
 end

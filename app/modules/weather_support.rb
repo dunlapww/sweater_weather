@@ -1,7 +1,5 @@
 module WeatherSupport
 
-  private
-
   def to_date(time_in_seconds)
     time = Time.at(time_in_seconds).to_datetime
     time.strftime("%F")
@@ -58,4 +56,15 @@ module WeatherSupport
     end
   end
 
+  def to_hours_mins(seconds)
+    seconds = seconds.abs
+    hrs = seconds / 3600
+    mins = (seconds % 3600) / 60
+    
+    time = "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
+  end
+
+  def pl(num)
+    num == 1 ? nil : 's'
+  end
 end
