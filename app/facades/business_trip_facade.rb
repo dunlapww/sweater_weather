@@ -21,7 +21,7 @@ class BusinessTripFacade
     }
 
     trip_data[:weather_at_eta] = arrival_weather(dest_weather, trip_data[:arrival_time])
-    BizTrip.new(trip_data)
+    trip = BizTrip.new(trip_data)
   end
 
   def self.travel_secs(trip_legs)

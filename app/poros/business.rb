@@ -1,4 +1,11 @@
 class Business
+  attr_reader :name,
+              :image_url,
+              :url,
+              :rating,
+              :coordinates,
+              :phone
+            
   def initialize(business_data)
     @name = business_data[:name]
     @image_url = business_data[:image_url]
