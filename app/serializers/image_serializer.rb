@@ -3,4 +3,5 @@ class ImageSerializer
   attributes :id, 
              :image_path,
              :tags
+             :artist
 end
