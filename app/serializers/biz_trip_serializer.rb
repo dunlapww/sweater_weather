@@ -10,7 +10,7 @@ class BizTripSerializer
           destination_city: biztrip.start_city,
           travel_time: biztrip.travel_time,
           forecast:{summary: biztrip.forecast.conditions, temperature: biztrip.forecast.temperature},
-          restaurant:{name: biztrip.restaurant.name,address: biztrip.restaurant.address.join(', ')}
+          restaurant:{name: biztrip.restaurant.name,address: biztrip.restaurant.address}
         }
       }
 

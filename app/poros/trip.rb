@@ -1,10 +1,10 @@
 class Trip
+  include WeatherSupport
   attr_reader :start_city,
               :end_city,
               :loc_arr_time,
               :travel_time,
-              :weather_at_eta,
-              :to_hours_mins
+              :weather_at_eta
 
   def initialize(trip_data)
     @start_city = trip_data[:start_city]

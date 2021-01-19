@@ -9,7 +9,7 @@ describe TripFacade, type: :facade do
     @all_weather = JSON.parse(json, symbolize_names: true)
   end
   describe 'class methods' do
-    it 'get_trip - valid' do
+    it 'get_trip-valid' do
       VCR.use_cassette('valid_trip_facade') do
         trip_params = { origin: 'Seattle, WA',
           destination: 'Denver, CO',
