@@ -4,7 +4,7 @@ RSpec.describe 'Search' do
   it 'returns successful weather response when given valid data' do
     VCR.use_cassette('mapquest_request') do
       loc_params = {location: 'Seattle, WA'}
-      get '/api/v1/forecast', params: loc_params
+      get '/api/v1/forecasts', params: loc_params
 
       expect(response).to be_successful
       loc_data = JSON.parse(response.body, symbolize_names: true)
@@ -65,14 +65,14 @@ RSpec.describe 'Search' do
   it 'returns an error json when given invalid data' do
     VCR.use_cassette('bad_location_request') do
       loc_params = {location: ''}
-      get '/api/v1/forecast', params: loc_params
+      get '/api/v1/forecasts', params: loc_params
 
       loc_data = JSON.parse(response.body, symbolize_names: true)
       expect(loc_data).to eq({:errors=>[{:detail=>"Invalid city, state"}]})
     end
     VCR.use_cassette('another_bad_location_request') do
       loc_params = {location: '!'}
-      get '/api/v1/forecast', params: loc_params
+      get '/api/v1/forecasts', params: loc_params
 
       loc_data = JSON.parse(response.body, symbolize_names: true)
       expect(loc_data).to eq({:errors=>[{:detail=>"Invalid city, state"}]})
