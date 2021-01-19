@@ -103,7 +103,6 @@ RSpec.describe 'Search' do
 
       post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
       resp = JSON.parse(response.body, symbolize_names: true)
-      require 'pry'; binding.pry
     end
   end
 
