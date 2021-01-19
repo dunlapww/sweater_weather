@@ -1,14 +1,14 @@
 require 'rails_helper'
 
-describe 'when I receive a request to create a new user' do
-  it "I'm able to consume the json body" do
-    #VCR.use_cassette('pueblo_yelp_search') do
-      #headers = { "CONTENT_TYPE" => "application/json"}
-      biz_params = {location: 'Pueblo, CO', search_term: 'tacos'}
-      
-      get '/api/v1/businesses', params: biz_params
-      
+RSpec.describe 'Search' do
+  it 'returns successful weather response when given valid data' do
+    VCR.use_cassette('yelp_pueblo_requst') do
+      loc_params = {location: 'Pueblo, CO', search_terms: 'tacos'}
+      get '/api/v1/businesses', params: loc_params
+
       expect(response).to be_successful
-    #end
+    end
   end
 end
+
+
