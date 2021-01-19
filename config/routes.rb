@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       resources :users, only: [:create]
       resources :sessions, only: [:create]
       resources :roadtrips, only: [:create]
-      resources :businesses, only: [:index]
+      resources :business_trips, only: [:index]
 
     end
   end

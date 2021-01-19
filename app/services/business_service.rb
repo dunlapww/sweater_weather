@@ -5,12 +5,12 @@ class BusinessService
     end
   end
 
-  def self.get_business(params)
+  def self.get_business(params, arrival_time)
     response = conn.get('/v3/businesses/search') do |req|
-      req.params[:location] = params[:location]
+      req.params[:location] = params[:destination]
       req.params[:term] = params[:search_terms]
+      req.params[:open_at] = arrival_time
     end
-    
     JSON.parse(response.body, symbolize_names: true)
   end
   
