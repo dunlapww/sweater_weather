@@ -1,0 +1,232 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?location=Santa%20Fe,%20NM&open_at=1611059122&term=tacos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer <YELP_API_KEY>
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4973'
+      X-Zipkin-Id:
+      - 0e47d83610b0e86e
+      Server:
+      - envoy
+      Ratelimit-Resettime:
+      - '2021-01-20T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--uswest2-5b584d59bc-kxh6p; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      X-Proxied:
+      - 10-69-127-167-uswest2aprod
+      X-Extlb:
+      - 10-69-127-167-uswest2aprod
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 19 Jan 2021 18:20:10 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-den8249-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"businesses": [{"id": "czwIymAbU43ruuT1s9sqDQ", "alias": "pecos-trail-inn-santa-fe",
+        "name": "Pecos Trail Inn", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7TdhGY2E0tN7tekIDkqnKQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pecos-trail-inn-santa-fe?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 5, "categories": [{"alias": "hotels", "title": "Hotels"}],
+        "rating": 5.0, "coordinates": {"latitude": 35.64805, "longitude": -105.93291},
+        "transactions": [], "location": {"address1": "2239 Old Pecos Trl", "address2":
+        "", "address3": "", "city": "Santa Fe", "zip_code": "87505", "country": "US",
+        "state": "NM", "display_address": ["2239 Old Pecos Trl", "Santa Fe, NM 87505"]},
+        "phone": "+15059821943", "display_phone": "(505) 982-1943", "distance": 5677.407326561814},
+        {"id": "eIO9KmmWl5EPdTg_H2CEGA", "alias": "la-fonda-on-the-plaza-santa-fe",
+        "name": "La Fonda On the Plaza", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gp_QXj0hoof0dA5BY_ebiw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/la-fonda-on-the-plaza-santa-fe?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 282, "categories": [{"alias": "hotels", "title": "Hotels"}],
+        "rating": 4.0, "coordinates": {"latitude": 35.6864128112793, "longitude":
+        -105.9375}, "transactions": [], "price": "$$$", "location": {"address1": "100
+        E San Francisco St", "address2": "", "address3": "", "city": "Santa Fe", "zip_code":
+        "87501", "country": "US", "state": "NM", "display_address": ["100 E San Francisco
+        St", "Santa Fe, NM 87501"]}, "phone": "+15059825511", "display_phone": "(505)
+        982-5511", "distance": 5533.130495819132}, {"id": "cklilIuR2jLxPEbbgUF_VA",
+        "alias": "taco-cabana-albuquerque-11", "name": "Taco Cabana", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/oOOXam79TCKZ8EAvlqOagw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/taco-cabana-albuquerque-11?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 30, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 2.5, "coordinates": {"latitude": 35.2013996155157, "longitude":
+        -106.658124335461}, "transactions": ["pickup", "delivery"], "location": {"address1":
+        "3801 7 Bar Loop Rd NW", "address2": "", "address3": null, "city": "Albuquerque",
+        "zip_code": "87114", "country": "US", "state": "NM", "display_address": ["3801
+        7 Bar Loop Rd NW", "Albuquerque, NM 87114"]}, "phone": "+15058985346", "display_phone":
+        "(505) 898-5346", "distance": 79288.97874420737}, {"id": "6JPHX4T-sViDHH_AgzCNEA",
+        "alias": "la-posada-de-santa-fe-a-tribute-portfolio-resort-and-spa-santa-fe",
+        "name": "La Posada de Santa Fe, A Tribute Portfolio Resort & Spa", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/G8yz1vDSSc2R1SLY-QLuwA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/la-posada-de-santa-fe-a-tribute-portfolio-resort-and-spa-santa-fe?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 231, "categories": [{"alias": "hotels", "title": "Hotels"},
+        {"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "resorts",
+        "title": "Resorts"}], "rating": 3.0, "coordinates": {"latitude": 35.6859218711149,
+        "longitude": -105.932850285037}, "transactions": [], "price": "$$$", "location":
+        {"address1": "330 E Palace Ave", "address2": "", "address3": "", "city": "Santa
+        Fe", "zip_code": "87501", "country": "US", "state": "NM", "display_address":
+        ["330 E Palace Ave", "Santa Fe, NM 87501"]}, "phone": "+15059860000", "display_phone":
+        "(505) 986-0000", "distance": 5904.103959284405}, {"id": "RaYINBIpXHICSv2DfNI7kQ",
+        "alias": "marlenes-new-mexican-food-albuquerque-2", "name": "Marlene''s New
+        Mexican Food", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/t4UCgt6ODIFMkErowfRwTQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/marlenes-new-mexican-food-albuquerque-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 13, "categories": [{"alias": "newmexican", "title": "New Mexican
+        Cuisine"}], "rating": 4.5, "coordinates": {"latitude": 35.18410088919966,
+        "longitude": -106.59544173774941}, "transactions": ["delivery"], "price":
+        "$", "location": {"address1": "4700 Alameda Blvd NE", "address2": "", "address3":
+        "", "city": "Albuquerque", "zip_code": "87113", "country": "US", "state":
+        "NM", "display_address": ["4700 Alameda Blvd NE", "Albuquerque, NM 87113"]},
+        "phone": "+15057977389", "display_phone": "(505) 797-7389", "distance": 76397.93630954507},
+        {"id": "sY0b_mbScaNQl01SvpCanA", "alias": "twisters-burgers-and-burritos-albuquerque-6",
+        "name": "Twisters Burgers and Burritos", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HUljqcEiO4nUhP7ZLgQ3vQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/twisters-burgers-and-burritos-albuquerque-6?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 20, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias": "burgers",
+        "title": "Burgers"}], "rating": 2.5, "coordinates": {"latitude": 35.079284,
+        "longitude": -106.532752}, "transactions": ["pickup", "delivery"], "price":
+        "$", "location": {"address1": "425 Eubank Blvd NE", "address2": "", "address3":
+        "", "city": "Albuquerque", "zip_code": "87123", "country": "US", "state":
+        "NM", "display_address": ["425 Eubank Blvd NE", "Albuquerque, NM 87123"]},
+        "phone": "+15053235552", "display_phone": "(505) 323-5552", "distance": 81442.84270828587},
+        {"id": "cAZLWilKrm38vCa0s7Jfqw", "alias": "dutch-bros-coffee-rio-rancho-3",
+        "name": "Dutch Bros Coffee", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/KHLuElTHo0L1oHKttmJ16w/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/dutch-bros-coffee-rio-rancho-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 47, "categories": [{"alias": "juicebars", "title": "Juice
+        Bars & Smoothies"}, {"alias": "coffee", "title": "Coffee & Tea"}], "rating":
+        3.5, "coordinates": {"latitude": 35.2231149, "longitude": -106.6966643}, "transactions":
+        [], "location": {"address1": "2121 Unser Blvd", "address2": null, "address3":
+        null, "city": "Rio Rancho", "zip_code": "87124", "country": "US", "state":
+        "NM", "display_address": ["2121 Unser Blvd", "Rio Rancho, NM 87124"]}, "phone":
+        "+15419554700", "display_phone": "(541) 955-4700", "distance": 80473.77716142462},
+        {"id": "ZwcERi3HmFEKQl3un_LK0w", "alias": "federicos-mexican-food-albuquerque-2",
+        "name": "Federico''s Mexican Food", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/eScIfr-TrG82lkEheZSzpQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/federicos-mexican-food-albuquerque-2?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 25, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 2.5, "coordinates": {"latitude": 35.074013, "longitude": -106.585121},
+        "transactions": ["delivery"], "price": "$", "location": {"address1": "5555
+        Zuni Rd SE", "address2": null, "address3": "", "city": "Albuquerque", "zip_code":
+        "87108", "country": "US", "state": "NM", "display_address": ["5555 Zuni Rd
+        SE", "Albuquerque, NM 87108"]}, "phone": "+15052551094", "display_phone":
+        "(505) 255-1094", "distance": 84831.36640350937}, {"id": "K3lKc4RrABbO6brzsXJG5w",
+        "alias": "los-poblanos-historic-inn-and-organic-farm-albuquerque", "name":
+        "Los Poblanos Historic Inn & Organic Farm", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/pQyrx2s1WhNLF-zs5uBV4g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/los-poblanos-historic-inn-and-organic-farm-albuquerque?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 344, "categories": [{"alias": "hotels", "title": "Hotels"},
+        {"alias": "farms", "title": "Farms"}, {"alias": "newamerican", "title": "American
+        (New)"}], "rating": 4.5, "coordinates": {"latitude": 35.14789, "longitude":
+        -106.66618}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "4803 Rio Grande Blvd NW", "address2": "", "address3": "", "city": "Albuquerque",
+        "zip_code": "87107", "country": "US", "state": "NM", "display_address": ["4803
+        Rio Grande Blvd NW", "Albuquerque, NM 87107"]}, "phone": "+15053449297", "display_phone":
+        "(505) 344-9297", "distance": 83826.40612758654}, {"id": "vysxZ-F6yWjLvyGXDXSsbQ",
+        "alias": "mystique-food-truck-albuquerque", "name": "Mystique Food Truck",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/v6WGfzQInS32pfOJ8fQDpA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/mystique-food-truck-albuquerque?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 12, "categories": [{"alias": "foodtrucks", "title": "Food
+        Trucks"}], "rating": 4.5, "coordinates": {"latitude": 35.0720540259537, "longitude":
+        -106.627963483321}, "transactions": [], "price": "$", "location": {"address1":
+        null, "address2": null, "address3": null, "city": "Albuquerque", "zip_code":
+        "87106", "country": "US", "state": "NM", "display_address": ["Albuquerque,
+        NM 87106"]}, "phone": "+15052703127", "display_phone": "(505) 270-3127", "distance":
+        87510.66013308796}, {"id": "CtmGtYfuSKoecaEvLzq-dg", "alias": "del-taco-albuquerque-3",
+        "name": "Del Taco", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2iKz2zmZgO16RQRAR3oGTQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/del-taco-albuquerque-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 14, "categories": [{"alias": "hotdogs", "title": "Fast Food"}],
+        "rating": 3.0, "coordinates": {"latitude": 35.07274, "longitude": -106.53612},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "10015 Central Ave NE", "address2": "", "address3": "", "city": "Albuquerque",
+        "zip_code": "87123", "country": "US", "state": "NM", "display_address": ["10015
+        Central Ave NE", "Albuquerque, NM 87123"]}, "phone": "+15052925188", "display_phone":
+        "(505) 292-5188", "distance": 82215.82185335664}, {"id": "Q7sgQeVEhBi6g3gGrN3I5Q",
+        "alias": "frontier-albuquerque-3", "name": "Frontier", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/uHHaQk-yEj8sZVh5QR8iCA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/frontier-albuquerque-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 1923, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias": "sandwiches",
+        "title": "Sandwiches"}], "rating": 4.0, "coordinates": {"latitude": 35.0808088832532,
+        "longitude": -106.619402244687}, "transactions": ["delivery"], "price": "$",
+        "location": {"address1": "2400 Central Ave SE", "address2": "", "address3":
+        "", "city": "Albuquerque", "zip_code": "87106", "country": "US", "state":
+        "NM", "display_address": ["2400 Central Ave SE", "Albuquerque, NM 87106"]},
+        "phone": "+15052660550", "display_phone": "(505) 266-0550", "distance": 86264.83783637676},
+        {"id": "yuUiE9HS9XCmJYf_A-aiSQ", "alias": "cesars-mexican-and-greek-albuquerque",
+        "name": "Cesar''s Mexican & Greek", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7JdNpRXZD4ST1602IGJjMw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/cesars-mexican-and-greek-albuquerque?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 143, "categories": [{"alias": "mexican", "title": "Mexican"},
+        {"alias": "greek", "title": "Greek"}, {"alias": "mediterranean", "title":
+        "Mediterranean"}], "rating": 2.0, "coordinates": {"latitude": 35.08708, "longitude":
+        -106.58554}, "transactions": ["pickup", "delivery"], "price": "$", "location":
+        {"address1": "5300 Lomas NE", "address2": "", "address3": "", "city": "Albuquerque",
+        "zip_code": "87110", "country": "US", "state": "NM", "display_address": ["5300
+        Lomas NE", "Albuquerque, NM 87110"]}, "phone": "+15052568017", "display_phone":
+        "(505) 256-8017", "distance": 83734.58906522213}, {"id": "LXcatk0HZlqckWsE-PvZyA",
+        "alias": "whataburger-albuquerque-5", "name": "Whataburger", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/tclXnnfe5BRodJhL4Puj-w/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/whataburger-albuquerque-5?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 36, "categories": [{"alias": "burgers", "title": "Burgers"},
+        {"alias": "hotdogs", "title": "Fast Food"}], "rating": 3.5, "coordinates":
+        {"latitude": 35.206306215528, "longitude": -106.65043406565}, "transactions":
+        ["delivery"], "price": "$", "location": {"address1": "3531 State Highway 528
+        NW", "address2": "", "address3": "", "city": "Albuquerque", "zip_code": "87114",
+        "country": "US", "state": "NM", "display_address": ["3531 State Highway 528
+        NW", "Albuquerque, NM 87114"]}, "phone": "+15058900936", "display_phone":
+        "(505) 890-0936", "distance": 78403.48058593213}, {"id": "PKtKIPksNH-UO3io3wx_eg",
+        "alias": "del-taco-898-albuquerque", "name": "Del Taco 898", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/K_KUdE-bwlkzbcnkSEHeeg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/del-taco-898-albuquerque?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 17, "categories": [{"alias": "hotdogs", "title": "Fast Food"},
+        {"alias": "mexican", "title": "Mexican"}], "rating": 3.0, "coordinates": {"latitude":
+        35.10251, "longitude": -106.70666}, "transactions": ["pickup", "delivery"],
+        "price": "$", "location": {"address1": "1525 Coors Blvd NW", "address2": "",
+        "address3": "", "city": "Albuquerque", "zip_code": "87121", "country": "US",
+        "state": "NM", "display_address": ["1525 Coors Blvd NW", "Albuquerque, NM
+        87121"]}, "phone": "+15058361377", "display_phone": "(505) 836-1377", "distance":
+        89978.49772305271}, {"id": "YCwNwLz2g1QUrVNQWG4qbA", "alias": "mtuccis-italian-albuquerque-3",
+        "name": "M''tucci''s Italian", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ofKaDGGvm3omirNYx50srg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/mtuccis-italian-albuquerque-3?adjust_creative=<YELP_CLIENT_ID>&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=<YELP_CLIENT_ID>",
+        "review_count": 423, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "pizza", "title": "Pizza"}], "rating": 4.0, "coordinates": {"latitude":
+        35.149816, "longitude": -106.683447}, "transactions": ["pickup"], "price":
+        "$$", "location": {"address1": "6001 Winter Haven Dr NW", "address2": "Ste
+        M", "address3": "", "city": "Albuquerque", "zip_code": "87120", "country":
+        "US", "state": "NM", "display_address": ["6001 Winter Haven Dr NW", "Ste M",
+        "Albuquerque, NM 87120"]}, "phone": "+15055037327", "display_phone": "(505)
+        503-7327", "distance": 84822.02900016122}], "total": 16, "region": {"center":
+        {"longitude": -105.99266052246094, "latitude": 35.66450492299005}}}'
+  recorded_at: Tue, 19 Jan 2021 18:20:10 GMT
+recorded_with: VCR 6.0.0
