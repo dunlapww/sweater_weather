@@ -33,7 +33,23 @@ class LocationService
       req.params[:to] = origin_dest[:destination]
     end
     resp = JSON.parse(response.body, symbolize_names: true)
-    resp[:info][:statuscode] == 0 ? resp : { errors: [{ detail: resp[:info][:messages].first }] }
+    resp[:info][:statuscode] == 0 ? resp : bad_response(origin_dest)
+  end
 
+  def self.bad_response(origin_dest)
+    {
+      data:
+      {
+        id: nil,
+        type: 'roadtrip',
+        attributes:
+          {
+            start_city: origin_dest[:origin],
+            end_city: origin_dest[:destination],
+            travel_time: 'impossible',
+            weather_at_eta: {}
+          }
+      }
+    }
   end
 end

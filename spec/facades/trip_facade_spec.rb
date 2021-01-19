@@ -25,7 +25,7 @@ describe TripFacade, type: :facade do
           api_key: @user.api_key }
         trip = TripFacade.get_trip(trip_params)
         expect(trip).to be_a Hash
-        expected = {:errors=>[{:detail=>"At least two locations must be provided."}]}
+        expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
         expect(trip).to eq(expected)
       end
     end
@@ -36,7 +36,7 @@ describe TripFacade, type: :facade do
           api_key: @user.api_key }
         trip = TripFacade.get_trip(trip_params)
         expect(trip).to be_a Hash
-        expected = {:errors=>[{:detail=>"Error processing request: Encountered an error while trying to batch geocode: Geocode Failed: A JSONObject text must begin with '{' at character 0 of "}]}
+        expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"/", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
         expect(trip).to eq(expected)
       end
     end

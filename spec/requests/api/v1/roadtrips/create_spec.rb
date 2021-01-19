@@ -7,8 +7,8 @@ RSpec.describe 'Search' do
   end
   it 'returns successful road_trip response when given valid data' do
     VCR.use_cassette('road_trip_valid_request') do
-      trip_params = { origin: 'Seattle, WA',
-                      destination: 'Denver, CO',
+      trip_params = { origin: 'New York, NY',
+                      destination: 'Los Angeles, CA',
                       api_key: @user.api_key }
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
@@ -36,7 +36,7 @@ RSpec.describe 'Search' do
       expect(trip_data[:data][:attributes][:weather_at_eta][:temperature]).to be_a(Numeric)
       expect(trip_data[:data][:attributes][:weather_at_eta]).to have_key :conditions
       expect(trip_data[:data][:attributes][:weather_at_eta][:conditions]).to be_a(String)
-      end
+    end
   end
   it 'returns unsuccessful response when given invalid data' do
     VCR.use_cassette('road_trip_no_origin_request') do
@@ -49,7 +49,7 @@ RSpec.describe 'Search' do
       post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
 
       resp = JSON.parse(response.body, symbolize_names: true)
-      expected = {:errors=>[{:detail=>"At least two locations must be provided."}]}
+      expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
       expect(resp).to eq(expected)
       expect(response.status).to eq(400)
     end
@@ -63,10 +63,35 @@ RSpec.describe 'Search' do
       post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
 
       resp = JSON.parse(response.body, symbolize_names: true)
-      expected = {:errors=>[{:detail=>"Error processing request: Encountered an error while trying to batch geocode: Geocode Failed: A JSONObject text must begin with '{' at character 0 of "}]}
+      expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"/", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
       expect(resp).to eq(expected)
       expect(response.status).to eq(400)
     end
+  end
+  it 'when no API key provided, it returns a 401 error' do
+    trip_params = { origin: '/',
+      destination: 'Denver, CO',
+      }
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+
+    resp = JSON.parse(response.body, symbolize_names: true)
+    expect(response.status).to eq(401)
+    expect(resp).to eq({ errors: [{ detail: 'Invalid API key' }] })
+  end
+  it 'when invalid API key provided, it returns a 401 error' do
+    trip_params = { origin: '/',
+      destination: 'Denver, CO',
+      api_key: '222lkj222l'
+      }
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+
+    resp = JSON.parse(response.body, symbolize_names: true)
+    expect(response.status).to eq(401)
+    expect(resp).to eq({ errors: [{ detail: 'Invalid API key' }] })
   end
 
 end

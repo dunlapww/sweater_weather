@@ -1,7 +1,7 @@
 class TripFacade
   def self.get_trip(trip_params)
     trip_response = LocationService.get_trip(trip_params)
-    return trip_response if trip_response[:errors]
+    return trip_response if trip_response[:route].nil?
     
     travel_time = trip_response[:route][:realTime]
 
@@ -17,7 +17,6 @@ class TripFacade
     }
 
     trip_data[:weather_at_eta] = arrival_weather(dest_weather, trip_data[:arrival_time])
-   
     Trip.new(trip_data)
   end
 
