@@ -18,8 +18,8 @@ class Trip
     seconds = seconds.abs
     hrs = seconds / 3600
     mins = (seconds % 3600) / 60
-
-    "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
+    
+    time = "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
   end
 
   def pl(num)

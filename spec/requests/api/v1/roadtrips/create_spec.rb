@@ -93,5 +93,19 @@ RSpec.describe 'Search' do
     expect(response.status).to eq(401)
     expect(resp).to eq({ errors: [{ detail: 'Invalid API key' }] })
   end
+  it 'it goes from IA to TX' do
+    VCR.use_cassette('IA_to_TX') do
+      trip_params = { origin: 'Des Moines, IA',
+                      destination: 'San Antonio, TX',
+                      api_key: @user.api_key }
+
+      headers = { 'CONTENT_TYPE' => 'application/json' }
+
+      post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+      resp = JSON.parse(response.body, symbolize_names: true)
+      require 'pry'; binding.pry
+    end
+  end
+
 
 end

@@ -5,7 +5,6 @@ class Api::V1::RoadtripsController < ApplicationController
       return render json: { errors: [{ detail: 'Invalid API key' }] }, status: :unauthorized
     end
 
-
     trip = TripFacade.get_trip(trip_params)
     if trip.class == Trip
       render json: TripSerializer.new(trip)

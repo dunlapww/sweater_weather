@@ -8,6 +8,6 @@ class Image
     @id = image_data[:id]
     @image_path = image_data[:webformatURL]
     @tags = image_data[:tags]
-    @artist = "pixabay.com/users/#{image_data[:user]}-#{image_data[:user_id]}/"
+    @artist = "https://pixabay.com/users/#{image_data[:user]}-#{image_data[:user_id]}/"
   end
 end

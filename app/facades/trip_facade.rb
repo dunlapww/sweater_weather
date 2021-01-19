@@ -2,10 +2,11 @@ class TripFacade
   def self.get_trip(trip_params)
     trip_response = LocationService.get_trip(trip_params)
     return trip_response if trip_response[:route].nil?
-    
-    travel_time = trip_response[:route][:realTime]
 
-    dest_loc = trip_response[:route][:legs].last[:maneuvers].last[:startPoint]
+    travel_time = travel_secs(trip_response[:route][:legs][0][:maneuvers])
+    
+
+    dest_loc = trip_response[:route][:legs][0][:maneuvers].last[:startPoint]
     dest_weather = WeatherService.get_weather(dest_loc)
     dest_tz_offset = dest_weather[:timezone_offset]
 
@@ -20,6 +21,12 @@ class TripFacade
     Trip.new(trip_data)
   end
 
+  def self.travel_secs(trip_legs)
+    trip_legs.reduce(0) do |sum, maneuver|
+      sum += maneuver[:time]
+    end
+  end
+  
   def self.arrival_weather(dest_weather, arrival_time)
     eta_weather = dest_weather[:hourly].find do |hour|
       arrival_time >= hour[:dt] && arrival_time <= hour[:dt] + 3599
