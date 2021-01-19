@@ -1,6 +1,8 @@
 class Api::V1::BusinessTripsController < ApplicationController
   def index
-    BusinessTripFacade.get_trip(trip_params)
+    biz_trip = BusinessTripFacade.get_trip(trip_params)
+    test = BizTripSerializer.new(biz_trip)
+    require 'pry'; binding.pry
   end
 
   private

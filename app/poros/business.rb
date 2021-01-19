@@ -4,7 +4,8 @@ class Business
               :url,
               :rating,
               :coordinates,
-              :phone
+              :phone,
+              :address
             
   def initialize(business_data)
     @name = business_data[:name]
@@ -12,6 +13,7 @@ class Business
     @url = business_data[:url]
     @rating = business_data[:rating]
     @coordinates = business_data[:coordinates]
+    @address = business_data[:location][:display_address]
     @phone = business_data[:display_phone]
   end
 end
