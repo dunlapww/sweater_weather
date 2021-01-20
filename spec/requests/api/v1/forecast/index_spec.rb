@@ -18,13 +18,13 @@ RSpec.describe 'Search' do
       
       
       expect(loc_data[:data][:attributes]).to have_key(:datetime)
-      expect(loc_data[:data][:attributes][:datetime].to_date).to be_a Date
+      expect(loc_data[:data][:attributes][:datetime]).to be_a String
       
       expect(loc_data[:data][:attributes]).to have_key(:sunrise)
-      expect(loc_data[:data][:attributes][:sunrise].to_date).to be_a Date
+      expect(loc_data[:data][:attributes][:sunrise]).to be_a String
       
       expect(loc_data[:data][:attributes]).to have_key(:sunset)
-      expect(loc_data[:data][:attributes][:sunset].to_date).to be_a Date
+      expect(loc_data[:data][:attributes][:sunset]).to be_a String
       
       expect(loc_data[:data][:attributes]).to have_key(:temperature)
       expect(loc_data[:data][:attributes][:temperature]).to be_a(Float).or be_a(Integer)
@@ -40,9 +40,9 @@ RSpec.describe 'Search' do
       expect(loc_data[:data][:attributes][:daily_weather].size).to eq(5)
       loc_data[:data][:attributes][:daily_weather].each do |day|
         expect(day).to be_a Hash
-        expect(day[:date].to_date).to be_a Date
-        expect(day[:sunrise].to_date).to be_a Date
-        expect(day[:sunset].to_date).to be_a Date
+        expect(day[:date]).to be_a String
+        expect(day[:sunrise]).to be_a String
+        expect(day[:sunset]).to be_a String
         expect(day[:max_temp]).to be_a Float
         expect(day[:min_temp]).to be_a Float
         expect(day[:conditions]).to be_a String
@@ -54,8 +54,8 @@ RSpec.describe 'Search' do
       expect(loc_data[:data][:attributes][:hourly_weather].size).to eq(8)
       loc_data[:data][:attributes][:hourly_weather].each do |hour|
         expect(hour).to be_a Hash
-        expect(hour[:time].to_date).to be_a Date
-        expect(hour[:wind_speed]).to be_a Float
+        expect(hour[:time]).to be_a String
+        expect(hour[:wind_speed]).to be_a String
         expect(hour[:wind_direction]).to be_a String
         expect(hour[:conditions]).to be_a String
         expect(hour[:icon]).to be_a String

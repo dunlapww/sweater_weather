@@ -12,50 +12,50 @@ describe WeatherDay, type: :model do
     it 'has attributes' do
       expect(@weather_hour.conditions).to eq("scattered clouds")
       expect(@weather_hour.icon).to be_a String
-      expect(@weather_hour.time.to_date).to be_a Date
-      expect(@weather_hour.temperature.round(2)).to eq(42.04)
-      expect(@weather_hour.wind_direction).to eq("NNE")
-      expect(@weather_hour.wind_speed).to be_a Float
+      expect(@weather_hour.time).to be_a String
+      expect(@weather_hour.temperature.round(2)).to eq(42.0)
+      expect(@weather_hour.wind_direction).to eq("from NNE")
+      expect(@weather_hour.wind_speed).to be_a String
     end
   end
   describe 'instance methods' do
     it 'to_direction' do
       num = -1
-      expect(@weather_hour.to_direction(num)).to eq('N')
+      expect(@weather_hour.to_direction(num)).to eq('from N')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('NNE')
+      expect(@weather_hour.to_direction(num)).to eq('from NNE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('NE')
+      expect(@weather_hour.to_direction(num)).to eq('from NE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('ENE')
+      expect(@weather_hour.to_direction(num)).to eq('from ENE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('E')
+      expect(@weather_hour.to_direction(num)).to eq('from E')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('ESE')
+      expect(@weather_hour.to_direction(num)).to eq('from ESE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('SE')
+      expect(@weather_hour.to_direction(num)).to eq('from SE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('SSE')
+      expect(@weather_hour.to_direction(num)).to eq('from SSE')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('S')
+      expect(@weather_hour.to_direction(num)).to eq('from S')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('SSW')
+      expect(@weather_hour.to_direction(num)).to eq('from SSW')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('SW')
+      expect(@weather_hour.to_direction(num)).to eq('from SW')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('WSW')
+      expect(@weather_hour.to_direction(num)).to eq('from WSW')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('W')
+      expect(@weather_hour.to_direction(num)).to eq('from W')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('WNW')
+      expect(@weather_hour.to_direction(num)).to eq('from WNW')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('NW')
+      expect(@weather_hour.to_direction(num)).to eq('from NW')
       num += 22.5
-      expect(@weather_hour.to_direction(num)).to eq('NNW')
+      expect(@weather_hour.to_direction(num)).to eq('from NNW')
       num = 360
-      expect(@weather_hour.to_direction(num)).to eq('N')
+      expect(@weather_hour.to_direction(num)).to eq('from N')
       num = 0
-      expect(@weather_hour.to_direction(num)).to eq('N')
+      expect(@weather_hour.to_direction(num)).to eq('from N')
     end
   end
 end

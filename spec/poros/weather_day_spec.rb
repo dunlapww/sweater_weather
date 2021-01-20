@@ -13,9 +13,9 @@ describe WeatherHour, type: :model do
     expect(@weather_day.conditions).to eq("light rain")
     expect(@weather_day.date.to_date).to be_a Date
     expect(@weather_day.icon).to be_a String
-    expect(@weather_day.max_temp.round(2)).to eq(43.19)
-    expect(@weather_day.min_temp.round(2)).to eq(37.48)
-    expect(@weather_day.sunset.to_date).to be_a Date
-    expect(@weather_day.sunrise.to_date).to be_a Date
+    expect(@weather_day.max_temp.round(2)).to eq(43.2)
+    expect(@weather_day.min_temp.round(2)).to eq(37.5)
+    expect(@weather_day.sunset).to be_a String
+    expect(@weather_day.sunrise).to be_a String
   end
 end
