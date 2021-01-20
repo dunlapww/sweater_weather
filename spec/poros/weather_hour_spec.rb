@@ -20,8 +20,42 @@ describe WeatherDay, type: :model do
   end
   describe 'instance methods' do
     it 'to_direction' do
-      num = 275
+      num = -1
+      expect(@weather_hour.to_direction(num)).to eq('N')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('NNE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('NE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('ENE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('E')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('ESE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('SE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('SSE')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('S')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('SSW')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('SW')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('WSW')
+      num += 22.5
       expect(@weather_hour.to_direction(num)).to eq('W')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('WNW')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('NW')
+      num += 22.5
+      expect(@weather_hour.to_direction(num)).to eq('NNW')
+      num = 360
+      expect(@weather_hour.to_direction(num)).to eq('N')
+      num = 0
+      expect(@weather_hour.to_direction(num)).to eq('N')
     end
   end
 end
