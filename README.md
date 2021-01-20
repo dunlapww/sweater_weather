@@ -12,8 +12,20 @@ This app has not been deployed to a production environment.  To setup for local 
 1. `$git clone git@github.com:dunlapww/sweater_weather.git`
 2. `$bundle`
 3. `$rails db{create, migrate}`
+4. API keys for each of the services will be required and should be stored in your application.yml file as follows<br/>
+    MAPQUEST_API_KEY: [your api key]
+    OPEN_WEATHER_API_KEY: [your api key]
+    PIXABAY_API_KEY: [your api key] (deprecated)
+    UNSPLASH_API_KEY:[your api key]
+    <br/>
 
-Details for setting up each end point in Postman can be found in the End Points section.
+    Direction for attaining keys for each service can be found here:
+    [Mapquest](https://developer.mapquest.com/documentation/)
+    [OpenWeather](https://openweathermap.org/appid)
+    [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
+    [Pixabay](https://pixabay.com/service/about/api/)
+
+
 
 
 ## End Points
