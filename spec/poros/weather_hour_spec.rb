@@ -21,7 +21,7 @@ describe WeatherDay, type: :model do
   describe 'instance methods' do
     it 'to_direction' do
       num = 275
-      expect(@weather_hour.to_direction(num)).to eq('WNW')
+      expect(@weather_hour.to_direction(num)).to eq('W')
     end
   end
 end
