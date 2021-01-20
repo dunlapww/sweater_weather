@@ -11,12 +11,12 @@ class UnsplashService
       req.params[:query] = "#{params[:location]} city"
     end
     image_data = JSON.parse(response.body, symbolize_names: true)
-    
+
     image_data[:total].zero? ? default_img_data : image_data[:results].sample
   end
 
   def self.default_img_data
     json_data = File.read('app/default_image/sunset_image.json')
-    image_data = JSON.parse(json_data, symbolize_names: true)
+    JSON.parse(json_data, symbolize_names: true)
   end
 end
