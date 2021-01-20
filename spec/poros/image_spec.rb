@@ -33,21 +33,4 @@ describe Image, type: :model do
     expect(image.image_path).to eq(image_data[:webformatURL])
     expect(image.artist).to eq("https://pixabay.com/users/#{image_data[:user]}-#{image_data[:user_id]}/")
   end
-  it 'has attributes when default photo passed' do
-    image_data = {
-      id: nil,
-      tags: 'no city image found',
-      webformatURL: 'https://cdn.pixabay.com/photo/2020/06/16/19/28/sunset-5306985_960_720.jpg',
-      user: 'kolaoltion',
-      user_id: 16_160_874
-    }
-
-    image = Image.new(image_data)
-
-    expect(image).to be_a Image
-    expect(image.id).to eq(image_data[:id])
-    expect(image.tags).to eq(image_data[:tags])
-    expect(image.image_path).to eq(image_data[:webformatURL])
-    expect(image.artist).to eq("https://pixabay.com/users/#{image_data[:user]}-#{image_data[:user_id]}/")
-  end
 end

@@ -8,13 +8,19 @@ RSpec.describe 'Search' do
 
       expect(response).to be_successful
       image_data = JSON.parse(response.body, symbolize_names: true)
+      
       expect(image_data).to be_a Hash
-      expect(image_data).to have_key :user
-      expect(image_data[:user]).to have_key :portfolio_url
-      expect(image_data[:user]).to have_key :name
-      expect(image_data).to have_key :alt_description
-      expect(image_data).to have_key :urls
-      expect(image_data[:urls]).to have_key :small
+      expect(image_data).to have_key :data
+      expect(image_data[:data]).to have_key :id
+      expect(image_data[:data]).to have_key :type
+      expect(image_data[:data]).to have_key :attributes
+      expect(image_data[:data][:attributes]).to have_key :id
+      expect(image_data[:data][:attributes]).to have_key :curator
+      expect(image_data[:data][:attributes]).to have_key :artist_link
+      expect(image_data[:data][:attributes]).to have_key :artist_name
+      expect(image_data[:data][:attributes]).to have_key :image_path
+      expect(image_data[:data][:attributes]).to have_key :alt_description
+      
     end
   end
 end
