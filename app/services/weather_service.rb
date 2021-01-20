@@ -13,11 +13,9 @@ class WeatherService
     body = JSON.parse(response.body, symbolize_names: true)
 
     if body[:cod]
-      {:errors=>[{detail: "#{response[:message]}"}]}
+      { errors: [{ detail: (response[:message]).to_s }] }
     else
       body
     end
-
   end
-
 end

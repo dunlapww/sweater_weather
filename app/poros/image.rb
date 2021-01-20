@@ -1,9 +1,9 @@
 class Image
-  attr_reader :id, 
-              :image_path, 
+  attr_reader :id,
+              :image_path,
               :tags,
               :artist
-  
+
   def initialize(image_data)
     @id = image_data[:id]
     @image_path = image_data[:webformatURL]

@@ -14,6 +14,6 @@ class Api::V1::SessionsController < ApplicationController
   protected
 
   def user_params
-    user_data = JSON.parse(request.body.read, symbolize_names: true)
+    JSON.parse(request.body.read, symbolize_names: true)
   end
 end

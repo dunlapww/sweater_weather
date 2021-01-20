@@ -10,9 +10,8 @@ class WeatherDay
 
   def initialize(day)
     @date = to_date(day[:dt])
-    #date = DateTime.strptime(day[:dt].to_s, '%s')
-    @sunrise = to_time(day[:sunrise])
-    @sunset = to_time(day[:sunset])
+    @sunrise = to_datetime(day[:sunrise])
+    @sunset = to_datetime(day[:sunset])
     @max_temp = to_f(day[:temp][:max])
     @min_temp = to_f(day[:temp][:min])
     @conditions = day[:weather].first[:description]
