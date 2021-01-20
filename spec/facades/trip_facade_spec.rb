@@ -55,11 +55,12 @@ describe TripFacade, type: :facade do
       end
     end
     it 'local_arrival_time' do
-      dest_offset = 10
-      travel_time = 15
-      current_utc_time = Time.now.utc.strftime('%s').to_i
-      time = TripFacade.local_arrival_secs(dest_offset, travel_time)
-      expect(time).to eq(current_utc_time + dest_offset + travel_time)
+      dest_offset = -28800
+      travel_time = 18700
+      now_time = 1611109283
+      allow(Time).to receive(:now) {Time.at(now_time)}
+      time = TripFacade.local_arrival_time(dest_offset, travel_time)
+      expect(time).to eq("01/19/2021 11:33 PM (local time)")
     end
   end
 end
