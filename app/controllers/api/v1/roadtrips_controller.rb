@@ -6,7 +6,7 @@ class Api::V1::RoadtripsController < ApplicationController
     end
 
     trip = TripFacade.get_trip(trip_params)
-    if trip.class == Trip
+    if trip.instance_of?(Trip)
       render json: TripSerializer.new(trip)
     else
       render json: trip, status: :bad_request

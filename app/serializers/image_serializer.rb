@@ -1,6 +1,6 @@
 class ImageSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, 
+  attributes :id,
              :image_path,
              :tags,
              :artist

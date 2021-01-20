@@ -3,8 +3,7 @@ class Trip
               :end_city,
               :loc_arr_time,
               :travel_time,
-              :weather_at_eta,
-              :to_hours_mins
+              :weather_at_eta
 
   def initialize(trip_data)
     @start_city = trip_data[:start_city]
@@ -18,8 +17,8 @@ class Trip
     seconds = seconds.abs
     hrs = seconds / 3600
     mins = (seconds % 3600) / 60
-    
-    time = "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
+
+    "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
   end
 
   def pl(num)

@@ -7,14 +7,13 @@ class Api::V1::UsersController < ApplicationController
       session[:id] = user_w_key[:id]
       render json: UserSerializer.new(user_w_key)
     else
-      render json: {errors:[{detail: user.errors.full_messages.to_sentence}]}, status: :bad_request
+      render json: { errors: [{ detail: user.errors.full_messages.to_sentence }] }, status: :bad_request
     end
   end
 
   protected
 
   def user_params
-    user_data = JSON.parse(request.body.read, symbolize_names: true)
+    JSON.parse(request.body.read, symbolize_names: true)
   end
-
 end
