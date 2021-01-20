@@ -1,4 +1,4 @@
-class Api::V1::RoadtripsController < ApplicationController
+class Api::V1::RoadTripController < ApplicationController
   def create
     trip_params = JSON.parse(request.body.read, symbolize_names: true)
     if trip_params[:api_key].nil? || User.find_by(api_key: trip_params[:api_key]).nil?

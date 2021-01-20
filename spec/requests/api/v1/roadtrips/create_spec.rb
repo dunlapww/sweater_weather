@@ -13,7 +13,7 @@ RSpec.describe 'Search' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+      post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
 
       expect(response).to be_successful
       trip_data = JSON.parse(response.body, symbolize_names: true)
@@ -46,7 +46,7 @@ RSpec.describe 'Search' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+      post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
 
       resp = JSON.parse(response.body, symbolize_names: true)
       expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
@@ -60,7 +60,7 @@ RSpec.describe 'Search' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+      post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
 
       resp = JSON.parse(response.body, symbolize_names: true)
       expected = {:data=>{:attributes=>{:end_city=>"Denver, CO", :start_city=>"/", :travel_time=>"impossible", :weather_at_eta=>{}}, :id=>nil, :type=>"roadtrip"}}
@@ -74,7 +74,7 @@ RSpec.describe 'Search' do
       }
     headers = { 'CONTENT_TYPE' => 'application/json' }
 
-    post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+    post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
 
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(response.status).to eq(401)
@@ -87,7 +87,7 @@ RSpec.describe 'Search' do
       }
     headers = { 'CONTENT_TYPE' => 'application/json' }
 
-    post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+    post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
 
     resp = JSON.parse(response.body, symbolize_names: true)
     expect(response.status).to eq(401)
@@ -101,7 +101,7 @@ RSpec.describe 'Search' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/roadtrips', params: trip_params.to_json, headers: headers
+      post '/api/v1/road_trip', params: trip_params.to_json, headers: headers
       resp = JSON.parse(response.body, symbolize_names: true)
     end
   end

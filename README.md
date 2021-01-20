@@ -44,7 +44,7 @@ Allows the user to enter a city,state and it will return an image associated wit
 This endpoint takes json stored in the body of the HTTP request and creates a new user in the system if the email is not taken and the password and password confirmation match.  It returns to the Front End a json that contains the user's email a unique API key that they can use instantiate sessions in the future.
 
 ##### Users route detail and postman example w response
-- Route: `POST api/v1/user`
+- Route: `POST api/v1/users`
 - Headers:
   - `'Content-Type':'application/json'`
   - `'Accept':'application/json'`
@@ -106,7 +106,7 @@ example body:
 }
 ```
 
-![](app/read_me_data/roadtrips_endpoint.png "roadtrips endpoint")
+![](app/read_me_data/road_trip_endpoint.png "road_trip endpoint")
 
 
 
