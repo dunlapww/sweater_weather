@@ -1,6 +1,6 @@
 class ImageFacade
   def self.get_image(location)
-    image_data = ImageService.get_image(location)
-    Image.new(image_data[:hits].sample)
+    image_data = UnsplashService.get_image(location)
+    UnsplashImage.new(image_data)
   end
 end
