@@ -9,6 +9,6 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
-      - run: install bundler:2.2.5
+      - run: gem install bundler:2.2.5
       - run: bundle
       - run: bundle exec rspec
