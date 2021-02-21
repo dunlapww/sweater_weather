@@ -21,6 +21,7 @@ class Trip
     "#{hrs} hour#{pl(hrs)}, #{mins} minute#{pl(mins)}"
   end
 
+#pluralize if necessary
   def pl(num)
     num == 1 ? nil : 's'
   end
